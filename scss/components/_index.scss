@@ -37,6 +37,13 @@ body {
     display: flex;
     justify-content: space-between;
     background-color: #000000;
+        .img-logo {
+            width: 110px;
+            height: 100px;
+            margin-left: 80px;
+            object-fit: cover;
+            padding-bottom: 10px;
+    }
        .container-inicio {
             margin-top: 20px;
             margin-right: 80px;
@@ -46,7 +53,9 @@ body {
             align-items: flex-start;
             list-style: none;
             color: #fff;
-            text-decoration: none;
-            color: #ffffff;
-            font-family: 'Poppins', sans-serif;
+            a {
+                text-decoration: none;
+                color: #ffffff;
+                font-family: 'Poppins', sans-serif;
+            }
         }
