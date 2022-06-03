@@ -1,0 +1,107 @@
+.container-servicios-contables {
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    display: inline-block;
+    text-align: center;
+    align-items: center;
+       img {
+            height: 480px;
+            width: 100%; 
+       }
+       h1 {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            position: absolute;
+            top: 50%;
+            left: 38%;
+            font-family: 'Poppins', sans-serif;
+            font-size: 40px;
+            color: rgb(255, 255, 255);
+            text-shadow: 12px 2px 16px rgba(222,215,216,0.52);
+            background: rgb(255,255,255);
+            background: linear-gradient(262deg, rgba(255,255,255,1) 50%, rgba(105,107,106,1) 96%);
+            -webkit-text-fill-color: transparent;
+            -webkit-background-clip: text;
+       }
+    }
+    .container-contabilidad-integral {
+        display: flex;
+        justify-content: space-between;
+        border: 2px solid #fff;
+        background-color: #b69d3e;
+        overflow: hidden;
+        font-family: 'Poppins', sans-serif;
+        width: 1200px;
+        height: 300px;
+        -webkit-border-radius: 20px;
+        -moz-border-radius: 20px;
+        border-radius: 20px;
+        box-shadow: 8px 11px 20px -3px rgba(184,167,167,0.86);
+        -webkit-box-shadow: 8px 11px 20px -3px rgba(184,167,167,0.86);
+        -moz-box-shadow: 8px 11px 20px -3px rgba(184,167,167,0.86);
+        margin-left: 70px;
+        margin-top: 90px;
+                img {
+                    width: 550px;
+                    height: 100%;
+                    -webkit-border-top-right-radius: 10px;
+                    -webkit-border-bottom-right-radius: 10px;
+                    -moz-border-radius-topright: 10px;
+                    -moz-border-radius-bottomright: 10px;
+                    border-top-right-radius: 10px;
+                    border-bottom-right-radius: 10px;
+                }
+                h2 {
+                    margin-left: 28px;
+                    margin-top: 10px;
+                    color: #fff;
+                        p{
+                            font-size: 17px;
+                            margin-top: 30px;
+                            padding-right: 60px;  
+                        }
+                }
+    }
+    .container-contabilidad-integral:hover, .container-organizacion-empresarial:hover {
+        transform: scale(1.04);
+        }
+    .container-organizacion-empresarial {
+        display: flex;
+        justify-content: space-between;
+        border: 2px solid #fff;
+        background-color: #b69d3e;
+        overflow: hidden;
+        font-family: 'Poppins', sans-serif;
+        width: 1200px;
+        height: 300px;
+        -webkit-border-radius: 20px;
+        -moz-border-radius: 20px;
+        border-radius: 20px;
+        box-shadow: 8px 11px 20px -3px rgba(184,167,167,0.86);
+        -webkit-box-shadow: 8px 11px 20px -3px rgba(184,167,167,0.86);
+        -moz-box-shadow: 8px 11px 20px -3px rgba(184,167,167,0.86);
+        margin-left: 70px;
+        margin-top: 90px;
+            img {
+                width: 450px;
+                height: 100%;
+                -webkit-border-top-right-radius: 10px;
+                -webkit-border-bottom-right-radius: 10px;
+                -moz-border-radius-topright: 10px;
+                -moz-border-radius-bottomright: 10px;
+                border-top-right-radius: 10px;
+                border-bottom-right-radius: 10px;
+            }
+            h2 {
+                margin-top: 10px;
+                color: #fff;
+                    p{
+                        font-size: 20px;
+                        margin-top: 30px;
+                        width: 715px;
+                        padding-right: 80px;
+                    } 
+            }
+        }     

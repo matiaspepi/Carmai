@@ -4,11 +4,12 @@
 }
 
 body {
-  background: linear-gradient(to bottom right, #333333, #121212);
+  background-color: #000000;
 }
 
 .seccion-data {
-  background: linear-gradient(to bottom right, #333333, #121212);
+  background: rgb(84, 84, 84);
+  background: linear-gradient(9deg, rgb(84, 84, 84) 0%, rgb(255, 255, 255) 100%);
   display: flex;
   align-items: center;
   justify-content: flex-start;
@@ -36,15 +37,14 @@ body {
 .container-header {
   display: flex;
   justify-content: space-between;
-  background: linear-gradient(to bottom right, #333333, #121212);
-  height: 80px;
+  background-color: #000000;
 }
 .container-header .img-logo {
-  width: 70px;
-  height: 70px;
+  width: 110px;
+  height: 100px;
   margin-left: 80px;
   object-fit: cover;
-  padding-top: 5px;
+  padding-bottom: 10px;
 }
 .container-header .container-inicio {
   margin-top: 20px;
@@ -60,10 +60,6 @@ body {
   text-decoration: none;
   color: #ffffff;
   font-family: "Poppins", sans-serif;
-}
-.container-header .container-inicio li:hover {
-  border-bottom: 2px solid #FFFAFA;
-  color: rgb(58, 57, 57);
 }
 
 .img-navbar-uno, .img-navbar-dos, .img-navbar-tres {
@@ -88,23 +84,17 @@ body {
 }
 
 .container-encabezado {
+  background-color: #000000;
   display: flex;
   justify-content: center;
   color: #ffffff;
   font-family: "Poppins", sans-serif;
   height: 200px;
   align-items: center;
-  flex-direction: column;
-  width: 100%;
+  border-bottom: 3px solid #ffffff;
 }
 .container-encabezado h1 {
   font-size: 30px;
-}
-.container-encabezado div {
-  width: 370px;
-  margin-top: 10px;
-  background-color: #fff;
-  height: 2px;
 }
 
 .container-main {
@@ -112,24 +102,23 @@ body {
   justify-content: space-around;
   align-items: center;
   margin-top: 50px;
-  border-top: 2px solid #fff;
-  padding-top: 80px;
-  border-bottom: 2px solid #fff;
-  padding-bottom: 100px;
 }
 .container-main .container-grupo-empresarial {
-  border-radius: 150px;
-  background: rgb(84, 84, 84);
-  background: linear-gradient(173deg, rgb(84, 84, 84) 0%, rgb(255, 255, 255) 100%);
-  color: rgb(54, 53, 53);
+  border-radius: 10px;
+  background-image: url("../../archivos/imagenes/imagen-servis.jpg");
+  background-position: center;
+  background-attachment: contain;
+  background-size: cover;
+  object-fit: cover;
+  color: #ffffff;
   position: relative;
   display: flex;
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  border: 2px solid #fffdfd;
-  height: 240px;
-  width: 240px;
+  border: 2px solid #ffffff;
+  height: 320px;
+  width: 220px;
 }
 .container-main .container-grupo-empresarial img {
   width: 100px;
@@ -148,101 +137,92 @@ body {
   width: 80px;
   margin-left: 13px;
 }
-.container-main .container-grupo-empresarial:hover {
-  transform: scale(1.09);
-  transition: 1s;
-  box-shadow: 3px 4px 24px -2px rgba(255, 255, 255, 0.75);
-  -webkit-box-shadow: 3px 4px 24px -2px rgba(255, 255, 255, 0.75);
-  -moz-box-shadow: 3px 4px 24px -2px rgba(255, 255, 255, 0.75);
-}
 .container-main .container-grupo-administrativo {
-  border-radius: 150px;
-  background: linear-gradient(173deg, rgb(84, 84, 84) 0%, rgb(255, 255, 255) 100%);
-  color: rgb(54, 53, 53);
+  border-radius: 10px;
+  background-image: url("./archivos/imagenes/imagen-servis.jpg");
+  background-position: center;
+  background-attachment: contain;
+  background-size: cover;
+  object-fit: cover;
+  position: absolute;
+  color: #ffffff;
   position: relative;
   display: flex;
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  border: 2px solid #fffdfd;
-  height: 240px;
-  width: 240px;
+  border: 2px solid #ffffff;
+  height: 320px;
+  width: 220px;
 }
 .container-main .container-grupo-administrativo img {
   width: 100px;
-  height: 90px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  margin-left: 10px;
-  margin-top: 10px;
-}
-.container-main .container-grupo-administrativo h2 {
-  font-family: "Poppins", sans-serif;
-  width: 50px;
   height: 85px;
   display: flex;
   justify-content: center;
   align-items: center;
   margin-left: 10px;
-  font-size: 19px;
 }
-.container-main .container-grupo-administrativo:hover {
-  transform: scale(1.09);
-  transition: 1s;
-  box-shadow: 3px 4px 24px -2px rgba(255, 255, 255, 0.75);
-  -webkit-box-shadow: 3px 4px 24px -2px rgba(255, 255, 255, 0.75);
-  -moz-box-shadow: 3px 4px 24px -2px rgba(255, 255, 255, 0.75);
+.container-main .container-grupo-administrativo h2 {
+  width: 100px;
+  height: 85px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 10px;
 }
-.container-main .container-gananciasybienes {
-  border-radius: 150px;
-  background: linear-gradient(173deg, rgb(84, 84, 84) 0%, rgb(255, 255, 255) 100%);
-  color: rgb(54, 53, 53);
+.container-main .container-informes {
+  border-radius: 10px;
+  background-image: url("./archivos/imagenes/imagen-servis.jpg");
+  background-position: center;
+  background-attachment: contain;
+  background-size: cover;
+  object-fit: cover;
+  position: absolute;
+  color: #ffffff;
   position: relative;
   display: flex;
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  border: 2px solid #fffdfd;
-  height: 240px;
-  width: 240px;
+  border: 2px solid #ffffff;
+  height: 320px;
+  width: 220px;
 }
-.container-main .container-gananciasybienes img {
-  width: 108px;
-  height: 98px;
+.container-main .container-informes img {
+  width: 100px;
+  height: 80px;
   display: flex;
   justify-content: center;
   align-items: center;
 }
-.container-main .container-gananciasybienes h2 {
-  margin-top: 15px;
-  font-size: 18px;
+.container-main .container-informes h2 {
+  margin-top: 20px;
+  font-size: 25px;
   font-family: "Poppins", sans-serif;
   display: flex;
   justify-content: center;
   text-align: center;
   height: 40px;
-  width: 200px;
-}
-.container-main .container-gananciasybienes:hover {
-  transform: scale(1.09);
-  transition: 1s;
-  box-shadow: 3px 4px 24px -2px rgba(255, 255, 255, 0.75);
-  -webkit-box-shadow: 3px 4px 24px -2px rgba(255, 255, 255, 0.75);
-  -moz-box-shadow: 3px 4px 24px -2px rgba(255, 255, 255, 0.75);
+  width: 80px;
 }
 .container-main .container-capacitacion {
-  border-radius: 150px;
-  background: linear-gradient(173deg, rgb(84, 84, 84) 0%, rgb(255, 255, 255) 100%);
-  color: rgb(54, 53, 53);
+  border-radius: 10px;
+  background-image: url("./archivos/imagenes/imagen-servis.jpg");
+  background-position: center;
+  background-attachment: contain;
+  background-size: cover;
+  object-fit: cover;
+  position: absolute;
+  color: #ffffff;
   position: relative;
   display: flex;
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  border: 2px solid #fffdfd;
-  height: 240px;
-  width: 240px;
+  border: 2px solid #ffffff;
+  height: 320px;
+  width: 220px;
 }
 .container-main .container-capacitacion img {
   width: 100px;
@@ -261,39 +241,16 @@ body {
   height: 40px;
   width: 80px;
 }
-.container-main .container-capacitacion:hover {
-  transform: scale(1.09);
-  transition: 1s;
-  box-shadow: 3px 4px 24px -2px rgba(255, 255, 255, 0.75);
-  -webkit-box-shadow: 3px 4px 24px -2px rgba(255, 255, 255, 0.75);
-  -moz-box-shadow: 3px 4px 24px -2px rgba(255, 255, 255, 0.75);
-}
 
 .container-segundo-encabezado {
   display: flex;
   justify-content: center;
-  color: #fff;
+  color: #ffffff;
   font-family: "Poppins", sans-serif;
-  height: 100px;
+  height: 200px;
   align-items: center;
-  margin-top: 100px;
-  margin-bottom: 130px;
-  flex-direction: column;
-}
-.container-segundo-encabezado h2 {
-  border-radius: 6px;
-  width: 390px;
-  height: 60px;
-  display: flex;
-  align-items: center;
-  padding-left: 30px;
-  border-radius: 20px;
-}
-.container-segundo-encabezado div {
-  width: 420px;
-  margin-top: 10px;
-  background-color: #fff;
-  height: 2px;
+  margin-top: 50px;
+  border-top: 3px solid #ffffff;
 }
 
 .seccion-encontrarnos {
@@ -325,13 +282,19 @@ body {
   height: 330px;
 }
 .seccion-encontrarnos .container-encontrarnos-uno p {
+  background-image: url("./archivos/imagenes/imagen-servis.jpg");
+  background-position: center;
+  background-attachment: contain;
+  background-size: cover;
+  object-fit: cover;
+  position: absolute;
   -webkit-border-bottom-right-radius: 20px;
   -webkit-border-bottom-left-radius: 20px;
   -moz-border-radius-bottomright: 20px;
   -moz-border-radius-bottomleft: 20px;
   border-bottom-right-radius: 20px;
   border-bottom-left-radius: 20px;
-  background: linear-gradient(to bottom right, #545454 0%, #ffffff 100%);
+  background-color: rgba(225, 236, 235, 0.4941176471);
   position: relative;
   color: #ffffff;
   display: flex;
@@ -361,6 +324,7 @@ body {
   flex-direction: column;
   height: 548px;
   width: 405px;
+  object-fit: contain;
 }
 .seccion-encontrarnos img {
   -webkit-border-top-left-radius: 20px;
@@ -371,16 +335,23 @@ body {
   border-top-right-radius: 20px;
   width: 405px;
   height: 260px;
+  padding-bottom: 10px;
 }
 .seccion-encontrarnos p {
+  background-image: url("./archivos/imagenes/imagen-servis.jpg");
+  background-position: center;
+  background-attachment: contain;
+  background-size: cover;
+  object-fit: cover;
+  position: absolute;
   -webkit-border-bottom-right-radius: 20px;
   -webkit-border-bottom-left-radius: 20px;
   -moz-border-radius-bottomright: 20px;
   -moz-border-radius-bottomleft: 20px;
   border-bottom-right-radius: 20px;
   border-bottom-left-radius: 20px;
-  background: linear-gradient(to bottom right, #545454 0%, #ffffff 100%);
   position: relative;
+  bottom: 10px;
   color: #ffffff;
   display: flex;
   justify-content: center;
@@ -393,157 +364,8 @@ body {
   border-left: 2px solid #ffffff;
   border-right: 2px solid #ffffff;
   width: 405px;
-  height: 320px;
+  height: 323px;
   padding: 30px 30px 60px 30px;
-}
-
-.container-imagen-asesor img {
-  width: 100%;
-  height: 600px;
-}
-
-.container-asesor {
-  color: #ffffff;
-  font-family: "Poppins", sans-serif;
-  display: flex;
-  justify-content: center;
-  margin-top: 70px;
-  flex-direction: column;
-  align-items: center;
-}
-.container-asesor h1 {
-  font-size: 30px;
-}
-.container-asesor div {
-  background-color: #ffffff;
-  width: 50%;
-  height: 1px;
-  margin-top: 20px;
-}
-
-.section-asesoramiento-administrativo {
-  display: flex;
-  justify-content: space-around;
-  width: 100%;
-}
-.section-asesoramiento-administrativo .container-asesoramiento-administrativo {
-  width: 700px;
-  height: 700px;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  margin-top: 80px;
-}
-.section-asesoramiento-administrativo .container-asesoramiento-administrativo img {
-  width: 300px;
-  height: 300px;
-  -webkit-border-radius: 1000px;
-  -moz-border-radius: 1000px;
-  border-radius: 1000px;
-  object-fit: auto;
-  box-shadow: 39px -4px 79px -21px rgba(79, 74, 74, 0.32);
-  -webkit-box-shadow: 39px -4px 79px -21px rgba(79, 74, 74, 0.32);
-  -moz-box-shadow: 39px -4px 79px -21px rgba(79, 74, 74, 0.32);
-}
-.section-asesoramiento-administrativo .container-asesoramiento-administrativo p {
-  display: flex;
-  text-align: center;
-  width: 550px;
-  font-size: 16px;
-  color: #ffffff;
-  margin-top: 30px;
-}
-.section-asesoramiento-administrativo .container-organizacion-administrativa {
-  width: 700px;
-  height: 700px;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  margin-top: 80px;
-}
-.section-asesoramiento-administrativo .container-organizacion-administrativa img {
-  width: 300px;
-  height: 300px;
-  -webkit-border-radius: 1000px;
-  -moz-border-radius: 1000px;
-  border-radius: 1000px;
-  object-fit: auto;
-  box-shadow: 39px -4px 79px -21px rgba(79, 74, 74, 0.32);
-  -webkit-box-shadow: 39px -4px 79px -21px rgba(79, 74, 74, 0.32);
-  -moz-box-shadow: 39px -4px 79px -21px rgba(79, 74, 74, 0.32);
-}
-.section-asesoramiento-administrativo .container-organizacion-administrativa p {
-  display: flex;
-  text-align: center;
-  width: 350px;
-  font-size: 16px;
-  color: #ffffff;
-  margin-top: 30px;
-}
-
-.container-asesorar img {
-  width: 100%;
-  height: 500px;
-}
-
-.grupo-asesorar {
-  color: #f8f8f8;
-  font-family: "Poppins", sans-serif;
-  display: flex;
-  justify-content: center;
-  margin-top: 70px;
-  flex-direction: column;
-  align-items: center;
-}
-.grupo-asesorar div {
-  background-color: #ffffff;
-  width: 50%;
-  height: 1px;
-  margin-top: 20px;
-}
-
-.container-empresa {
-  display: flex;
-  margin-top: 170px;
-  width: 100%;
-  justify-content: space-around;
-  align-items: center;
-  height: 280px;
-}
-.container-empresa img {
-  width: 400px;
-  height: 400px;
-  display: flex;
-  justify-content: center;
-  -webkit-border-radius: 900px;
-  -moz-border-radius: 900px;
-  border-radius: 900px;
-  position: relative;
-  bottom: 20px;
-}
-.container-empresa p {
-  color: #ffffff;
-  font-family: "Poppins", sans-serif;
-  width: 700px;
-  height: 380px;
-  display: flex;
-  flex-direction: column;
-  font-size: 13px;
-  margin-top: 15px;
-}
-
-.container-detalle {
-  color: #ffffff;
-  font-family: "Poppins", sans-serif;
-  width: 700px;
-  font-size: 15px;
-  margin-left: 560px;
-  position: relative;
-  bottom: 108px;
-}
-.container-detalle li {
-  color: #ffffff;
-  font-size: 13px;
 }
 
 .container-contacto {
@@ -578,12 +400,12 @@ body {
 .seccion-formulario {
   display: flex;
   justify-content: space-around;
-  background-image: url("../../archivos/imagenes/imagen-contacto.jpg");
+  background-image: url("./archivos/imagenes/imagen-contacto.jpg");
   object-fit: cover;
   overflow: hidden;
   margin-top: 120px;
   margin-bottom: 100px;
-  margin-left: 25px;
+  margin-left: 30px;
   border-radius: 50px;
   border: 4px solid #208579;
   height: 750px;
@@ -616,7 +438,6 @@ body {
 .seccion-formulario .seccion-contactanos ul .container-contactar {
   color: #208579;
   margin-bottom: 120px;
-  margin-left: 35px;
 }
 .seccion-formulario .seccion-contactanos ul .container-contactar h2 {
   font-size: 50px;
@@ -630,7 +451,7 @@ body {
   color: #208579;
   position: relative;
   bottom: 80px;
-  margin-left: 90px;
+  margin-left: 70px;
 }
 .seccion-formulario .seccion-contactanos ul .container-telefono h2 {
   font-size: 16px;
@@ -640,9 +461,9 @@ body {
 .seccion-formulario .seccion-contactanos ul .container-email-dos {
   display: flex;
   justify-content: space-between;
-  width: 230px;
+  width: 255px;
   color: #208579;
-  margin-left: 65px;
+  margin-left: 40px;
   position: relative;
   bottom: 50px;
 }
@@ -655,11 +476,11 @@ body {
   display: flex;
   justify-content: space-between;
   width: 130px;
-  margin-left: 120px;
+  margin-left: 100px;
 }
 .seccion-formulario .seccion-contactanos ul .container-google {
   margin-top: 40px;
-  margin-left: 135px;
+  margin-left: 115px;
 }
 .seccion-formulario .seccion-contactanos ul .container-google .google {
   -webkit-border-radius: 800px;
@@ -707,7 +528,7 @@ body {
   display: flex;
   justify-content: space-between;
   border: 2px solid #fff;
-  background-color: #b69d3e;
+  background-color: rgba(68, 138, 130, 0.4235294118);
   overflow: hidden;
   font-family: "Poppins", sans-serif;
   width: 1200px;
@@ -750,7 +571,7 @@ body {
   display: flex;
   justify-content: space-between;
   border: 2px solid #fff;
-  background-color: #b69d3e;
+  background-color: rgba(68, 138, 130, 0.4235294118);
   overflow: hidden;
   font-family: "Poppins", sans-serif;
   width: 1200px;
@@ -814,26 +635,6 @@ body {
   -webkit-background-clip: text;
 }
 
-.titulo-servicios-impositivos {
-  display: flex;
-  justify-content: center;
-  color: #181717;
-  font-family: "Poppins", sans-serif;
-  height: 150px;
-  align-items: center;
-  flex-direction: column;
-  width: 100%;
-  margin-top: 80px;
-}
-.titulo-servicios-impositivos h2 {
-  background: linear-gradient(to bottom right, #d3c22d, #E6F0FF);
-  font-size: 30px;
-  padding: 15px 15px 15px 10px;
-  text-align: center;
-  width: 350px;
-  border-radius: 20px;
-}
-
 .section-servicios-impositivos {
   display: flex;
   justify-content: space-around;
@@ -846,7 +647,7 @@ body {
   height: 500px;
   font-family: "Poppins", sans-serif;
   border-radius: 10px;
-  background-image: url("../../archivos/imagenes/img-servis.jpg");
+  background-image: url("./archivos/imagenes/imagen-servis.jpg");
   background-position: center;
   background-attachment: contain;
   background-size: cover;
@@ -854,16 +655,19 @@ body {
   border: 2px solid #ffffff;
   padding-left: 30px;
   color: #fff;
-  -webkit-border-radius: 10px;
-  -moz-border-radius: 10px;
-  border-radius: 10px;
+  box-shadow: 8px 11px 20px -3px rgba(184, 167, 167, 0.86);
+  -webkit-box-shadow: 8px 11px 20px -3px rgba(184, 167, 167, 0.86);
+  -moz-box-shadow: 8px 11px 20px -3px rgba(184, 167, 167, 0.86);
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+  border-radius: 20px;
 }
 .section-servicios-impositivos .container-asesoramiento h2 {
   display: flex;
   justify-content: flex-start;
   font-size: 25px;
   margin-top: 20px;
-  color: rgb(255, 255, 255);
+  color: #fff;
 }
 .section-servicios-impositivos .container-asesoramiento p {
   display: flex;
@@ -877,16 +681,19 @@ body {
   height: 500px;
   font-family: "Poppins", sans-serif;
   color: #fff;
-  background-image: url("../../archivos/imagenes/img-servis.jpg");
+  background-image: url("./archivos/imagenes/imagen-servis.jpg");
   background-position: center;
   background-attachment: contain;
   background-size: cover;
   object-fit: cover;
   border: 2px solid #ffffff;
   padding-left: 30px;
-  -webkit-border-radius: 10px;
-  -moz-border-radius: 10px;
-  border-radius: 10px;
+  box-shadow: 8px 11px 20px -3px rgba(184, 167, 167, 0.86);
+  -webkit-box-shadow: 8px 11px 20px -3px rgba(184, 167, 167, 0.86);
+  -moz-box-shadow: 8px 11px 20px -3px rgba(184, 167, 167, 0.86);
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+  border-radius: 20px;
 }
 .section-servicios-impositivos .container-regularizacion h2 {
   display: flex;
@@ -905,12 +712,7 @@ body {
   padding-top: 15px;
 }
 .section-servicios-impositivos .container-regularizacion:hover, .section-servicios-impositivos .container-asesoramiento:hover {
-  background: linear-gradient(to bottom right, #d3c22d, #E6F0FF);
-  color: #000;
-  border: 2px solid #000;
-}
-.section-servicios-impositivos .container-regularizacion:hover h2, .section-servicios-impositivos .container-asesoramiento:hover h2 {
-  color: #000;
+  transform: scale(1.04);
 }
 
 .section-servicios-impositivos-dos {
@@ -924,16 +726,19 @@ body {
   height: 500px;
   font-family: "Poppins", sans-serif;
   color: #fff;
-  background-image: url("../../archivos/imagenes/img-servis.jpg");
+  background-image: url("./archivos/imagenes/imagen-servis.jpg");
   background-position: center;
   background-attachment: contain;
   background-size: cover;
   object-fit: cover;
   border: 2px solid #ffffff;
   padding-left: 30px;
-  -webkit-border-radius: 10px;
-  -moz-border-radius: 10px;
-  border-radius: 10px;
+  box-shadow: 8px 11px 20px -3px rgba(184, 167, 167, 0.86);
+  -webkit-box-shadow: 8px 11px 20px -3px rgba(184, 167, 167, 0.86);
+  -moz-box-shadow: 8px 11px 20px -3px rgba(184, 167, 167, 0.86);
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+  border-radius: 20px;
 }
 .section-servicios-impositivos-dos .container-inspecciones h2 {
   display: flex;
@@ -957,16 +762,19 @@ body {
   height: 500px;
   font-family: "Poppins", sans-serif;
   color: #fff;
-  background-image: url("../../archivos/imagenes/img-servis.jpg");
+  background-image: url("./archivos/imagenes/imagen-servis.jpg");
   background-position: center;
   background-attachment: contain;
   background-size: cover;
   object-fit: cover;
   border: 2px solid #ffffff;
   padding-left: 30px;
-  -webkit-border-radius: 10px;
-  -moz-border-radius: 10px;
-  border-radius: 10px;
+  box-shadow: 8px 11px 20px -3px rgba(184, 167, 167, 0.86);
+  -webkit-box-shadow: 8px 11px 20px -3px rgba(184, 167, 167, 0.86);
+  -moz-box-shadow: 8px 11px 20px -3px rgba(184, 167, 167, 0.86);
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+  border-radius: 20px;
 }
 .section-servicios-impositivos-dos .container-emprendedores h2 {
   display: flex;
@@ -985,12 +793,7 @@ body {
   padding-top: 15px;
 }
 .section-servicios-impositivos-dos .container-emprendedores:hover, .section-servicios-impositivos-dos .container-inspecciones:hover {
-  background: linear-gradient(to bottom right, #d3c22d, #E6F0FF);
-  color: #000;
-  border: 2px solid #000;
-}
-.section-servicios-impositivos-dos .container-emprendedores:hover h2, .section-servicios-impositivos-dos .container-inspecciones:hover h2 {
-  color: #000;
+  transform: scale(1.04);
 }
 
 .container-nav-footer {
@@ -999,13 +802,13 @@ body {
   justify-content: space-around;
   width: 100%;
   height: 280px;
-  background: linear-gradient(to bottom right, #333333, #121212);
+  background-color: #000000;
   color: #fff;
   margin-top: 100px;
 }
 .container-nav-footer img {
   width: 200px;
-  height: 190px;
+  height: 160px;
   margin-top: 40px;
   object-fit: cover;
 }
@@ -1019,9 +822,6 @@ body {
   font-family: "Poppins", sans-serif;
   font-size: 18px;
   padding-top: 8px;
-}
-.container-nav-footer ul li:hover {
-  border-bottom: 2px solid #fff;
 }
 .container-nav-footer div {
   margin-top: 75px;
@@ -1050,337 +850,4 @@ body {
   padding-top: 10px;
 }
 
-.container-gananciasybienes {
-  width: 100%;
-  height: 100%;
-  overflow: hidden;
-  display: inline-block;
-  text-align: center;
-  align-items: center;
-}
-.container-gananciasybienes img {
-  height: 480px;
-  width: 100%;
-}
-.container-gananciasybienes h1 {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  position: absolute;
-  top: 30%;
-  left: 20%;
-  font-family: "Poppins", sans-serif;
-  font-size: 40px;
-  color: rgb(255, 255, 255);
-  text-shadow: 12px 2px 16px rgba(222, 215, 216, 0.52);
-  background: rgb(255, 255, 255);
-  background: linear-gradient(262deg, rgb(255, 255, 255) 50%, rgb(105, 107, 106) 96%);
-  -webkit-text-fill-color: transparent;
-  -webkit-background-clip: text;
-}
-
-.container-titulo-ganancia {
-  color: #ffffff;
-  font-family: "Poppins", sans-serif;
-  display: flex;
-  justify-content: center;
-  margin-top: 70px;
-  flex-direction: column;
-  align-items: center;
-}
-.container-titulo-ganancia h2 {
-  font-size: 35px;
-  border-bottom: 4px solid #ffffff;
-  padding-bottom: 30px;
-}
-
-.container-titulo-ganancia-dos {
-  color: #ffffff;
-  font-family: "Poppins", sans-serif;
-  display: flex;
-  justify-content: center;
-  margin-top: 70px;
-  flex-direction: column;
-  align-items: center;
-}
-.container-titulo-ganancia-dos h3 {
-  font-size: 16px;
-  text-align: center;
-}
-
-.container-titulo-ganancia-tres {
-  color: #ffffff;
-  font-family: "Poppins", sans-serif;
-  display: flex;
-  justify-content: center;
-  margin-top: 30px;
-  flex-direction: column;
-  align-items: center;
-}
-.container-titulo-ganancia-tres h2 {
-  font-size: 28px;
-}
-
-.container-titulo-ganancia-cuatro {
-  color: #ffffff;
-  font-family: "Poppins", sans-serif;
-  display: flex;
-  justify-content: center;
-  margin-top: 30px;
-  flex-direction: column;
-  align-items: center;
-}
-.container-titulo-ganancia-cuatro h4 {
-  font-size: 13px;
-}
-
-.seccion-gananciasybienes {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  margin-top: 50px;
-}
-.seccion-gananciasybienes .container-paso-uno {
-  width: 900px;
-  height: 200px;
-  border: 2px solid #f7f7f7;
-  color: #f7f7f7;
-  background: #091129;
-}
-.seccion-gananciasybienes .container-paso-uno h4 {
-  width: 100%;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  margin-top: 15px;
-}
-.seccion-gananciasybienes .container-paso-uno div {
-  display: flex;
-  justify-content: space-around;
-  width: 100%;
-  height: 140px;
-}
-.seccion-gananciasybienes .container-paso-uno div h5 {
-  font-size: 90px;
-  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
-  width: 150px;
-  height: 200px;
-  padding-left: 25px;
-  position: relative;
-  bottom: 16px;
-  color: #f7f7f7;
-}
-.seccion-gananciasybienes .container-paso-uno div p {
-  display: flex;
-  justify-content: center;
-  text-align: center;
-  font-family: "Poppins", sans-serif;
-  width: 720px;
-  padding-right: 98px;
-  margin-top: 16px;
-}
-.seccion-gananciasybienes .container-paso-dos {
-  width: 900px;
-  height: 200px;
-  border: 2px solid #f7f7f7;
-  color: #f7f7f7;
-  background: #091129;
-  margin-top: 60px;
-}
-.seccion-gananciasybienes .container-paso-dos h4 {
-  width: 100%;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  margin-top: 15px;
-}
-.seccion-gananciasybienes .container-paso-dos div {
-  display: flex;
-  justify-content: space-around;
-  width: 100%;
-  height: 140px;
-}
-.seccion-gananciasybienes .container-paso-dos div h5 {
-  font-size: 90px;
-  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
-  width: 150px;
-  height: 200px;
-  padding-left: 25px;
-  position: relative;
-  bottom: 16px;
-}
-.seccion-gananciasybienes .container-paso-dos div p {
-  display: flex;
-  justify-content: center;
-  text-align: center;
-  font-family: "Poppins", sans-serif;
-  width: 720px;
-  padding-right: 85px;
-  margin-top: 16px;
-}
-.seccion-gananciasybienes .container-paso-tres {
-  width: 900px;
-  height: 200px;
-  border: 2px solid #f7f7f7;
-  color: #f7f7f7;
-  background: #091129;
-  margin-top: 60px;
-}
-.seccion-gananciasybienes .container-paso-tres h4 {
-  width: 100%;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  margin-top: 15px;
-}
-.seccion-gananciasybienes .container-paso-tres div {
-  display: flex;
-  justify-content: space-around;
-  width: 100%;
-  height: 140px;
-}
-.seccion-gananciasybienes .container-paso-tres div h5 {
-  font-size: 90px;
-  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
-  width: 150px;
-  height: 200px;
-  padding-left: 25px;
-  position: relative;
-  bottom: 16px;
-}
-.seccion-gananciasybienes .container-paso-tres div p {
-  display: flex;
-  justify-content: center;
-  text-align: center;
-  font-family: "Poppins", sans-serif;
-  width: 700px;
-  padding-right: 120px;
-  margin-top: 16px;
-}
-.seccion-gananciasybienes .container-paso-cuatro {
-  width: 900px;
-  height: 200px;
-  border: 2px solid #f7f7f7;
-  color: #f7f7f7;
-  background: #091129;
-  margin-top: 60px;
-}
-.seccion-gananciasybienes .container-paso-cuatro h4 {
-  width: 100%;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  margin-top: 15px;
-}
-.seccion-gananciasybienes .container-paso-cuatro div {
-  display: flex;
-  justify-content: space-around;
-  width: 100%;
-  height: 140px;
-}
-.seccion-gananciasybienes .container-paso-cuatro div h5 {
-  font-size: 90px;
-  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
-  width: 150px;
-  height: 200px;
-  padding-left: 25px;
-  position: relative;
-  bottom: 16px;
-}
-.seccion-gananciasybienes .container-paso-cuatro div p {
-  display: flex;
-  justify-content: center;
-  text-align: center;
-  font-family: "Poppins", sans-serif;
-  width: 800px;
-  padding-right: 120px;
-  margin-top: 20px;
-}
-.seccion-gananciasybienes .container-paso-cinco {
-  width: 900px;
-  height: 200px;
-  border: 2px solid #f7f7f7;
-  color: #f7f7f7;
-  background: #091129;
-  margin-top: 60px;
-}
-.seccion-gananciasybienes .container-paso-cinco h4 {
-  width: 100%;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  margin-top: 15px;
-}
-.seccion-gananciasybienes .container-paso-cinco div {
-  display: flex;
-  justify-content: space-around;
-  width: 100%;
-  height: 140px;
-}
-.seccion-gananciasybienes .container-paso-cinco div h5 {
-  font-size: 90px;
-  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
-  width: 150px;
-  height: 200px;
-  padding-left: 25px;
-  position: relative;
-  bottom: 16px;
-}
-.seccion-gananciasybienes .container-paso-cinco div p {
-  display: flex;
-  justify-content: center;
-  text-align: center;
-  font-family: "Poppins", sans-serif;
-  width: 800px;
-  padding-right: 120px;
-  margin-top: 20px;
-}
-.seccion-gananciasybienes .container-paso-seis {
-  width: 900px;
-  height: 200px;
-  border: 2px solid #f7f7f7;
-  color: #f7f7f7;
-  background: #091129;
-  margin-top: 60px;
-}
-.seccion-gananciasybienes .container-paso-seis h4 {
-  width: 100%;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  margin-top: 15px;
-}
-.seccion-gananciasybienes .container-paso-seis div {
-  display: flex;
-  justify-content: space-around;
-  width: 100%;
-  height: 140px;
-}
-.seccion-gananciasybienes .container-paso-seis div h5 {
-  font-size: 90px;
-  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
-  width: 150px;
-  height: 200px;
-  padding-left: 25px;
-  position: relative;
-  bottom: 16px;
-}
-.seccion-gananciasybienes .container-paso-seis div p {
-  display: flex;
-  justify-content: center;
-  text-align: center;
-  font-family: "Poppins", sans-serif;
-  width: 800px;
-  padding-right: 120px;
-  margin-top: 20px;
-}
-.seccion-gananciasybienes .container-paso-uno:hover, .seccion-gananciasybienes .container-paso-dos:hover, .seccion-gananciasybienes .container-paso-tres:hover, .seccion-gananciasybienes .container-paso-cuatro:hover, .seccion-gananciasybienes .container-paso-cinco:hover, .seccion-gananciasybienes .container-paso-seis:hover {
-  transform: scale(1.06);
-  box-shadow: 0px 2px 15px 0px rgba(255, 255, 255, 0.75);
-  -webkit-box-shadow: 0px 2px 15px 0px rgba(255, 255, 255, 0.75);
-  -moz-box-shadow: 0px 2px 15px 0px rgba(255, 255, 255, 0.75);
-  border: 5px solid #ffffff;
-}
-
-/*# sourceMappingURL=style.css.map */
+/*# sourceMappingURL=stylecss.map */
