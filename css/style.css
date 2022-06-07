@@ -37,17 +37,16 @@ body {
   display: flex;
   justify-content: space-between;
   background: linear-gradient(to bottom right, #333333, #121212);
-  height: 80px;
+  height: 100px;
 }
 .container-header .img-logo {
   width: 70px;
-  height: 70px;
+  height: 90px;
   margin-left: 80px;
-  object-fit: cover;
-  padding-top: 5px;
+  object-fit: contain;
 }
 .container-header .container-inicio {
-  margin-top: 20px;
+  margin-top: 30px;
   margin-right: 80px;
   width: 48%;
   display: flex;
@@ -231,7 +230,7 @@ body {
   -webkit-box-shadow: 3px 4px 24px -2px rgba(255, 255, 255, 0.75);
   -moz-box-shadow: 3px 4px 24px -2px rgba(255, 255, 255, 0.75);
 }
-.container-main .container-capacitacion {
+.container-main .container-monotributo {
   border-radius: 150px;
   background: linear-gradient(173deg, rgb(84, 84, 84) 0%, rgb(255, 255, 255) 100%);
   color: rgb(54, 53, 53);
@@ -244,14 +243,14 @@ body {
   height: 240px;
   width: 240px;
 }
-.container-main .container-capacitacion img {
+.container-main .container-monotributo img {
   width: 100px;
   height: 80px;
   display: flex;
   justify-content: center;
   align-items: center;
 }
-.container-main .container-capacitacion h2 {
+.container-main .container-monotributo h2 {
   margin-top: 20px;
   font-size: 20px;
   font-family: "Poppins", sans-serif;
@@ -261,7 +260,7 @@ body {
   height: 40px;
   width: 80px;
 }
-.container-main .container-capacitacion:hover {
+.container-main .container-monotributo:hover {
   transform: scale(1.09);
   transition: 1s;
   box-shadow: 3px 4px 24px -2px rgba(255, 255, 255, 0.75);
@@ -435,8 +434,8 @@ body {
   margin-top: 80px;
 }
 .section-asesoramiento-administrativo .container-asesoramiento-administrativo img {
-  width: 300px;
-  height: 300px;
+  width: 350px;
+  height: 350px;
   -webkit-border-radius: 1000px;
   -moz-border-radius: 1000px;
   border-radius: 1000px;
@@ -462,8 +461,8 @@ body {
   margin-top: 80px;
 }
 .section-asesoramiento-administrativo .container-organizacion-administrativa img {
-  width: 300px;
-  height: 300px;
+  width: 350px;
+  height: 350px;
   -webkit-border-radius: 1000px;
   -moz-border-radius: 1000px;
   border-radius: 1000px;
@@ -578,21 +577,18 @@ body {
 .seccion-formulario {
   display: flex;
   justify-content: space-around;
-  background-image: url("../../archivos/imagenes/imagen-contacto.jpg");
-  object-fit: cover;
-  overflow: hidden;
+  background-image: linear-gradient(to top, #09203f 0%, #537895 100%);
   margin-top: 120px;
   margin-bottom: 100px;
-  margin-left: 25px;
+  margin-left: 70px;
   border-radius: 50px;
-  border: 4px solid #208579;
+  border: 2px solid #ffffff;
   height: 750px;
-  width: 1300px;
+  width: 1200px;
 }
 .seccion-formulario .seccion-contactanos {
   margin-top: 80px;
   margin-bottom: 100px;
-  margin-left: 40px;
   width: 500px;
   height: 580px;
   display: flex;
@@ -600,7 +596,7 @@ body {
   flex-direction: column;
 }
 .seccion-formulario .seccion-contactanos ul {
-  margin-left: 37px;
+  margin-left: 20px;
   list-style-type: none;
 }
 .seccion-formulario .seccion-contactanos ul .container-consulta {
@@ -608,26 +604,22 @@ body {
   font-size: 1px;
   padding-bottom: 30px;
   color: #fff;
-  text-shadow: 3px 4px 16px rgba(255, 255, 255, 0.85);
 }
 .seccion-formulario .seccion-contactanos ul .container-consulta h2 {
   font-size: 16px;
 }
 .seccion-formulario .seccion-contactanos ul .container-contactar {
-  color: #208579;
   margin-bottom: 120px;
   margin-left: 35px;
 }
 .seccion-formulario .seccion-contactanos ul .container-contactar h2 {
   font-size: 50px;
   color: #fff;
-  text-shadow: 3px 4px 16px rgba(255, 255, 255, 0.58);
 }
 .seccion-formulario .seccion-contactanos ul .container-telefono {
   display: flex;
   justify-content: space-between;
   width: 180px;
-  color: #208579;
   position: relative;
   bottom: 80px;
   margin-left: 90px;
@@ -635,7 +627,6 @@ body {
 .seccion-formulario .seccion-contactanos ul .container-telefono h2 {
   font-size: 16px;
   color: #fff;
-  text-shadow: 3px 4px 16px rgba(255, 255, 255, 0.58);
 }
 .seccion-formulario .seccion-contactanos ul .container-email-dos {
   display: flex;
@@ -649,7 +640,6 @@ body {
 .seccion-formulario .seccion-contactanos ul .container-email-dos h2 {
   font-size: 15px;
   color: #fff;
-  text-shadow: 3px 4px 16px rgba(255, 255, 255, 0.58);
 }
 .seccion-formulario .seccion-contactanos ul .container-redes-dos {
   display: flex;
@@ -671,7 +661,6 @@ body {
   height: 600px;
   margin-top: 130px;
   color: #fff;
-  text-shadow: 3px 4px 16px rgba(255, 255, 255, 0.58);
 }
 
 .container-servicios-contables {
@@ -707,7 +696,7 @@ body {
   display: flex;
   justify-content: space-between;
   border: 2px solid #fff;
-  background-color: #b69d3e;
+  background-image: linear-gradient(to top, #09203f 0%, #537895 100%);
   overflow: hidden;
   font-family: "Poppins", sans-serif;
   width: 1200px;
@@ -750,7 +739,7 @@ body {
   display: flex;
   justify-content: space-between;
   border: 2px solid #fff;
-  background-color: #b69d3e;
+  background-image: linear-gradient(to top, #09203f 0%, #537895 100%);
   overflow: hidden;
   font-family: "Poppins", sans-serif;
   width: 1200px;
@@ -814,26 +803,6 @@ body {
   -webkit-background-clip: text;
 }
 
-.titulo-servicios-impositivos {
-  display: flex;
-  justify-content: center;
-  color: #181717;
-  font-family: "Poppins", sans-serif;
-  height: 150px;
-  align-items: center;
-  flex-direction: column;
-  width: 100%;
-  margin-top: 80px;
-}
-.titulo-servicios-impositivos h2 {
-  background: linear-gradient(to bottom right, #d3c22d, #E6F0FF);
-  font-size: 30px;
-  padding: 15px 15px 15px 10px;
-  text-align: center;
-  width: 350px;
-  border-radius: 20px;
-}
-
 .section-servicios-impositivos {
   display: flex;
   justify-content: space-around;
@@ -845,6 +814,7 @@ body {
   width: 500px;
   height: 500px;
   font-family: "Poppins", sans-serif;
+  text-align: center;
   border-radius: 10px;
   background-image: url("../../archivos/imagenes/img-servis.jpg");
   background-position: center;
@@ -852,7 +822,7 @@ body {
   background-size: cover;
   object-fit: cover;
   border: 2px solid #ffffff;
-  padding-left: 30px;
+  padding-left: 15px;
   color: #fff;
   -webkit-border-radius: 10px;
   -moz-border-radius: 10px;
@@ -883,18 +853,20 @@ body {
   background-size: cover;
   object-fit: cover;
   border: 2px solid #ffffff;
-  padding-left: 30px;
+  padding-left: 15px;
   -webkit-border-radius: 10px;
   -moz-border-radius: 10px;
   border-radius: 10px;
+  text-align: center;
 }
 .section-servicios-impositivos .container-regularizacion h2 {
   display: flex;
-  justify-content: flex-start;
+  justify-content: center;
   font-size: 25px;
   margin-top: 20px;
   color: #fff;
   padding-top: 10px;
+  text-align: center;
 }
 .section-servicios-impositivos .container-regularizacion p {
   display: flex;
@@ -902,10 +874,11 @@ body {
   font-size: 20px;
   margin-top: 30px;
   width: 420px;
-  padding-top: 15px;
+  padding-top: 7px;
+  padding-left: 35px;
 }
 .section-servicios-impositivos .container-regularizacion:hover, .section-servicios-impositivos .container-asesoramiento:hover {
-  background: linear-gradient(to bottom right, #d3c22d, #E6F0FF);
+  background-image: linear-gradient(45deg, #93a5cf 0%, #e4efe9 100%);
   color: #000;
   border: 2px solid #000;
 }
@@ -934,6 +907,7 @@ body {
   -webkit-border-radius: 10px;
   -moz-border-radius: 10px;
   border-radius: 10px;
+  text-align: center;
 }
 .section-servicios-impositivos-dos .container-inspecciones h2 {
   display: flex;
@@ -942,6 +916,7 @@ body {
   margin-top: 20px;
   color: #fff;
   padding-top: 10px;
+  padding-left: 10px;
 }
 .section-servicios-impositivos-dos .container-inspecciones p {
   display: flex;
@@ -963,14 +938,15 @@ body {
   background-size: cover;
   object-fit: cover;
   border: 2px solid #ffffff;
-  padding-left: 30px;
+  padding-left: 23px;
   -webkit-border-radius: 10px;
   -moz-border-radius: 10px;
   border-radius: 10px;
+  text-align: center;
 }
 .section-servicios-impositivos-dos .container-emprendedores h2 {
   display: flex;
-  justify-content: flex-start;
+  justify-content: center;
   font-size: 25px;
   margin-top: 20px;
   color: #fff;
@@ -980,12 +956,12 @@ body {
   display: flex;
   justify-content: center;
   font-size: 19px;
-  margin-top: 10px;
+  margin-top: 20px;
   width: 455px;
   padding-top: 15px;
 }
 .section-servicios-impositivos-dos .container-emprendedores:hover, .section-servicios-impositivos-dos .container-inspecciones:hover {
-  background: linear-gradient(to bottom right, #d3c22d, #E6F0FF);
+  background-image: linear-gradient(45deg, #93a5cf 0%, #e4efe9 100%);
   color: #000;
   border: 2px solid #000;
 }
@@ -1004,7 +980,7 @@ body {
   margin-top: 100px;
 }
 .container-nav-footer img {
-  width: 200px;
+  width: 192px;
   height: 190px;
   margin-top: 40px;
   object-fit: cover;
@@ -1146,7 +1122,7 @@ body {
   height: 200px;
   border: 2px solid #f7f7f7;
   color: #f7f7f7;
-  background: #091129;
+  background-image: linear-gradient(to top, #09203f 0%, #537895 100%);
 }
 .seccion-gananciasybienes .container-paso-uno h4 {
   width: 100%;
@@ -1185,8 +1161,8 @@ body {
   height: 200px;
   border: 2px solid #f7f7f7;
   color: #f7f7f7;
-  background: #091129;
   margin-top: 60px;
+  background-image: linear-gradient(to top, #09203f 0%, #537895 100%);
 }
 .seccion-gananciasybienes .container-paso-dos h4 {
   width: 100%;
@@ -1224,7 +1200,7 @@ body {
   height: 200px;
   border: 2px solid #f7f7f7;
   color: #f7f7f7;
-  background: #091129;
+  background-image: linear-gradient(to top, #09203f 0%, #537895 100%);
   margin-top: 60px;
 }
 .seccion-gananciasybienes .container-paso-tres h4 {
@@ -1263,7 +1239,7 @@ body {
   height: 200px;
   border: 2px solid #f7f7f7;
   color: #f7f7f7;
-  background: #091129;
+  background-image: linear-gradient(to top, #09203f 0%, #537895 100%);
   margin-top: 60px;
 }
 .seccion-gananciasybienes .container-paso-cuatro h4 {
@@ -1302,7 +1278,7 @@ body {
   height: 200px;
   border: 2px solid #f7f7f7;
   color: #f7f7f7;
-  background: #091129;
+  background-image: linear-gradient(to top, #09203f 0%, #537895 100%);
   margin-top: 60px;
 }
 .seccion-gananciasybienes .container-paso-cinco h4 {
@@ -1341,7 +1317,7 @@ body {
   height: 200px;
   border: 2px solid #f7f7f7;
   color: #f7f7f7;
-  background: #091129;
+  background-image: linear-gradient(to top, #09203f 0%, #537895 100%);
   margin-top: 60px;
 }
 .seccion-gananciasybienes .container-paso-seis h4 {
@@ -1381,6 +1357,217 @@ body {
   -webkit-box-shadow: 0px 2px 15px 0px rgba(255, 255, 255, 0.75);
   -moz-box-shadow: 0px 2px 15px 0px rgba(255, 255, 255, 0.75);
   border: 5px solid #ffffff;
+}
+
+.container-monotributo-imagen {
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  display: inline-block;
+  text-align: center;
+  align-items: center;
+}
+.container-monotributo-imagen img {
+  height: 520px;
+  width: 100%;
+  object-fit: cover;
+}
+.container-monotributo-imagen h1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  top: 30%;
+  left: 5%;
+  font-family: "Poppins", sans-serif;
+  font-size: 45px;
+  color: rgb(255, 255, 255);
+  text-shadow: 12px 2px 16px rgba(222, 215, 216, 0.52);
+  background: linear-gradient(to bottom right, #050505, #3f3f3f);
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
+}
+
+.container-titulo-monotributo {
+  color: #ffffff;
+  font-family: "Poppins", sans-serif;
+  display: flex;
+  justify-content: center;
+  margin-top: 70px;
+  flex-direction: column;
+  align-items: center;
+}
+.container-titulo-monotributo h2 {
+  font-size: 35px;
+  padding-bottom: 25px;
+}
+
+.container-titulo-monotributo-dos {
+  color: #ffffff;
+  font-family: "Poppins", sans-serif;
+  display: flex;
+  justify-content: center;
+  margin-top: 40px;
+  flex-direction: column;
+  align-items: center;
+}
+.container-titulo-monotributo-dos h3 {
+  font-size: 16px;
+  text-align: center;
+  border-bottom: 2px solid #ffffff;
+  padding-bottom: 10px;
+}
+
+.seccion-monotributo-uno {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  height: 300px;
+  margin-top: 150px;
+}
+.seccion-monotributo-uno .container-icon-uno {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  width: 600px;
+}
+.seccion-monotributo-uno .container-icon-uno img {
+  width: 60px;
+  height: 60px;
+}
+.seccion-monotributo-uno .container-icon-uno h3 {
+  color: #ffffff;
+  font-size: 17px;
+  margin-top: 22px;
+}
+.seccion-monotributo-uno .container-icon-uno p {
+  color: #ffffff;
+  font-size: 11px;
+  text-align: center;
+  margin-top: 6px;
+  width: 350px;
+}
+.seccion-monotributo-uno .container-icon-dos {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  width: 600px;
+}
+.seccion-monotributo-uno .container-icon-dos img {
+  width: 60px;
+  height: 60px;
+}
+.seccion-monotributo-uno .container-icon-dos h3 {
+  color: #ffffff;
+  font-size: 17px;
+  margin-top: 22px;
+}
+.seccion-monotributo-uno .container-icon-dos p {
+  color: #ffffff;
+  font-size: 11px;
+  text-align: center;
+  margin-top: 6px;
+  width: 350px;
+}
+.seccion-monotributo-uno .container-icon-tres {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  width: 600px;
+  height: 400px;
+  position: relative;
+  bottom: 8px;
+}
+.seccion-monotributo-uno .container-icon-tres img {
+  width: 90px;
+  height: 90px;
+}
+.seccion-monotributo-uno .container-icon-tres h3 {
+  color: #ffffff;
+  font-size: 17px;
+}
+.seccion-monotributo-uno .container-icon-tres p {
+  color: #ffffff;
+  font-size: 11px;
+  text-align: center;
+  margin-top: 6px;
+  width: 380px;
+}
+
+.seccion-monotributo-dos {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  height: 300px;
+}
+.seccion-monotributo-dos .container-icon-cuatro {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  width: 600px;
+  position: relative;
+  bottom: 7px;
+}
+.seccion-monotributo-dos .container-icon-cuatro img {
+  width: 70px;
+  height: 70px;
+}
+.seccion-monotributo-dos .container-icon-cuatro h3 {
+  color: #ffffff;
+  font-size: 17px;
+  margin-top: 22px;
+}
+.seccion-monotributo-dos .container-icon-cuatro p {
+  color: #ffffff;
+  font-size: 11px;
+  text-align: center;
+  margin-top: 6px;
+  width: 350px;
+}
+.seccion-monotributo-dos .container-icon-cinco {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  width: 600px;
+}
+.seccion-monotributo-dos .container-icon-cinco img {
+  width: 60px;
+  height: 60px;
+}
+.seccion-monotributo-dos .container-icon-cinco h3 {
+  color: #ffffff;
+  font-size: 17px;
+  margin-top: 22px;
+}
+.seccion-monotributo-dos .container-icon-cinco p {
+  color: #ffffff;
+  font-size: 11px;
+  text-align: center;
+  margin-top: 6px;
+  width: 350px;
+}
+
+.container-icon-seis {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  width: 600px;
+}
+.container-icon-seis img {
+  width: 60px;
+  height: 60px;
+}
+.container-icon-seis h3 {
+  color: #ffffff;
+  font-size: 17px;
+  margin-top: 22px;
+}
+.container-icon-seis p {
+  color: #ffffff;
+  font-size: 11px;
+  text-align: center;
+  margin-top: 6px;
+  width: 350px;
 }
 
 /*# sourceMappingURL=style.css.map */

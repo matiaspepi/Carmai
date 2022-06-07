@@ -7,8 +7,6 @@ body {
 }
 
 .seccion-data {
-    // background: rgb(84,84,84);
-    // background: linear-gradient(9deg, rgba(84,84,84,1) 0%, rgba(255,255,255,1) 100%);
     background: linear-gradient(to bottom right ,#333333, #121212);
     display: flex;
     align-items: center;
@@ -38,16 +36,16 @@ body {
     display: flex;
     justify-content: space-between;
     background: linear-gradient(to bottom right ,#333333, #121212);
-    height: 80px;
+    height: 100px;
         .img-logo {
             width: 70px;
-            height: 70px;
+            height: 90px;
             margin-left: 80px;
-            object-fit: cover;
-            padding-top: 5px;
+            object-fit: contain;
+            
     }
        .container-inicio {
-            margin-top: 20px;
+            margin-top: 30px;
             margin-right: 80px;
             width: 48%;
             display: flex;
@@ -231,7 +229,7 @@ body {
                 -webkit-box-shadow: 3px 4px 24px -2px rgba(255,255,255,0.75);
                 -moz-box-shadow: 3px 4px 24px -2px rgba(255,255,255,0.75);
             }
-        .container-capacitacion {
+        .container-monotributo {
             border-radius: 150px;
             background: linear-gradient(173deg, rgba(84,84,84,1) 0%, rgba(255,255,255,1) 100%);
             color: rgb(54, 53, 53);
@@ -262,7 +260,7 @@ body {
                     width: 80px;
                 }
             }
-            .container-capacitacion:hover {
+            .container-monotributo:hover {
                 transform: scale(1.09);
                 transition: 1s;
                 box-shadow: 3px 4px 24px -2px rgba(255,255,255,0.75);
