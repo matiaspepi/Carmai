@@ -28,16 +28,22 @@
 
 }
 .seccion-formulario {
+    background-image: url("../../archivos/imagenes/contactanos.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center center;
     display: flex;
     justify-content: space-around;
-    background-image: linear-gradient(to top, #09203f 0%, #537895 100%);
-    margin-top: 120px;
-    margin-bottom: 100px;
-    margin-left: 70px;
-    border-radius: 50px;
-    border: 2px solid #ffffff;
-    height: 750px;
-    width: 1200px;
+    // // background-image: linear-gradient(to top, #09203f 0%, #537895 100%);
+    // // margin-top: 120px;
+    // // margin-bottom: 100px;
+    // // margin-left: 70px;
+    // // border-radius: 50px;
+    // border: 2px solid #ffffff;
+    height: 1000px;
+    width: 100%;
+    align-items: center;
         .seccion-contactanos {
             margin-top: 80px;
             margin-bottom: 100px;

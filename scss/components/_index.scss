@@ -3,7 +3,11 @@
     padding: 0;
 }
 body {
-    background: linear-gradient(to bottom right ,#333333, #121212);
+    // background: linear-gradient(to bottom right ,#333333, #121212);
+    background-image: url("../../archivos/imagenes/contactanos.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
 }
 
 .seccion-data {
@@ -37,13 +41,18 @@ body {
     justify-content: space-between;
     background: linear-gradient(to bottom right ,#333333, #121212);
     height: 100px;
+    .logo {
+          height: 170px ;
+          width: 150px;
+    
         .img-logo {
-            width: 70px;
-            height: 90px;
+            width: 100px;
+            height: 99px;
             margin-left: 80px;
             object-fit: contain;
             
     }
+}
        .container-inicio {
             margin-top: 30px;
             margin-right: 80px;
@@ -108,32 +117,33 @@ body {
     justify-content: center;
     color: #ffffff;
     font-family: 'Poppins', sans-serif;
-    height: 200px;
+    height: 140px;
     align-items: center;
     flex-direction: column;
     width: 100%;
+    padding-top: 30px;
+    
 
         h2 {
             font-size: 30px;
+            border : 2px solid #fff;
+            padding: 25px 50px 25px 50px;
+            border-radius: 10px;
+            background: linear-gradient(to bottom right ,#333333, #121212);
+
             }
-        div {
-            width: 370px;
-            margin-top: 10px;
-            background-color: #fff;
-            height: 2px;
-        }
 }
 .container-main {
     display: flex;
     justify-content: space-around;
     align-items: center;
     margin-top: 50px;
-    border-top: 2px solid #fff;
     padding-top: 80px;
     border-bottom: 2px solid #fff;
+    border-top: 2px solid #ffff;
     padding-bottom: 100px;
     height: 350px;
-
+    background: linear-gradient(to bottom right ,#333333, #121212);
         .container-grupo-empresarial {
             border-radius: 150px;
             background: rgb(84,84,84);
@@ -283,43 +293,27 @@ body {
             }
             .container-monotributo:hover {
                 transform: scale(1.09);
-                transition: 1s;
+                transition: all 1s;
                 box-shadow: 3px 4px 24px -2px rgba(255,255,255,0.75);
                 -webkit-box-shadow: 3px 4px 24px -2px rgba(255,255,255,0.75);
                 -moz-box-shadow: 3px 4px 24px -2px rgba(255,255,255,0.75);
             }    
              
 } 
-.container-segundo-encabezado {
-            display: flex;
-            justify-content: center;
-            color: #fff;
-            font-family: 'Poppins', sans-serif;
-            height: 100px;
-            align-items: center;
-            margin-top: 100px;
-            margin-bottom: 130px;
-            flex-direction: column;
-            
-                 h2 {
-                    border-radius: 6px;
-                    width: 390px;
-                    height: 60px;
-                    display: flex;
-                    align-items: center;
-                    padding-left: 30px;
-                    border-radius: 20px;
-                    }
-                div {
-                        width: 420px;
-                        margin-top: 10px;
-                        background-color: #fff;
-                        height: 2px;
-                    }
-        }
+.imagen-servicio {
+    // background-image: url("../../archivos/imagenes/imagen-oficina.jpg");
+    // background-size: cover;
+    // background-repeat: no-repeat;
+    // background-attachment: fixed;
+
+
+
 .seccion-encontrarnos {
     display: flex;
     justify-content: space-around;
+    padding-top: 50px;
+    height: 1000px;
+    align-items: center;
         .container-encontrarnos-uno {
             box-shadow: 10px -14px 33px -7px rgba(64,62,62,1);
             -webkit-box-shadow: 10px -14px 33px -7px rgba(64,62,62,1);
@@ -350,7 +344,8 @@ body {
                 -moz-border-radius-bottomleft: 20px;
                 border-bottom-right-radius: 20px;
                 border-bottom-left-radius: 20px;
-                background: linear-gradient(to bottom right, #545454 0%, #ffffff 100%);
+                // background: linear-gradient(to bottom right, #545454 0%, #ffffff 100%);
+                background: linear-gradient(to bottom right ,#333333, #121212);
                 position: relative;
                 color: #ffffff;
                 display: flex;
@@ -399,7 +394,7 @@ body {
                 -moz-border-radius-bottomleft: 20px;
                 border-bottom-right-radius: 20px;
                 border-bottom-left-radius: 20px;
-                background: linear-gradient(to bottom right, #545454 0%, #ffffff 100%);
+                background: linear-gradient(to bottom right ,#333333, #121212);
                 position: relative;
                 color: #ffffff;
                 display: flex;
@@ -416,4 +411,5 @@ body {
                 height: 320px;
                 padding: 30px 30px 60px 30px;
                 }
+}
 }

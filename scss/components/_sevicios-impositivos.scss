@@ -1,32 +1,32 @@
 
-.container-servicios-impositivos {
-    width: 100%;
-    height: 100%;
-    overflow: hidden;
-    display: inline-block;
-    text-align: center;
-    align-items: center;
-        img {
-            height: 480px;
-            width: 100%;
-        }
-        h1 {
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            position: absolute;
-            top: 50%;
-            left: 38%;
-            font-family: 'Poppins', sans-serif;
-            font-size: 40px;
-            color: rgb(255, 255, 255);
-            text-shadow: 12px 2px 16px rgba(222,215,216,0.52);
-            background: rgb(255,255,255);
-            background: linear-gradient(262deg, rgba(255,255,255,1) 50%, rgba(105,107,106,1) 96%);
-            -webkit-text-fill-color: transparent;
-            -webkit-background-clip: text;
-        }
-}
+// .container-servicios-impositivos {
+//     width: 100%;
+//     height: 100%;
+//     overflow: hidden;
+//     display: inline-block;
+//     text-align: center;
+//     align-items: center;
+//         img {
+//             height: 480px;
+//             width: 100%;
+//         }
+//         h1 {
+//             display: flex;
+//             justify-content: center;
+//             align-items: center;
+//             position: absolute;
+//             top: 50%;
+//             left: 38%;
+//             font-family: 'Poppins', sans-serif;
+//             font-size: 40px;
+//             color: rgb(255, 255, 255);
+//             text-shadow: 12px 2px 16px rgba(222,215,216,0.52);
+//             background: rgb(255,255,255);
+//             background: linear-gradient(262deg, rgba(255,255,255,1) 50%, rgba(105,107,106,1) 96%);
+//             -webkit-text-fill-color: transparent;
+//             -webkit-background-clip: text;
+//         }
+// }
 // .titulo-servicios-impositivos {
 //     display: flex;
 //     justify-content: center;
@@ -47,26 +47,78 @@
 //             }
     
 // }
+
+
+    // background-image: url("../../archivos/imagenes/imagen-servicios-impositivos.jpg");
+    // background-size: cover;
+    // background-repeat: no-repeat;
+    // background-attachment: fixed;
+    // height: 2000px;
+    .container-titulo-servicios-impositivos {
+        margin-bottom: 120px;
+        height: 200px;
+    h1 {
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    position: absolute;
+                    left: 5%;
+                    top: 55%;
+                    font-family: 'Poppins', sans-serif;
+                    font-size: 80px;
+                    color: rgb(255, 255, 255);
+                    text-shadow: 12px 2px 16px rgba(222,215,216,0.30);
+                    background: rgb(255,255,255);
+                    background: linear-gradient(262deg, rgba(255,255,255,1) 50%, rgb(97, 95, 95) 96%);
+                    -webkit-text-fill-color: transparent;
+                    -webkit-background-clip: text;
+                    margin-top: 50px;
+    }
+    h2 {
+        display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    position: absolute;
+                    top:70%;
+                    left: 15%;
+                    font-family: 'Poppins', sans-serif;
+                    font-size: 80px;
+                    color: rgb(255, 255, 255);
+                    text-shadow: 12px 2px 16px rgba(222,215,216,0.30);
+                    background: rgb(255,255,255);
+                    background: linear-gradient(262deg, rgba(255,255,255,1) 50%, rgb(97, 95, 95) 96%);
+                    -webkit-text-fill-color: transparent;
+                    -webkit-background-clip: text;
+                    margin-top: 50px;
+    }
+    .imagen-asesor-impositivo {
+        width: 400px;
+        height: 400px;
+        border-radius: 100%;
+        position: relative;
+        left: 65%;
+        top: 70%;
+        border: 3px solid #fff;
+        padding: 8px 8px 8px 8px
+    }
+}
 .section-servicios-impositivos {
     display: flex;
     justify-content: space-around;
     width: 100%;
-    height: 600px;
-    margin-top: 100px;
+    height: 900px;
+    padding-top: 500px;
         .container-asesoramiento {
             width: 500px;
             height: 500px;
             font-family: 'Poppins', sans-serif;
             text-align: center;
             border-radius: 10px;
-            background-image: url("../../archivos/imagenes/img-servis.jpg");
-            background-position: center;
-            background-attachment: contain;
-            background-size: cover;
+            background-image: linear-gradient(to right, #a7a7a78a 0%, #000000b0 100%);
             object-fit: cover;
             border: 2px solid #ffffff;
             padding-left: 15px;
-            color: #fff;
+            color: rgb(255, 255, 255);
             -webkit-border-radius: 10px;
             -moz-border-radius: 10px;
             border-radius: 10px;
@@ -89,11 +141,11 @@
             width: 500px;
             height: 500px;
             font-family: 'Poppins', sans-serif;
-            color: #fff;
-            background-image: url("../../archivos/imagenes/img-servis.jpg");
-            background-position: center;
-            background-attachment: contain;
-            background-size: cover;
+            background-image: linear-gradient(to right, #a7a7a78a 0%, #000000b0 100%);
+            object-fit: cover;
+            border: 2px solid #535353;
+            padding-left: 15px;
+            color: rgb(255, 255, 255);
             object-fit: cover;
             border: 2px solid #ffffff;
             padding-left: 15px;
@@ -121,11 +173,12 @@
                }
     }
         .container-regularizacion:hover,.container-asesoramiento:hover{
-            background-image: linear-gradient(45deg, #93a5cf 0%, #e4efe9 100%);
-            color: #000;
-            border: 2px solid #000;
+            background: linear-gradient(to bottom, rgba(255,255,255,0.15) 0%, rgba(0,0,0,0.15) 100%), radial-gradient(at top center, rgba(255,255,255,0.40) 0%, rgba(0,0,0,0.40) 120%) #989898;
+            background-blend-mode: multiply,multiply;
+            border: 3px solid rgb(255, 255, 255);
+            transition: all .8s;
             h2 {
-                color: #000;
+                color: rgb(255, 255, 255);
             }
         }
 }
@@ -134,15 +187,17 @@
     justify-content: space-around;
     width: 100%;
     height: 600px;
+    margin-top: 250px;
+    margin-bottom: 200px;
         .container-inspecciones {
             width: 500px;
             height: 500px;
             font-family: 'Poppins', sans-serif;
-            color: #fff;
-            background-image: url("../../archivos/imagenes/img-servis.jpg");
-            background-position: center;
-            background-attachment: contain;
-            background-size: cover;
+            background-image: linear-gradient(to right, #a7a7a78a 0%, #000000b0 100%);
+            object-fit: cover;
+            border: 2px solid #535353;
+            padding-left: 15px;
+            color: rgb(255, 255, 255);
             object-fit: cover;
             border: 2px solid #ffffff;
             padding-left: 30px;
@@ -174,11 +229,11 @@
             width: 500px;
             height: 500px;
             font-family: 'Poppins', sans-serif;
-            color: #fff;
-            background-image: url("../../archivos/imagenes/img-servis.jpg");
-            background-position: center;
-            background-attachment: contain;
-            background-size: cover;
+            background-image: linear-gradient(to right, #a7a7a78a 0%, #000000b0 100%);
+            object-fit: cover;
+            border: 2px solid #535353;
+            padding-left: 15px;
+            color: rgb(255, 255, 255);
             object-fit: cover;
             border: 2px solid #ffffff;
             padding-left: 23px;
@@ -204,11 +259,13 @@
                 }
         }
         .container-emprendedores:hover,.container-inspecciones:hover{ 
-            background-image: linear-gradient(45deg, #93a5cf 0%, #e4efe9 100%);
-            color: #000;
-            border: 2px solid #000;
+            background: linear-gradient(to bottom, rgba(255,255,255,0.15) 0%, rgba(0,0,0,0.15) 100%), radial-gradient(at top center, rgba(255,255,255,0.40) 0%, rgba(0,0,0,0.40) 120%) #989898;
+            background-blend-mode: multiply,multiply;
+            border: 3px solid rgb(255, 255, 255);
+            transition: all .8s;
             h2 {
-                color: #000;
+                color: rgb(255, 255, 255);
             }
+            
         }
 }
