@@ -1,6 +1,17 @@
+:root {
+  --left-bg-color:rgba(87,84,236,0.7);
+  --right-bg-color:rgba(43,43,43,0.8);
+  --left-btn-hover-color:rgba(87,84,236,1);
+  --right-btn-hover-color:rgba(28,122,28,1);
+  --hover-width:75%;
+  --minimize-width:25%;
+  --transition-speed:1s;
+}
+
 * {
   margin: 0;
   padding: 0;
+  box-sizing: border-box;
 }
 
 body {
@@ -121,7 +132,8 @@ body {
   align-items: center;
   flex-direction: column;
   width: 100%;
-  padding-top: 30px;
+  padding-top: 60px;
+  margin-top: 80px;
 }
 .container-encabezado h2 {
   font-size: 30px;
@@ -135,7 +147,7 @@ body {
   display: flex;
   justify-content: space-around;
   align-items: center;
-  margin-top: 50px;
+  margin-top: 180px;
   padding-top: 80px;
   border-bottom: 2px solid #fff;
   border-top: 2px solid white;
@@ -295,14 +307,14 @@ body {
   -moz-box-shadow: 3px 4px 24px -2px rgba(255, 255, 255, 0.75);
 }
 
-.imagen-servicio .seccion-encontrarnos {
+.seccion-encontrarnos {
   display: flex;
   justify-content: space-around;
   padding-top: 50px;
   height: 1000px;
   align-items: center;
 }
-.imagen-servicio .seccion-encontrarnos .container-encontrarnos-uno {
+.seccion-encontrarnos .container-encontrarnos-uno {
   box-shadow: 10px -14px 33px -7px rgb(64, 62, 62);
   -webkit-box-shadow: 10px -14px 33px -7px rgb(64, 62, 62);
   -moz-box-shadow: 10px -14px 33px -7px rgb(64, 62, 62);
@@ -316,7 +328,7 @@ body {
   height: 548px;
   width: 405px;
 }
-.imagen-servicio .seccion-encontrarnos .container-encontrarnos-uno img {
+.seccion-encontrarnos .container-encontrarnos-uno img {
   -webkit-border-top-left-radius: 20px;
   -webkit-border-top-right-radius: 20px;
   -moz-border-radius-topleft: 20px;
@@ -326,7 +338,7 @@ body {
   width: 405px;
   height: 330px;
 }
-.imagen-servicio .seccion-encontrarnos .container-encontrarnos-uno p {
+.seccion-encontrarnos .container-encontrarnos-uno p {
   -webkit-border-bottom-right-radius: 20px;
   -webkit-border-bottom-left-radius: 20px;
   -moz-border-radius-bottomright: 20px;
@@ -350,7 +362,7 @@ body {
   height: 320px;
   padding: 30px 30px 60px 30px;
 }
-.imagen-servicio .seccion-encontrarnos .container-encontrarnos-dos {
+.seccion-encontrarnos .container-encontrarnos-dos {
   box-shadow: 10px -14px 33px -7px rgb(64, 62, 62);
   -webkit-box-shadow: 10px -14px 33px -7px rgb(64, 62, 62);
   -moz-box-shadow: 10px -14px 33px -7px rgb(64, 62, 62);
@@ -364,7 +376,7 @@ body {
   height: 548px;
   width: 405px;
 }
-.imagen-servicio .seccion-encontrarnos img {
+.seccion-encontrarnos img {
   -webkit-border-top-left-radius: 20px;
   -webkit-border-top-right-radius: 20px;
   -moz-border-radius-topleft: 20px;
@@ -374,7 +386,7 @@ body {
   width: 405px;
   height: 260px;
 }
-.imagen-servicio .seccion-encontrarnos p {
+.seccion-encontrarnos p {
   -webkit-border-bottom-right-radius: 20px;
   -webkit-border-bottom-left-radius: 20px;
   -moz-border-radius-bottomright: 20px;
@@ -1030,18 +1042,33 @@ body {
   margin-top: 40px;
   object-fit: cover;
 }
-.container-nav-footer ul {
+.container-nav-footer .lista-uno {
   justify-content: center;
   align-items: center;
   margin-top: 70px;
 }
-.container-nav-footer ul li {
+.container-nav-footer .lista-uno li {
   color: #fff;
   font-family: "Poppins", sans-serif;
-  font-size: 18px;
+  font-size: 15px;
+  padding-top: 5px;
+  margin-top: 10px;
+}
+.container-nav-footer .lista-uno li:hover {
+  border-bottom: 2px solid #fff;
+}
+.container-nav-footer .lista-dos {
+  justify-content: center;
+  align-items: center;
+  margin-top: 70px;
+}
+.container-nav-footer .lista-dos li {
+  color: #fff;
+  font-family: "Poppins", sans-serif;
+  font-size: 15px;
   padding-top: 8px;
 }
-.container-nav-footer ul li:hover {
+.container-nav-footer .lista-dos li:hover {
   border-bottom: 2px solid #fff;
 }
 .container-nav-footer div {
@@ -1060,7 +1087,6 @@ body {
   font-family: "Poppins", sans-serif;
   margin-left: 80px;
   padding-top: 15px;
-  text-shadow: 6px 2px 16px #B89EB1;
 }
 .container-nav-footer-dos ul {
   display: flex;
@@ -1069,6 +1095,61 @@ body {
   margin-right: 100px;
   list-style-type: none;
   padding-top: 10px;
+}
+.container-nav-footer-dos ul .linkedin:hover {
+  border-radius: 100%;
+  height: 35px;
+  width: 35px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 10px 15px 15px 15px;
+  background-image: linear-gradient(to top, #1e3c72 0%, #1e3c72 1%, #2a5298 100%);
+  transition: background-color 0.4s;
+}
+.container-nav-footer-dos ul .instagram:hover {
+  border-radius: 100%;
+  height: 35px;
+  width: 35px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 10px 15px 15px 15px;
+  transition: background-color 0.4s;
+  background-image: linear-gradient(-225deg, #231557 0%, #44107A 29%, #FF1361 67%, #FFF800 100%);
+}
+.container-nav-footer-dos ul .facebook:hover {
+  border-radius: 100%;
+  height: 35px;
+  width: 35px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 10px 15px 15px 15px;
+  transition: background-color 0.4s;
+  background-color: blue;
+}
+.container-nav-footer-dos ul .whatsapp:hover {
+  border-radius: 100%;
+  height: 35px;
+  width: 35px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 10px 15px 15px 15px;
+  transition: background-color 0.4s;
+  background-image: linear-gradient(to top, #0fd850 0%, #f9f047 100%);
+}
+.container-nav-footer-dos ul .gmail:hover {
+  border-radius: 100%;
+  height: 35px;
+  width: 35px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 10px 15px 15px 15px;
+  transition: background-color 0.4s;
+  background-image: linear-gradient(-60deg, #eb1212 0%, #f04b19 100%);
 }
 
 .container-gananciasybienes {

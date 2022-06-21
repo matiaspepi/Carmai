@@ -1,6 +1,17 @@
+:root {
+    --left-bg-color:rgba(87,84,236,0.7);
+    --right-bg-color:rgba(43,43,43,0.8);
+    --left-btn-hover-color:rgba(87,84,236,1);
+    --right-btn-hover-color:rgba(28,122,28,1);
+    --hover-width:75%;
+    --minimize-width:25%;
+    --transition-speed:1s;
+}
+
 *{
     margin:0;
     padding: 0;
+    box-sizing: border-box;
 }
 body {
     // background: linear-gradient(to bottom right ,#333333, #121212);
@@ -121,7 +132,8 @@ body {
     align-items: center;
     flex-direction: column;
     width: 100%;
-    padding-top: 30px;
+    padding-top: 60px;
+    margin-top: 80px;
     
 
         h2 {
@@ -133,11 +145,13 @@ body {
 
             }
 }
+
+    
 .container-main {
     display: flex;
     justify-content: space-around;
     align-items: center;
-    margin-top: 50px;
+    margin-top: 180px;
     padding-top: 80px;
     border-bottom: 2px solid #fff;
     border-top: 2px solid #ffff;
@@ -300,12 +314,6 @@ body {
             }    
              
 } 
-.imagen-servicio {
-    // background-image: url("../../archivos/imagenes/imagen-oficina.jpg");
-    // background-size: cover;
-    // background-repeat: no-repeat;
-    // background-attachment: fixed;
-
 
 
 .seccion-encontrarnos {
@@ -411,5 +419,4 @@ body {
                 height: 320px;
                 padding: 30px 30px 60px 30px;
                 }
-}
 }
