@@ -188,10 +188,12 @@ body {
 }
 .container-main .container-grupo-empresarial:hover {
   transform: scale(1.09);
-  transition: 1s;
+  transition: all 1s;
   box-shadow: 3px 4px 24px -2px rgba(255, 255, 255, 0.75);
   -webkit-box-shadow: 3px 4px 24px -2px rgba(255, 255, 255, 0.75);
   -moz-box-shadow: 3px 4px 24px -2px rgba(255, 255, 255, 0.75);
+  background: linear-gradient(-180deg, #BCC5CE 0%, #929EAD 98%), radial-gradient(at top left, rgba(255, 255, 255, 0.3) 0%, rgba(0, 0, 0, 0.3) 100%);
+  background-blend-mode: screen;
 }
 .container-main .container-grupo-administrativo {
   border-radius: 150px;
@@ -227,10 +229,12 @@ body {
 }
 .container-main .container-grupo-administrativo:hover {
   transform: scale(1.09);
-  transition: 1s;
+  transition: all 1s;
   box-shadow: 3px 4px 24px -2px rgba(255, 255, 255, 0.75);
   -webkit-box-shadow: 3px 4px 24px -2px rgba(255, 255, 255, 0.75);
   -moz-box-shadow: 3px 4px 24px -2px rgba(255, 255, 255, 0.75);
+  background: linear-gradient(-180deg, #BCC5CE 0%, #929EAD 98%), radial-gradient(at top left, rgba(255, 255, 255, 0.3) 0%, rgba(0, 0, 0, 0.3) 100%);
+  background-blend-mode: screen;
 }
 .container-main .container-gananciasybienes {
   border-radius: 150px;
@@ -264,10 +268,12 @@ body {
 }
 .container-main .container-gananciasybienes:hover {
   transform: scale(1.09);
-  transition: 1s;
+  transition: all 1s;
   box-shadow: 3px 4px 24px -2px rgba(255, 255, 255, 0.75);
   -webkit-box-shadow: 3px 4px 24px -2px rgba(255, 255, 255, 0.75);
   -moz-box-shadow: 3px 4px 24px -2px rgba(255, 255, 255, 0.75);
+  background: linear-gradient(-180deg, #BCC5CE 0%, #929EAD 98%), radial-gradient(at top left, rgba(255, 255, 255, 0.3) 0%, rgba(0, 0, 0, 0.3) 100%);
+  background-blend-mode: screen;
 }
 .container-main .container-monotributo {
   border-radius: 150px;
@@ -305,6 +311,8 @@ body {
   box-shadow: 3px 4px 24px -2px rgba(255, 255, 255, 0.75);
   -webkit-box-shadow: 3px 4px 24px -2px rgba(255, 255, 255, 0.75);
   -moz-box-shadow: 3px 4px 24px -2px rgba(255, 255, 255, 0.75);
+  background: linear-gradient(-180deg, #BCC5CE 0%, #929EAD 98%), radial-gradient(at top left, rgba(255, 255, 255, 0.3) 0%, rgba(0, 0, 0, 0.3) 100%);
+  background-blend-mode: screen;
 }
 
 .seccion-encontrarnos {
@@ -313,102 +321,81 @@ body {
   padding-top: 50px;
   height: 1000px;
   align-items: center;
+  width: 100%;
 }
-.seccion-encontrarnos .container-encontrarnos-uno {
+.seccion-encontrarnos .card-uno {
+  height: 450px;
+  width: 350px;
+  overflow: hidden;
+  position: relative;
+  cursor: pointer;
+  border-radius: 20px;
   box-shadow: 10px -14px 33px -7px rgb(64, 62, 62);
   -webkit-box-shadow: 10px -14px 33px -7px rgb(64, 62, 62);
   -moz-box-shadow: 10px -14px 33px -7px rgb(64, 62, 62);
-  -webkit-border-radius: 20px;
-  -moz-border-radius: 20px;
-  border-radius: 20px;
-  position: relative;
+  border: 2px solid #fff;
+}
+.seccion-encontrarnos .card-uno img {
+  height: 100%;
+  width: 100%;
+}
+.seccion-encontrarnos .card-uno .detalle {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  height: 0%;
+  background: rgba(0, 0, 0, 0.9);
   display: flex;
-  justify-content: center;
   flex-direction: column;
-  height: 548px;
-  width: 405px;
-}
-.seccion-encontrarnos .container-encontrarnos-uno img {
-  -webkit-border-top-left-radius: 20px;
-  -webkit-border-top-right-radius: 20px;
-  -moz-border-radius-topleft: 20px;
-  -moz-border-radius-topright: 20px;
-  border-top-left-radius: 20px;
-  border-top-right-radius: 20px;
-  width: 405px;
-  height: 330px;
-}
-.seccion-encontrarnos .container-encontrarnos-uno p {
-  -webkit-border-bottom-right-radius: 20px;
-  -webkit-border-bottom-left-radius: 20px;
-  -moz-border-radius-bottomright: 20px;
-  -moz-border-radius-bottomleft: 20px;
-  border-bottom-right-radius: 20px;
-  border-bottom-left-radius: 20px;
-  background: linear-gradient(to bottom right, #333333, #121212);
-  position: relative;
-  color: #ffffff;
-  display: flex;
+  align-items: center;
   justify-content: center;
-  text-align: center;
-  font-family: "Poppins", sans-serif;
-  font-size: 15px;
-  text-align: center;
-  padding-top: 8px;
-  border-bottom: 2px solid #ffffff;
-  border-left: 2px solid #ffffff;
-  border-right: 2px solid #ffffff;
-  width: 405px;
-  height: 320px;
-  padding: 30px 30px 60px 30px;
+  padding: 10px 0;
+  opacity: 0;
+  transition: 0.5 ease;
 }
-.seccion-encontrarnos .container-encontrarnos-dos {
+.seccion-encontrarnos .card-uno:hover .detalle {
+  opacity: 1;
+  height: 100%;
+  transition: all 1s;
+  color: #fff;
+}
+.seccion-encontrarnos .card-dos {
+  height: 450px;
+  width: 350px;
+  overflow: hidden;
+  position: relative;
+  cursor: pointer;
+  border-radius: 20px;
   box-shadow: 10px -14px 33px -7px rgb(64, 62, 62);
   -webkit-box-shadow: 10px -14px 33px -7px rgb(64, 62, 62);
   -moz-box-shadow: 10px -14px 33px -7px rgb(64, 62, 62);
-  -webkit-border-radius: 20px;
-  -moz-border-radius: 20px;
-  border-radius: 20px;
-  position: relative;
+  border: 2px solid #fff;
+}
+.seccion-encontrarnos .card-dos img {
+  height: 100%;
+  width: 100%;
+}
+.seccion-encontrarnos .card-dos .detalle {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  height: 0%;
+  background: rgba(0, 0, 0, 0.9);
   display: flex;
-  justify-content: center;
   flex-direction: column;
-  height: 548px;
-  width: 405px;
-}
-.seccion-encontrarnos img {
-  -webkit-border-top-left-radius: 20px;
-  -webkit-border-top-right-radius: 20px;
-  -moz-border-radius-topleft: 20px;
-  -moz-border-radius-topright: 20px;
-  border-top-left-radius: 20px;
-  border-top-right-radius: 20px;
-  width: 405px;
-  height: 260px;
-}
-.seccion-encontrarnos p {
-  -webkit-border-bottom-right-radius: 20px;
-  -webkit-border-bottom-left-radius: 20px;
-  -moz-border-radius-bottomright: 20px;
-  -moz-border-radius-bottomleft: 20px;
-  border-bottom-right-radius: 20px;
-  border-bottom-left-radius: 20px;
-  background: linear-gradient(to bottom right, #333333, #121212);
-  position: relative;
-  color: #ffffff;
-  display: flex;
+  align-items: center;
   justify-content: center;
-  text-align: center;
-  font-family: "Poppins", sans-serif;
-  font-size: 15px;
-  text-align: center;
-  padding-top: 8px;
-  border-bottom: 2px solid #ffffff;
-  border-left: 2px solid #ffffff;
-  border-right: 2px solid #ffffff;
-  width: 405px;
-  height: 320px;
-  padding: 30px 30px 60px 30px;
+  padding: 10px 0;
+  opacity: 0;
+  transition: 0.5 ease;
+}
+.seccion-encontrarnos .card-dos:hover .detalle {
+  opacity: 1;
+  height: 100%;
+  transition: all 1s;
+  color: #fff;
 }
 
 .container-imagen-asesor img {
@@ -646,9 +633,8 @@ body {
 .seccion-formulario .seccion-contactanos ul .container-email-dos {
   display: flex;
   justify-content: space-between;
-  width: 230px;
-  color: #208579;
-  margin-left: 65px;
+  width: 240px;
+  margin-left: 70px;
   position: relative;
   bottom: 50px;
 }
@@ -740,9 +726,6 @@ body {
   -webkit-border-radius: 20px;
   -moz-border-radius: 20px;
   border-radius: 20px;
-  box-shadow: 8px 11px 20px -3px rgba(184, 167, 167, 0.86);
-  -webkit-box-shadow: 8px 11px 20px -3px rgba(184, 167, 167, 0.86);
-  -moz-box-shadow: 8px 11px 20px -3px rgba(184, 167, 167, 0.86);
   margin-left: 70px;
   margin-top: 90px;
 }
@@ -783,9 +766,6 @@ body {
   -webkit-border-radius: 20px;
   -moz-border-radius: 20px;
   border-radius: 20px;
-  box-shadow: 8px 11px 20px -3px rgba(184, 167, 167, 0.86);
-  -webkit-box-shadow: 8px 11px 20px -3px rgba(184, 167, 167, 0.86);
-  -moz-box-shadow: 8px 11px 20px -3px rgba(184, 167, 167, 0.86);
   margin-left: 70px;
   margin-top: 90px;
   margin-bottom: 200px;
