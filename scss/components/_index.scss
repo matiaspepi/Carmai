@@ -198,13 +198,18 @@ body {
                 }
         }
         .container-grupo-empresarial:hover {
+                color: #fff;
                 transform: scale(1.09);
                 transition:  all 1s;
-                box-shadow: 3px 4px 24px -2px rgba(255,255,255,0.75);
-                -webkit-box-shadow: 3px 4px 24px -2px rgba(255,255,255,0.75);
-                -moz-box-shadow: 3px 4px 24px -2px rgba(255,255,255,0.75);
-                background: linear-gradient(-180deg, #BCC5CE 0%, #929EAD 98%), radial-gradient(at top left, rgba(255,255,255,0.30) 0%, rgba(0,0,0,0.30) 100%);
-                background-blend-mode: screen;
+                box-shadow: 3px 4px 24px -2px rgba(255,255,255,0.25);
+                -webkit-box-shadow: 3px 4px 24px -2px rgba(255,255,255,0.25);
+                -moz-box-shadow: 3px 4px 24px -2px rgba(255,255,255,0.25);
+                background: linear-gradient(to bottom, #323232 0%, #3F3F3F 40%, #1C1C1C 150%), linear-gradient(to top, rgba(255,255,255,0.40) 0%, rgba(0,0,0,0.25) 200%);
+                background-blend-mode: multiply;
+                   img {
+                    
+                    filter: invert(100%) sepia(100%) saturate(0%) hue-rotate(288deg) brightness(102%) contrast(102%);
+                   }
         }
         .container-grupo-administrativo {
             border-radius: 150px;
@@ -239,13 +244,18 @@ body {
                 }
         }
         .container-grupo-administrativo:hover {
+            color: #fff;
             transform: scale(1.09);
             transition:  all 1s;
-            box-shadow: 3px 4px 24px -2px rgba(255,255,255,0.75);
-            -webkit-box-shadow: 3px 4px 24px -2px rgba(255,255,255,0.75);
-            -moz-box-shadow: 3px 4px 24px -2px rgba(255,255,255,0.75);
-            background: linear-gradient(-180deg, #BCC5CE 0%, #929EAD 98%), radial-gradient(at top left, rgba(255,255,255,0.30) 0%, rgba(0,0,0,0.30) 100%);
-            background-blend-mode: screen;
+            box-shadow: 3px 4px 24px -2px rgba(255,255,255,0.25);
+            -webkit-box-shadow: 3px 4px 24px -2px rgba(255,255,255,0.25);
+            -moz-box-shadow: 3px 4px 24px -2px rgba(255,255,255,0.25);
+            background: linear-gradient(to bottom, #323232 0%, #3F3F3F 40%, #1C1C1C 150%), linear-gradient(to top, rgba(255,255,255,0.40) 0%, rgba(0,0,0,0.25) 200%);
+            background-blend-mode: multiply;
+               img {
+                
+                filter: invert(100%) sepia(100%) saturate(0%) hue-rotate(288deg) brightness(102%) contrast(102%);
+               }
         }
         .container-gananciasybienes{
             border-radius: 150px;
@@ -278,13 +288,18 @@ body {
                 }
             }
             .container-gananciasybienes:hover {
+                color: #fff;
                 transform: scale(1.09);
                 transition:  all 1s;
-                box-shadow: 3px 4px 24px -2px rgba(255,255,255,0.75);
-                -webkit-box-shadow: 3px 4px 24px -2px rgba(255,255,255,0.75);
-                -moz-box-shadow: 3px 4px 24px -2px rgba(255,255,255,0.75);
-                background: linear-gradient(-180deg, #BCC5CE 0%, #929EAD 98%), radial-gradient(at top left, rgba(255,255,255,0.30) 0%, rgba(0,0,0,0.30) 100%);
-                background-blend-mode: screen;
+                box-shadow: 3px 4px 24px -2px rgba(255,255,255,0.25);
+                -webkit-box-shadow: 3px 4px 24px -2px rgba(255,255,255,0.25);
+                -moz-box-shadow: 3px 4px 24px -2px rgba(255,255,255,0.25);
+                background: linear-gradient(to bottom, #323232 0%, #3F3F3F 40%, #1C1C1C 150%), linear-gradient(to top, rgba(255,255,255,0.40) 0%, rgba(0,0,0,0.25) 200%);
+                background-blend-mode: multiply;
+                   img {
+                    
+                    filter: invert(100%) sepia(100%) saturate(0%) hue-rotate(288deg) brightness(102%) contrast(102%);
+                   }
             }
         .container-monotributo {
             border-radius: 150px;
@@ -318,13 +333,18 @@ body {
                 }
             }
             .container-monotributo:hover {
+                color: #fff;
                 transform: scale(1.09);
                 transition:  all 1s;
-                box-shadow: 3px 4px 24px -2px rgba(255,255,255,0.75);
-                -webkit-box-shadow: 3px 4px 24px -2px rgba(255,255,255,0.75);
-                -moz-box-shadow: 3px 4px 24px -2px rgba(255,255,255,0.75);
-                background: linear-gradient(-180deg, #BCC5CE 0%, #929EAD 98%), radial-gradient(at top left, rgba(255,255,255,0.30) 0%, rgba(0,0,0,0.30) 100%);
-                background-blend-mode: screen;
+                box-shadow: 3px 4px 24px -2px rgba(255,255,255,0.25);
+                -webkit-box-shadow: 3px 4px 24px -2px rgba(255,255,255,0.25);
+                -moz-box-shadow: 3px 4px 24px -2px rgba(255,255,255,0.25);
+                background: linear-gradient(to bottom, #323232 0%, #3F3F3F 40%, #1C1C1C 150%), linear-gradient(to top, rgba(255,255,255,0.40) 0%, rgba(0,0,0,0.25) 200%);
+                background-blend-mode: multiply;
+                   img {
+                    
+                    filter: invert(100%) sepia(100%) saturate(0%) hue-rotate(288deg) brightness(102%) contrast(102%);
+                   }
             }    
              
 } 
@@ -341,9 +361,14 @@ body {
     margin-top: 100px;
     align-items: center;
        h3 {
-        font-size: 25px;
-        width: 1000px;
+        font-size: 20px;
+        width: 850px;
         padding-bottom: 80px;
+        text-shadow: 12px 2px 16px rgba(222,215,216,0.30);
+        background: rgb(255,255,255);
+        background: linear-gradient(262deg,rgb(219, 217, 217)  30%,rgba(255,255,255,1)  70%);
+        -webkit-text-fill-color: transparent;
+        -webkit-background-clip: text;
        }
 }
 .seccion-encontrarnos {

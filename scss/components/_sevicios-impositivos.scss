@@ -38,8 +38,8 @@
                     margin-top: 50px;
     }
     .imagen-asesor-impositivo {
-        width: 400px;
-        height: 400px;
+        width: 34vw;
+        height: 34vw;
         border-radius: 100%;
         position: relative;
         left: 65%;
@@ -55,8 +55,8 @@
     height: 900px;
     padding-top: 500px;
         .container-asesoramiento {
-            width: 500px;
-            height: 500px;
+            width: 35vw;
+            height: 37vw;
             font-family: 'Poppins', sans-serif;
             text-align: center;
             border-radius: 10px;
@@ -71,22 +71,22 @@
                h2 {
                     display: flex;
                     justify-content: flex-start;
-                    font-size: 25px;
+                    font-size: 4vh;
                     margin-top: 20px;
                     color: rgb(255, 255, 255);
                }
                p{
                     display: flex;
                     justify-content: center;
-                    font-size: 20px;
+                    font-size: 3vh;
                     margin-top: 30px;
                     width: 430px;
                     padding-left: 25px;
                }
         }   
         .container-regularizacion {
-            width: 500px;
-            height: 500px;
+            width: 35vw;
+            height: 37vw;
             font-family: 'Poppins', sans-serif;
             background-image: linear-gradient(to right, #a7a7a78a 0%, #000000b0 100%);
             object-fit: cover;
@@ -137,8 +137,8 @@
     margin-top: 250px;
     margin-bottom: 200px;
         .container-inspecciones {
-            width: 500px;
-            height: 500px;
+            width: 35vw;
+            height: 37vw;
             font-family: 'Poppins', sans-serif;
             background-image: linear-gradient(to right, #a7a7a78a 0%, #000000b0 100%);
             object-fit: cover;
@@ -173,8 +173,8 @@
             
         }
         .container-emprendedores {
-            width: 500px;
-            height: 500px;
+            width: 35vw;
+            height: 37vw;
             font-family: 'Poppins', sans-serif;
             background-image: linear-gradient(to right, #a7a7a78a 0%, #000000b0 100%);
             object-fit: cover;
@@ -199,9 +199,9 @@
                 p {
                     display: flex;
                     justify-content: center;
-                    font-size: 19px;
+                    font-size: 18px;
                     margin-top: 20px;
-                    width: 455px;
+                    width: 430px;
                     padding-top: 15px;
                 }
         }

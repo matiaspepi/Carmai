@@ -1,0 +1,558 @@
+@media only screen and (max-width:768px) and (min-width:481px){
+    .container-header {
+        width: 100%;
+        height: 60vw;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        justify-content: center;
+            .logo {
+                display: flex;
+                justify-content: center;
+                .img-logo {
+                    margin-left: 0px;
+                    width: 21vw;
+                    height: 20vh;
+                    margin-left: 5vw;
+                    margin-top: 10px;
+                }
+            }
+            .container-inicio {
+                width: 45vw;
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+                margin-right: 0px;
+                    li {
+                        margin-bottom: 8px;
+                    }
+            }
+            
+    }
+    .video-index {
+        width: 100%;
+        height: 56vw;
+    }
+    .container-video {
+        width: 100%;
+        position: absolute;
+        top: 46%;
+        h1 {
+            font-size: 1.5vw;
+            width: 31vw;
+            height: 8vh;
+        }
+    }
+   .container-encabezado {
+      width: 100%;
+      height: 30vw;
+            h2 {
+                width: 41vw;
+                height: 9.3vh;
+                font-size: 2vw;
+                padding: 3.6vw 0vw 6vw 11vw;
+            } 
+   }
+   .container-main {
+    height: 50vh;
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    grid-column-gap: 15px;
+    grid-row-gap: 31px;
+    padding-left: 9vh;
+    padding-bottom: 76vw;
+    a {
+    width: 17vh;
+       .container-grupo-empresarial {
+        width: 29vw;
+        height: 29vw;
+            img {
+                width: 12vw;
+                height: 10vw;
+            }
+            h2 {
+                padding-right: 1.2vw;
+                margin-top: 1.5vw;
+                font-size: 2.5vw;
+            }
+       }
+    }
+    a {
+        width: 17vh;
+       .container-grupo-administrativo {
+        width: 29vw;
+        height: 29vw;
+            img {
+                width: 14vw;
+                height: 13vw;
+            }
+            h2 {
+                padding-right: 1.2vw;
+                font-size: 2.3vw;
+                padding-bottom: 1.4vw;
+            }
+       }
+    }
+    a {
+        width: 17vh;
+       .container-gananciasybienes {
+        width: 29vw;
+        height: 29vw;
+            img {
+                padding-top: 1vw;
+                width: 14vw;
+                height: 13vw;
+            }
+            h2 {
+                padding-left: 7vw;
+                padding-right: 6.8vw;
+                font-size: 2vw;
+                padding-bottom: 1.4vw           
+            }
+       }
+    }
+    a {
+        width: 17vh;
+       .container-monotributo {
+        width: 29vw;
+        height: 29vw;
+            img {
+                width: 12vw;
+                height: 10vw;
+            }
+            h2 {
+                padding-top: 0.6vw;
+                font-size: 2.5vw;
+            }
+       }
+    }
+}
+.container-formacion {
+    width: 78%;
+    margin-left: 10vw;
+    h3 {
+        font-size: 2vw;
+    }
+}
+.seccion-encontrarnos {
+    width: 100%;
+    height: 90vw;
+       .card-uno {
+        width: 24vw;
+        height: 34vw;
+        .detalle {
+            width: 100%;
+               h4 {
+                font-size: 1.8vw;
+               }
+               p {
+                font-size: 1.2vw;
+               }
+           }
+       }
+       .card-dos {
+        width: 24vw;
+        height: 34vw;
+           .detalle {
+            width: 100%;
+               h4 {
+                font-size: 1.8vw;
+               }
+               p {
+                font-size: 1.2vw;
+               }
+           }
+       }
+}
+.container-nav-footer {
+    width: 100%;
+    height: 26vw;
+        a {
+            img {
+                margin-top: 6vw;
+                width: 15vw;
+                height: 15vw;
+        }
+    }
+    .lista-uno {
+        margin-top: 5vw;
+        margin-left: 1vw;
+        a {
+            li {
+                font-size: 1.2vw;
+                width: 13vw;
+            }
+           }
+    }
+    .lista-dos {
+        margin-top: 6vw;
+        margin-left: 1.3vw;
+        width: 43.9vw;
+        padding-left: 6vw;
+           a {
+            li {
+                font-size: 1.2vw;
+            }
+           }
+    }
+    div {
+        margin-top: 6.8vw;
+        p {
+            font-size: 1.3vw;
+            margin-left: 1vw;
+            margin-top: 0.5vw;
+        }
+    }
+}
+.container-nav-footer-dos {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+        h2 {
+            font-size: 3vw;
+        }
+        ul {
+            width: 20vw;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+                a {
+                    li {
+                        svg {
+                            width: 5vw;
+                            height: 3vw;
+                        }
+                        }
+                    }
+                }
+        }
+        .container-titulo-servicios-impositivos {
+            width: 100%;
+            height: 32vh;
+            padding-bottom: 14vw;
+                h1,h2 {
+                    margin-top: 26vh;
+                    font-size: 4vw;
+                }
+        }
+        .section-servicios-impositivos {
+            width: 100% ;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            height: 200vw;
+            .container-asesoramiento {
+                width: 47vw;
+                height: 50vw;
+                margin-bottom: 7vw;
+                   h2 {
+                       font-size: 2vw;
+                       padding-right: 3vw;
+                   }
+                   p {
+                       font-size: 1.8vw;
+                       width: 40vw;
+                       padding-left: 2vw;
+                       padding-right: .8vw;
+                   }
+               }
+               .container-regularizacion { 
+                width: 47vw;
+                height: 50vw;
+                margin-bottom: 7vw;
+                       h2 {
+                        font-size: 2.5vw;
+                        padding-right: 2vw;
+                       }
+                       p {
+                           margin-top: 4vw;
+                           font-size: 1.7vw;
+                           width: 38vw;
+                           padding-left: 4vw;
+                       }
+                   }
+               }
+               .section-servicios-impositivos-dos {
+                   width: 100%;
+                   display: flex;
+                   flex-direction: column;
+                   justify-content: center;
+                   align-items: center;
+                   height: 133vh;
+                   margin-top: 3vw;
+                      .container-inspecciones {
+                        width: 47vw;
+                        height: 50vw;
+                        margin-bottom: 7vw;
+                       h2 {
+                        font-size: 2vw;
+                        padding-left: 2vw;
+                       }
+                       p {
+                        font-size: 1.9vw;
+                        width: 35vw;
+                        margin-top: 3vw;
+                        padding-right: 1vw;
+                       }                      
+                    }
+                      .container-emprendedores {
+                        width: 47vw;
+                        height: 50vw;
+                        margin-bottom: 7vw;
+                       h2 {
+                        font-size: 2.4vw;
+                        padding-right: 3vw;
+                       }
+                       p {
+                        margin-top: 2vw;
+                        font-size: 1.6vw;
+                        width: 41vw;
+                        padding-right: 2vh;
+                        padding-left: 1.2vh;
+                       }                
+               }
+}
+.container-titulo-servicios-contables {
+    width: 100%;
+    height: 50vh;
+    padding-bottom: 9vw;
+        h1,h2 {
+            margin-top: 26vh;
+            font-size: 4vh;
+        }
+}
+.container-contabilidad-integral {
+    display: flex;
+    flex-direction: column;
+    width: 62vh;
+    height: 79vh;
+    margin-left: 15vw;
+         img {
+            width: 61vh;
+            height: 33vh;
+         }
+         h2 {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-direction: column;
+            font-size: 4vh;
+            margin-left: 2vw;
+            padding-bottom: 14vh;
+              p {
+                font-size: 1.9vh;
+                padding-right: 2vw;
+                text-align: center;
+                height: 29vw;
+                width: 52vh;            
+            }
+         }
+         
+}
+         
+
+.container-organizacion-empresarial {
+    display: flex;
+    flex-direction: column;
+    width: 62vh;
+    height: 79vh;
+    margin-left: 15vw;
+         img {
+            width: 61vh;
+            height: 33vh;
+         }
+         h2 {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-direction: column;
+            font-size: 4vh;
+            margin-left: 2vw;
+            padding-bottom: 14vh;
+              p {
+                font-size: 2.3vh;
+                padding-right: 2vw;
+                text-align: center;
+                height: 29vw;
+                width: 52vh;            
+            }
+         }
+         
+}
+.seccion-formulario {
+    padding-left: 10vw;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 260vh;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20vw;
+    .seccion-contactanos {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding-left: 2vw;
+        ul {
+            border: 2px solid #fff;
+            padding: 6vw 10vw 8vw 12vw;
+            border-radius: 10vw;
+            .container-consulta{
+                width: 56vw;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                   h2 {
+                    font-size: 2vw;
+                    width: 47vw;
+                   }
+            }
+            .container-contactar {
+                width: 100%;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                margin-left: 0px;
+            }
+            li {
+            .container-telefono {
+                width: 100%;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                margin-left: 0px;
+                   svg {
+                    width: 3.5vw;
+                    height: 4vw;
+                   }
+                   h2 {
+                    font-size: 2vw;
+                    width: 20vw;
+                    margin-left: 1vw;
+                   }
+            }
+        }
+        li {
+            .container-telefono-dos {
+                width: 100%;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                margin-left: 0px;
+                   svg {
+                    width: 3.5vw;
+                    height: 4vw;
+                   }
+                   h2 {
+                    font-size: 2vw;
+                    width: 20vw;
+                    margin-left: 1vw;
+                   }
+            }
+            
+        }
+        .container-email-dos {
+            width: 100%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin-left: 0px;
+               h2 {
+                margin-left: 1vw;
+               }
+        }
+            .container-redes-dos  {
+                width: 100%;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                margin-left: 0px;
+                padding-right: 3vw;
+                  
+                 a {
+                    margin-left: 3vw;
+                       svg {
+                        width: 3vw;
+                    height: 3vw;
+                       }
+                 }
+            }
+            .container-google  {
+                width: 100%;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                margin-left: 0px;
+            }
+        }
+
+    }
+         .container-formulario {
+            width: 56vw;
+            height: 140vw;
+            margin-left: 4vw;
+               div {
+                .nombre {
+                    width: 56vw;
+                }
+            }
+            div {
+                .apellido {
+                    width: 56vw;
+                }
+            }
+            div {
+                .email {
+                    width: 56vw;
+                }
+            }
+         }
+}
+//fin contacto
+// asesoramiento particulas
+.container-asesorar {
+    img {
+        height: 46vw;
+    }
+}
+.grupo-asesorar {
+    h1 {
+        font-size: 3vw;
+    }
+}
+.seccion-empresa {
+    .container-empresa {
+        display: flex;
+        flex-direction: column;
+        height: 73vw;
+        margin-top: 11vw;
+        p {
+            font-size: 1.5vw;
+            width: 82vw;
+            text-align: center;
+}
+        }
+    }
+    .container-detalle {
+        width: 100%;
+        position: relative;
+        bottom: 21vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        margin-left: 0px;
+            li {
+                p {
+                    font-size: 1.4vw;
+                    width: 60vw;
+                }
+            }
+    }
+}
+

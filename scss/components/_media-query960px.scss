@@ -1,0 +1,324 @@
+@media only screen and (max-width:960px) and (min-width:769px){
+    .container-header {
+        .logo {
+            .img-logo {
+                width: 10vw;
+            }
+        }
+        .container-inicio {
+            width: 80vh;
+            margin-right: 10px;
+            li {
+                font-size: 2.2vh;
+            }
+        }
+    }
+    .video-index {
+        width: 100%;
+        height: 57vw;
+    }
+    .container-video {
+        width: 100%;
+        h1 {
+            font-size: 2vw;
+            width: 32vw;
+            height: 12vh;
+        }
+    }
+    .container-encabezado {
+        width: 100%;
+           h2 {
+            width: 30vw;
+            height: 10vh;
+            font-size: 1.8vw;
+           }
+    }
+    .container-main {
+    width: 100%;
+    
+       .container-grupo-empresarial {
+        width: 22vw;
+        height: 22vw;
+            img {
+                width: 8vw;
+                height: 7vw;
+            }
+            h2 {
+                padding-right: 1vw;
+                margin-top: 1.5vw;
+                font-size: 1.8vw;
+            }
+       }
+       .container-grupo-administrativo {
+        width: 22vw;
+        height: 22vw;
+            img {
+                width: 9vw;
+                height: 9vw;
+                padding-top: 1vw;
+            }
+            h2 {
+                padding-bottom: 3vh;
+                padding-right: .5vw;
+                font-size: 1.8vw;
+            }
+       }
+       .container-gananciasybienes {
+        width: 22vw;
+        height: 22vw;
+            img {
+                width: 9vw;
+                height: 8.6vw;
+            }
+            h2 {
+                font-size: 1.7vw;
+            }
+       }
+       .container-monotributo {
+        width: 22vw;
+        height: 22vw;
+            img {
+                width: 9vw;
+                height: 8.6vw;
+            }
+            h2 {
+                font-size: 1.9vw;
+            }
+       }
+       
+       }
+       .container-formacion {
+        width: 86%;
+        margin-left: 7vw;
+        h3 {
+            font-size: 2vw;
+        }
+    }
+    .seccion-encontrarnos {
+        width: 100%;
+           .card-uno {
+            width: 24vw;
+            height: 34vw;
+            .detalle {
+                width: 100%;
+                   h4 {
+                    font-size: 1.8vw;
+                   }
+                   p {
+                    font-size: 1.2vw;
+                   }
+               }
+           }
+           .card-dos {
+            width: 24vw;
+            height: 34vw;
+               .detalle {
+                width: 100%;
+                   h4 {
+                    font-size: 1.8vw;
+                   }
+                   p {
+                    font-size: 1.2vw;
+                   }
+               }
+           }
+    }
+    .container-nav-footer {
+        width: 100%;
+        height: 26vw;
+            a {
+                img {
+                    margin-top: 6vw;
+                    width: 15vw;
+                    height: 15vw;
+            }
+        }
+        .lista-uno {
+            margin-top: 5vw;
+            margin-left: 1vw;
+            a {
+                li {
+                    font-size: 1.4vw;
+                    width: 15vw;
+                }
+               }
+        }
+        .lista-dos {
+            margin-top: 6vw;
+            margin-left: 2.3vw;
+            width: 31.9vw;
+               a {
+                li {
+                    font-size: 1.4vw;
+                }
+               }
+        }
+        div {
+            margin-top: 6.8vw;
+            p {
+                font-size: 1.4vw;
+                margin-left: 3vw;
+            }
+        }
+    }
+//fin index 
+//servicios impositivos
+.container-titulo-servicios-impositivos {
+    width: 100%;
+        h1,h2 {
+             font-size: 5vw;
+        }
+    }
+    .section-servicios-impositivos {
+        width: 100% ;
+           .container-asesoramiento {
+                      
+               h2 {
+                   font-size: 2vw;
+               }
+               p {
+                   font-size: 1.4vw;
+                   width: 32vw;
+                   padding-left: 0vw;
+                   padding-right: 0.8vw;
+               }
+           }
+           .container-regularizacion { 
+                      
+                   h2 {
+                        font-size: 2vw;
+                   }
+                   p {
+                        font-size: 1.5vw;
+                        width: 31vw;
+                        padding-left: 0px;
+                        margin-top: 2vw;
+                }
+                   }
+               }
+           
+           .section-servicios-impositivos-dos {
+               width: 100%;
+                  .container-inspecciones {
+                   h2 {
+                        font-size: 2vw;
+                        padding-left: 0px;
+                        padding-right: 3vw;
+                   }
+                   p {
+                        font-size: 1.5vw;
+                        width: 27vw;
+                        margin-left: 0vw;
+                        margin-top: 0px;
+                   }
+                  }
+                  .container-emprendedores {
+                   h2 {
+                       font-size: 2vw;
+                   }
+                   p {
+                       font-size: 1.3vw;
+                       width: 31vw;
+                       padding-right: 1vw;
+                       margin-top: 0px;
+                       padding-top: 0.5vw;
+                   }
+                  }
+           }
+
+        
+        .seccion-formulario {
+            .seccion-contactanos
+             ul {
+                .container-consulta {
+                    h2 {
+                        font-size: 1.5vw;
+                    }
+                }
+                .container-contactar {
+                    h2 {
+                        font-size: 3.8vw;
+                        margin-left: 2.4vw;
+                    }
+                }
+                li {
+                .container-telefono {
+                    width: 24vw;
+                    margin-left: 6.5vw;
+                    svg {
+                        width: 3vw;
+                        height: 2vw;
+                    }
+                    h2 {
+                        width: 20vw;
+                        font-size: 1.6vw;
+                    }
+                }
+            }
+                .container-telefono-dos {
+                    width: 24vw;
+                    margin-left: 6.5vw;
+                    svg {
+                        width: 3vw;
+                        height: 2vw;
+                    }
+                    h2 {
+                        width: 20vw;
+                        font-size: 1.6vw;
+                    }
+                }
+                .container-email-dos {
+                    width: 23vw;
+                    margin-left: 5vw;
+                    svg {
+                        width: 2vw;
+                        height: 2vw;
+                    }
+                    h2 {
+                        font-size: 1.4vw;
+                    }
+                }
+                .container-redes-dos {
+                    width: 11vw;
+                    margin-left: 11.5vw;
+                }
+                .container-google {
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    width: 8vw;
+                    margin-left: 13vw;
+                }
+            }
+}
+// fin contacto 
+// asesoramiento particular
+.container-asesorar {
+    img {
+        height: 42vw;
+    }
+}
+.grupo-asesorar {
+    h1 {
+        font-size: 3vw;
+    }
+}
+.seccion-empresa {
+    .container-empresa {
+        p {
+            padding-left: 4vw;
+        }
+    }
+    .container-detalle {
+        position: relative;
+        bottom: 19vw;
+    }
+}
+ // fin asesoramiento particular 
+// asesoramiento administrativo
+.container-imagen-asesor {
+    img {
+        height: 42vw;
+    }
+}
+}

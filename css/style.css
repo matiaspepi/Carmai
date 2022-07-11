@@ -194,13 +194,17 @@ body {
   margin-left: 13px;
 }
 .container-main .container-grupo-empresarial:hover {
+  color: #fff;
   transform: scale(1.09);
   transition: all 1s;
-  box-shadow: 3px 4px 24px -2px rgba(255, 255, 255, 0.75);
-  -webkit-box-shadow: 3px 4px 24px -2px rgba(255, 255, 255, 0.75);
-  -moz-box-shadow: 3px 4px 24px -2px rgba(255, 255, 255, 0.75);
-  background: linear-gradient(-180deg, #BCC5CE 0%, #929EAD 98%), radial-gradient(at top left, rgba(255, 255, 255, 0.3) 0%, rgba(0, 0, 0, 0.3) 100%);
-  background-blend-mode: screen;
+  box-shadow: 3px 4px 24px -2px rgba(255, 255, 255, 0.25);
+  -webkit-box-shadow: 3px 4px 24px -2px rgba(255, 255, 255, 0.25);
+  -moz-box-shadow: 3px 4px 24px -2px rgba(255, 255, 255, 0.25);
+  background: linear-gradient(to bottom, #323232 0%, #3F3F3F 40%, #1C1C1C 150%), linear-gradient(to top, rgba(255, 255, 255, 0.4) 0%, rgba(0, 0, 0, 0.25) 200%);
+  background-blend-mode: multiply;
+}
+.container-main .container-grupo-empresarial:hover img {
+  filter: invert(100%) sepia(100%) saturate(0%) hue-rotate(288deg) brightness(102%) contrast(102%);
 }
 .container-main .container-grupo-administrativo {
   border-radius: 150px;
@@ -235,13 +239,17 @@ body {
   font-size: 19px;
 }
 .container-main .container-grupo-administrativo:hover {
+  color: #fff;
   transform: scale(1.09);
   transition: all 1s;
-  box-shadow: 3px 4px 24px -2px rgba(255, 255, 255, 0.75);
-  -webkit-box-shadow: 3px 4px 24px -2px rgba(255, 255, 255, 0.75);
-  -moz-box-shadow: 3px 4px 24px -2px rgba(255, 255, 255, 0.75);
-  background: linear-gradient(-180deg, #BCC5CE 0%, #929EAD 98%), radial-gradient(at top left, rgba(255, 255, 255, 0.3) 0%, rgba(0, 0, 0, 0.3) 100%);
-  background-blend-mode: screen;
+  box-shadow: 3px 4px 24px -2px rgba(255, 255, 255, 0.25);
+  -webkit-box-shadow: 3px 4px 24px -2px rgba(255, 255, 255, 0.25);
+  -moz-box-shadow: 3px 4px 24px -2px rgba(255, 255, 255, 0.25);
+  background: linear-gradient(to bottom, #323232 0%, #3F3F3F 40%, #1C1C1C 150%), linear-gradient(to top, rgba(255, 255, 255, 0.4) 0%, rgba(0, 0, 0, 0.25) 200%);
+  background-blend-mode: multiply;
+}
+.container-main .container-grupo-administrativo:hover img {
+  filter: invert(100%) sepia(100%) saturate(0%) hue-rotate(288deg) brightness(102%) contrast(102%);
 }
 .container-main .container-gananciasybienes {
   border-radius: 150px;
@@ -274,13 +282,17 @@ body {
   width: 200px;
 }
 .container-main .container-gananciasybienes:hover {
+  color: #fff;
   transform: scale(1.09);
   transition: all 1s;
-  box-shadow: 3px 4px 24px -2px rgba(255, 255, 255, 0.75);
-  -webkit-box-shadow: 3px 4px 24px -2px rgba(255, 255, 255, 0.75);
-  -moz-box-shadow: 3px 4px 24px -2px rgba(255, 255, 255, 0.75);
-  background: linear-gradient(-180deg, #BCC5CE 0%, #929EAD 98%), radial-gradient(at top left, rgba(255, 255, 255, 0.3) 0%, rgba(0, 0, 0, 0.3) 100%);
-  background-blend-mode: screen;
+  box-shadow: 3px 4px 24px -2px rgba(255, 255, 255, 0.25);
+  -webkit-box-shadow: 3px 4px 24px -2px rgba(255, 255, 255, 0.25);
+  -moz-box-shadow: 3px 4px 24px -2px rgba(255, 255, 255, 0.25);
+  background: linear-gradient(to bottom, #323232 0%, #3F3F3F 40%, #1C1C1C 150%), linear-gradient(to top, rgba(255, 255, 255, 0.4) 0%, rgba(0, 0, 0, 0.25) 200%);
+  background-blend-mode: multiply;
+}
+.container-main .container-gananciasybienes:hover img {
+  filter: invert(100%) sepia(100%) saturate(0%) hue-rotate(288deg) brightness(102%) contrast(102%);
 }
 .container-main .container-monotributo {
   border-radius: 150px;
@@ -313,13 +325,17 @@ body {
   width: 80px;
 }
 .container-main .container-monotributo:hover {
+  color: #fff;
   transform: scale(1.09);
   transition: all 1s;
-  box-shadow: 3px 4px 24px -2px rgba(255, 255, 255, 0.75);
-  -webkit-box-shadow: 3px 4px 24px -2px rgba(255, 255, 255, 0.75);
-  -moz-box-shadow: 3px 4px 24px -2px rgba(255, 255, 255, 0.75);
-  background: linear-gradient(-180deg, #BCC5CE 0%, #929EAD 98%), radial-gradient(at top left, rgba(255, 255, 255, 0.3) 0%, rgba(0, 0, 0, 0.3) 100%);
-  background-blend-mode: screen;
+  box-shadow: 3px 4px 24px -2px rgba(255, 255, 255, 0.25);
+  -webkit-box-shadow: 3px 4px 24px -2px rgba(255, 255, 255, 0.25);
+  -moz-box-shadow: 3px 4px 24px -2px rgba(255, 255, 255, 0.25);
+  background: linear-gradient(to bottom, #323232 0%, #3F3F3F 40%, #1C1C1C 150%), linear-gradient(to top, rgba(255, 255, 255, 0.4) 0%, rgba(0, 0, 0, 0.25) 200%);
+  background-blend-mode: multiply;
+}
+.container-main .container-monotributo:hover img {
+  filter: invert(100%) sepia(100%) saturate(0%) hue-rotate(288deg) brightness(102%) contrast(102%);
 }
 
 .container-formacion {
@@ -335,9 +351,14 @@ body {
   align-items: center;
 }
 .container-formacion h3 {
-  font-size: 25px;
-  width: 1000px;
+  font-size: 20px;
+  width: 850px;
   padding-bottom: 80px;
+  text-shadow: 12px 2px 16px rgba(222, 215, 216, 0.3);
+  background: rgb(255, 255, 255);
+  background: linear-gradient(262deg, rgb(219, 217, 217) 30%, rgb(255, 255, 255) 70%);
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
 }
 
 .seccion-encontrarnos {
@@ -424,7 +445,7 @@ body {
 
 .container-imagen-asesor img {
   width: 100%;
-  height: 600px;
+  height: 45vw;
 }
 
 .container-asesor {
@@ -437,12 +458,12 @@ body {
   align-items: center;
 }
 .container-asesor h1 {
-  font-size: 30px;
+  font-size: 2.5vw;
 }
 .container-asesor div {
   background-color: #ffffff;
   width: 50%;
-  height: 1px;
+  height: 0.1vw;
   margin-top: 20px;
 }
 
@@ -452,16 +473,16 @@ body {
   width: 100%;
 }
 .section-asesoramiento-administrativo .container-asesoramiento-administrativo {
-  width: 700px;
-  height: 700px;
+  width: 40vw;
+  height: 80vw;
   display: flex;
   flex-direction: column;
   align-items: center;
   margin-top: 80px;
 }
 .section-asesoramiento-administrativo .container-asesoramiento-administrativo img {
-  width: 350px;
-  height: 350px;
+  width: 25vw;
+  height: 25vw;
   -webkit-border-radius: 1000px;
   -moz-border-radius: 1000px;
   border-radius: 1000px;
@@ -473,22 +494,22 @@ body {
 .section-asesoramiento-administrativo .container-asesoramiento-administrativo p {
   display: flex;
   text-align: center;
-  width: 550px;
-  font-size: 16px;
+  width: 40vw;
+  font-size: 1.2vw;
   color: #ffffff;
   margin-top: 30px;
 }
 .section-asesoramiento-administrativo .container-organizacion-administrativa {
-  width: 700px;
-  height: 700px;
+  width: 40vw;
+  height: 80vw;
   display: flex;
   flex-direction: column;
   align-items: center;
   margin-top: 80px;
 }
 .section-asesoramiento-administrativo .container-organizacion-administrativa img {
-  width: 350px;
-  height: 350px;
+  width: 25vw;
+  height: 25vw;
   -webkit-border-radius: 1000px;
   -moz-border-radius: 1000px;
   border-radius: 1000px;
@@ -500,8 +521,8 @@ body {
 .section-asesoramiento-administrativo .container-organizacion-administrativa p {
   display: flex;
   text-align: center;
-  width: 350px;
-  font-size: 16px;
+  width: 33vw;
+  font-size: 1.3vw;
   color: #ffffff;
   margin-top: 30px;
 }
@@ -529,100 +550,70 @@ body {
 
 .container-empresa {
   display: flex;
-  margin-top: 170px;
+  margin-top: 17vw;
   width: 100%;
   justify-content: space-around;
   align-items: center;
   height: 200px;
 }
 .container-empresa img {
-  width: 400px;
-  height: 400px;
+  width: 33vw;
+  height: 33vw;
   display: flex;
   justify-content: center;
   -webkit-border-radius: 900px;
   -moz-border-radius: 900px;
-  border-radius: 900px;
+  border-radius: 100%;
   position: relative;
-  bottom: 20px;
+  bottom: 1vw;
 }
 .container-empresa p {
   color: #ffffff;
   font-family: "Poppins", sans-serif;
-  width: 700px;
-  height: 380px;
+  width: 59vw;
+  height: 33vw;
   display: flex;
   flex-direction: column;
-  font-size: 13px;
-  margin-top: 15px;
+  font-size: 1.1vw;
+  margin-top: 3vw;
+  padding-left: 3vw;
 }
 
 .container-detalle {
   color: #ffffff;
   font-family: "Poppins", sans-serif;
-  width: 700px;
-  font-size: 15px;
-  margin-left: 560px;
+  width: 56vw;
+  margin-left: 39vw;
   position: relative;
-  bottom: 180px;
+  bottom: 15vw;
 }
 .container-detalle li {
   color: #ffffff;
-  font-size: 13px;
 }
 .container-detalle li h2 {
-  font-size: 16px;
+  font-size: 1.4vw;
 }
-
-.container-contacto {
-  width: 100%;
-  height: 100%;
-  overflow: hidden;
-  display: inline-block;
-  text-align: center;
-  align-items: center;
-}
-.container-contacto img {
-  height: 480px;
-  width: 100%;
-}
-.container-contacto h1 {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  position: absolute;
-  top: 50%;
-  left: 44%;
-  font-family: "Poppins", sans-serif;
-  font-size: 40px;
-  color: rgb(255, 255, 255);
-  text-shadow: 12px 2px 16px rgba(222, 215, 216, 0.52);
-  background: rgb(255, 255, 255);
-  background: linear-gradient(262deg, rgb(255, 255, 255) 50%, rgb(105, 107, 106) 96%);
-  -webkit-text-fill-color: transparent;
-  -webkit-background-clip: text;
+.container-detalle li p {
+  font-size: 1.1vw;
 }
 
 .seccion-formulario {
-  background-image: url("../../archivos/imagenes/contactanos.jpg");
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-attachment: fixed;
-  background-position: center center;
   display: flex;
   justify-content: space-around;
   height: 1000px;
   width: 100%;
   align-items: center;
+  padding-right: 13vw;
 }
 .seccion-formulario .seccion-contactanos {
   margin-top: 80px;
   margin-bottom: 100px;
-  width: 500px;
-  height: 580px;
+  width: 100%;
+  height: 66vw;
   display: flex;
   justify-content: center;
   flex-direction: column;
+  align-items: center;
 }
 .seccion-formulario .seccion-contactanos ul {
   margin-left: 20px;
@@ -630,69 +621,68 @@ body {
 }
 .seccion-formulario .seccion-contactanos ul .container-consulta {
   font-family: "Poppins", sans-serif;
-  font-size: 1px;
   padding-bottom: 30px;
   color: #fff;
 }
 .seccion-formulario .seccion-contactanos ul .container-consulta h2 {
-  font-size: 16px;
+  font-size: 2.5vh;
 }
 .seccion-formulario .seccion-contactanos ul .container-contactar {
   margin-bottom: 120px;
-  margin-left: 35px;
+  margin-left: 3vw;
 }
 .seccion-formulario .seccion-contactanos ul .container-contactar h2 {
-  font-size: 50px;
+  font-size: 7vh;
   color: #fff;
 }
-.seccion-formulario .seccion-contactanos ul .container-telefono {
+.seccion-formulario .seccion-contactanos ul li .container-telefono {
   display: flex;
   justify-content: space-between;
-  width: 180px;
+  width: 16vw;
   position: relative;
   bottom: 80px;
-  margin-left: 90px;
+  margin-left: 5.5vw;
 }
-.seccion-formulario .seccion-contactanos ul .container-telefono h2 {
-  font-size: 16px;
+.seccion-formulario .seccion-contactanos ul li .container-telefono h2 {
+  font-size: 1.2vw;
   color: #fff;
-  width: 153px;
+  width: 14vw;
 }
 .seccion-formulario .seccion-contactanos ul .container-telefono-dos {
   display: flex;
   justify-content: space-between;
-  width: 180px;
+  width: 16vw;
   position: relative;
   bottom: 80px;
-  margin-left: 90px;
+  margin-left: 5.5vw;
   margin-top: 10px;
 }
 .seccion-formulario .seccion-contactanos ul .container-telefono-dos h2 {
-  font-size: 16px;
+  font-size: 1.2vw;
   color: #fff;
-  width: 153px;
+  width: 14vw;
 }
 .seccion-formulario .seccion-contactanos ul .container-email-dos {
   display: flex;
   justify-content: space-between;
-  width: 240px;
-  margin-left: 70px;
+  width: 40vh;
+  margin-left: 3.4vw;
   position: relative;
   bottom: 50px;
 }
 .seccion-formulario .seccion-contactanos ul .container-email-dos h2 {
-  font-size: 15px;
+  font-size: 2.4vh;
   color: #fff;
 }
 .seccion-formulario .seccion-contactanos ul .container-redes-dos {
   display: flex;
   justify-content: space-between;
-  width: 130px;
+  width: 16vh;
   margin-left: 120px;
 }
 .seccion-formulario .seccion-contactanos ul .container-google {
   margin-top: 40px;
-  margin-left: 135px;
+  margin-left: 19.5vh;
 }
 .seccion-formulario .seccion-contactanos ul .container-google .google {
   -webkit-border-radius: 800px;
@@ -700,10 +690,16 @@ body {
   border-radius: 800px;
 }
 .seccion-formulario .container-formulario {
-  width: 550px;
-  height: 600px;
+  width: 100vh;
+  height: 107vh;
   margin-top: 130px;
   color: #fff;
+}
+.seccion-formulario .container-formulario div .nombre {
+  width: 40vh;
+}
+.seccion-formulario .container-formulario div .apellido {
+  width: 40vh;
 }
 
 .container-titulo-servicios-contables {
@@ -719,7 +715,7 @@ body {
   left: 5%;
   top: 55%;
   font-family: "Poppins", sans-serif;
-  font-size: 80px;
+  font-size: 7vw;
   color: rgb(255, 255, 255);
   text-shadow: 12px 2px 16px rgba(222, 215, 216, 0.3);
   background: rgb(255, 255, 255);
@@ -736,7 +732,7 @@ body {
   top: 70%;
   left: 15%;
   font-family: "Poppins", sans-serif;
-  font-size: 80px;
+  font-size: 7vw;
   color: rgb(255, 255, 255);
   text-shadow: 12px 2px 16px rgba(222, 215, 216, 0.3);
   background: rgb(255, 255, 255);
@@ -746,8 +742,8 @@ body {
   margin-top: 50px;
 }
 .container-titulo-servicios-contables .imagen-servicios-contables {
-  width: 400px;
-  height: 400px;
+  width: 34vw;
+  height: 34vw;
   border-radius: 100%;
   position: relative;
   left: 65%;
@@ -763,8 +759,8 @@ body {
   background-image: linear-gradient(to top, #09203f 0%, #537895 100%);
   overflow: hidden;
   font-family: "Poppins", sans-serif;
-  width: 1200px;
-  height: 300px;
+  width: 85vw;
+  height: 22vw;
   -webkit-border-radius: 20px;
   -moz-border-radius: 20px;
   border-radius: 20px;
@@ -772,8 +768,8 @@ body {
   margin-top: 90px;
 }
 .container-contabilidad-integral img {
-  width: 550px;
-  height: 100%;
+  width: 33vw;
+  height: 25vw;
   -webkit-border-top-right-radius: 10px;
   -webkit-border-bottom-right-radius: 10px;
   -moz-border-radius-topright: 10px;
@@ -782,14 +778,15 @@ body {
   border-bottom-right-radius: 10px;
 }
 .container-contabilidad-integral h2 {
+  font-size: 2.2vw;
   margin-left: 28px;
-  margin-top: 10px;
+  margin-top: 1.5vw;
   color: #fff;
 }
 .container-contabilidad-integral h2 p {
-  font-size: 17px;
+  font-size: 1.2vw;
   margin-top: 30px;
-  padding-right: 60px;
+  padding-right: 2vw;
 }
 
 .container-contabilidad-integral:hover, .container-organizacion-empresarial:hover {
@@ -803,8 +800,8 @@ body {
   background-image: linear-gradient(to top, #09203f 0%, #537895 100%);
   overflow: hidden;
   font-family: "Poppins", sans-serif;
-  width: 1200px;
-  height: 300px;
+  width: 85vw;
+  height: 22vw;
   -webkit-border-radius: 20px;
   -moz-border-radius: 20px;
   border-radius: 20px;
@@ -813,8 +810,8 @@ body {
   margin-bottom: 200px;
 }
 .container-organizacion-empresarial img {
-  width: 450px;
-  height: 100%;
+  width: 33vw;
+  height: 25vw;
   -webkit-border-top-right-radius: 10px;
   -webkit-border-bottom-right-radius: 10px;
   -moz-border-radius-topright: 10px;
@@ -823,14 +820,15 @@ body {
   border-bottom-right-radius: 10px;
 }
 .container-organizacion-empresarial h2 {
-  margin-top: 10px;
+  font-size: 2.2vw;
+  margin-top: 1.5vw;
   color: #fff;
 }
 .container-organizacion-empresarial h2 p {
-  font-size: 20px;
+  font-size: 1.5vw;
   margin-top: 30px;
-  width: 715px;
-  padding-right: 80px;
+  width: 48vw;
+  padding-right: 6vw;
 }
 
 .container-titulo-servicios-impositivos {
@@ -872,8 +870,8 @@ body {
   margin-top: 50px;
 }
 .container-titulo-servicios-impositivos .imagen-asesor-impositivo {
-  width: 400px;
-  height: 400px;
+  width: 34vw;
+  height: 34vw;
   border-radius: 100%;
   position: relative;
   left: 65%;
@@ -890,8 +888,8 @@ body {
   padding-top: 500px;
 }
 .section-servicios-impositivos .container-asesoramiento {
-  width: 500px;
-  height: 500px;
+  width: 35vw;
+  height: 37vw;
   font-family: "Poppins", sans-serif;
   text-align: center;
   border-radius: 10px;
@@ -907,21 +905,21 @@ body {
 .section-servicios-impositivos .container-asesoramiento h2 {
   display: flex;
   justify-content: flex-start;
-  font-size: 25px;
+  font-size: 4vh;
   margin-top: 20px;
   color: rgb(255, 255, 255);
 }
 .section-servicios-impositivos .container-asesoramiento p {
   display: flex;
   justify-content: center;
-  font-size: 20px;
+  font-size: 3vh;
   margin-top: 30px;
   width: 430px;
   padding-left: 25px;
 }
 .section-servicios-impositivos .container-regularizacion {
-  width: 500px;
-  height: 500px;
+  width: 35vw;
+  height: 37vw;
   font-family: "Poppins", sans-serif;
   background-image: linear-gradient(to right, rgba(167, 167, 167, 0.5411764706) 0%, rgba(0, 0, 0, 0.6901960784) 100%);
   object-fit: cover;
@@ -973,8 +971,8 @@ body {
   margin-bottom: 200px;
 }
 .section-servicios-impositivos-dos .container-inspecciones {
-  width: 500px;
-  height: 500px;
+  width: 35vw;
+  height: 37vw;
   font-family: "Poppins", sans-serif;
   background-image: linear-gradient(to right, rgba(167, 167, 167, 0.5411764706) 0%, rgba(0, 0, 0, 0.6901960784) 100%);
   object-fit: cover;
@@ -1008,8 +1006,8 @@ body {
   margin-left: 10px;
 }
 .section-servicios-impositivos-dos .container-emprendedores {
-  width: 500px;
-  height: 500px;
+  width: 35vw;
+  height: 37vw;
   font-family: "Poppins", sans-serif;
   background-image: linear-gradient(to right, rgba(167, 167, 167, 0.5411764706) 0%, rgba(0, 0, 0, 0.6901960784) 100%);
   object-fit: cover;
@@ -1035,9 +1033,9 @@ body {
 .section-servicios-impositivos-dos .container-emprendedores p {
   display: flex;
   justify-content: center;
-  font-size: 19px;
+  font-size: 18px;
   margin-top: 20px;
-  width: 455px;
+  width: 430px;
   padding-top: 15px;
 }
 .section-servicios-impositivos-dos .container-emprendedores:hover, .section-servicios-impositivos-dos .container-inspecciones:hover {
@@ -1098,7 +1096,8 @@ body {
   margin-top: 75px;
   font-family: "Poppins", sans-serif;
   width: 360px;
-  font-size: 15.5px;
+  font-size: 1.2vw;
+  position: relative;
 }
 
 .container-nav-footer-dos {
@@ -1186,7 +1185,7 @@ body {
   align-items: center;
 }
 .container-gananciasybienes img {
-  height: 480px;
+  height: 50vw;
   width: 100%;
 }
 .container-gananciasybienes h1 {
@@ -1197,7 +1196,7 @@ body {
   top: 30%;
   left: 20%;
   font-family: "Poppins", sans-serif;
-  font-size: 40px;
+  font-size: 3vw;
   color: rgb(255, 255, 255);
   text-shadow: 12px 2px 16px rgba(222, 215, 216, 0.52);
   background: rgb(255, 255, 255);
@@ -1216,7 +1215,7 @@ body {
   align-items: center;
 }
 .container-titulo-ganancia h2 {
-  font-size: 35px;
+  font-size: 3vw;
   border-bottom: 4px solid #ffffff;
   padding-bottom: 30px;
 }
@@ -1231,7 +1230,7 @@ body {
   align-items: center;
 }
 .container-titulo-ganancia-dos h3 {
-  font-size: 16px;
+  font-size: 1.2vw;
   text-align: center;
 }
 
@@ -1245,7 +1244,7 @@ body {
   align-items: center;
 }
 .container-titulo-ganancia-tres h2 {
-  font-size: 28px;
+  font-size: 2.8vw;
 }
 
 .container-titulo-ganancia-cuatro {
@@ -1258,7 +1257,7 @@ body {
   align-items: center;
 }
 .container-titulo-ganancia-cuatro h4 {
-  font-size: 13px;
+  font-size: 1.1vw;
 }
 
 .seccion-gananciasybienes {
@@ -1270,8 +1269,8 @@ body {
   margin-bottom: 200px;
 }
 .seccion-gananciasybienes .container-paso-uno {
-  width: 900px;
-  height: 200px;
+  width: 74vw;
+  height: 15vw;
   border: 2px solid #f7f7f7;
   color: #f7f7f7;
   background-image: linear-gradient(to top, #09203f 0%, #537895 100%);
@@ -1281,20 +1280,22 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  margin-top: 15px;
+  margin-top: 1.5vw;
+  font-size: 2vw;
+  padding-left: 5vw;
 }
 .seccion-gananciasybienes .container-paso-uno div {
   display: flex;
   justify-content: space-around;
   width: 100%;
-  height: 140px;
+  height: 10vw;
 }
 .seccion-gananciasybienes .container-paso-uno div h5 {
-  font-size: 90px;
+  font-size: 7vw;
   font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
-  width: 150px;
-  height: 200px;
-  padding-left: 25px;
+  width: 20vw;
+  height: 10vw;
+  padding-left: 2vw;
   position: relative;
   bottom: 16px;
   color: #f7f7f7;
@@ -1304,16 +1305,17 @@ body {
   justify-content: center;
   text-align: center;
   font-family: "Poppins", sans-serif;
-  width: 720px;
-  padding-right: 98px;
-  margin-top: 16px;
+  width: 90vw;
+  padding-right: 4vw;
+  margin-top: 1vw;
+  font-size: 1.2vw;
 }
 .seccion-gananciasybienes .container-paso-dos {
-  width: 900px;
-  height: 200px;
+  width: 74vw;
+  height: 15vw;
   border: 2px solid #f7f7f7;
   color: #f7f7f7;
-  margin-top: 60px;
+  margin-top: 4vw;
   background-image: linear-gradient(to top, #09203f 0%, #537895 100%);
 }
 .seccion-gananciasybienes .container-paso-dos h4 {
@@ -1321,20 +1323,22 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  margin-top: 15px;
+  margin-top: 1.5vw;
+  font-size: 2vw;
+  padding-left: 5vw;
 }
 .seccion-gananciasybienes .container-paso-dos div {
   display: flex;
   justify-content: space-around;
   width: 100%;
-  height: 140px;
+  height: 10vw;
 }
 .seccion-gananciasybienes .container-paso-dos div h5 {
-  font-size: 90px;
+  font-size: 6.5vw;
   font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
-  width: 150px;
-  height: 200px;
-  padding-left: 25px;
+  width: 10vw;
+  height: 10vw;
+  padding-left: 2vw;
   position: relative;
   bottom: 16px;
 }
@@ -1343,37 +1347,40 @@ body {
   justify-content: center;
   text-align: center;
   font-family: "Poppins", sans-serif;
-  width: 720px;
-  padding-right: 85px;
-  margin-top: 16px;
+  width: 60vw;
+  padding-right: 4.6vw;
+  margin-top: 1vw;
+  font-size: 1.2vw;
 }
 .seccion-gananciasybienes .container-paso-tres {
-  width: 900px;
-  height: 200px;
+  width: 74vw;
+  height: 15vw;
   border: 2px solid #f7f7f7;
   color: #f7f7f7;
+  margin-top: 4vw;
   background-image: linear-gradient(to top, #09203f 0%, #537895 100%);
-  margin-top: 60px;
 }
 .seccion-gananciasybienes .container-paso-tres h4 {
   width: 100%;
   display: flex;
   justify-content: center;
   align-items: center;
-  margin-top: 15px;
+  margin-top: 1.5vw;
+  font-size: 2vw;
+  padding-left: 3vw;
 }
 .seccion-gananciasybienes .container-paso-tres div {
   display: flex;
   justify-content: space-around;
   width: 100%;
-  height: 140px;
+  height: 10vw;
 }
 .seccion-gananciasybienes .container-paso-tres div h5 {
-  font-size: 90px;
+  font-size: 6.5vw;
   font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
-  width: 150px;
-  height: 200px;
-  padding-left: 25px;
+  width: 3vw;
+  height: 10vw;
+  padding-left: 2vw;
   position: relative;
   bottom: 16px;
 }
@@ -1382,37 +1389,40 @@ body {
   justify-content: center;
   text-align: center;
   font-family: "Poppins", sans-serif;
-  width: 700px;
-  padding-right: 120px;
-  margin-top: 16px;
+  width: 60vw;
+  padding-right: 3.6vw;
+  margin-top: 1.5vw;
+  font-size: 1.2vw;
 }
 .seccion-gananciasybienes .container-paso-cuatro {
-  width: 900px;
-  height: 200px;
+  width: 74vw;
+  height: 15vw;
   border: 2px solid #f7f7f7;
   color: #f7f7f7;
+  margin-top: 4vw;
   background-image: linear-gradient(to top, #09203f 0%, #537895 100%);
-  margin-top: 60px;
 }
 .seccion-gananciasybienes .container-paso-cuatro h4 {
   width: 100%;
   display: flex;
   justify-content: center;
   align-items: center;
-  margin-top: 15px;
+  margin-top: 1.5vw;
+  font-size: 2vw;
+  padding-left: 4vw;
 }
 .seccion-gananciasybienes .container-paso-cuatro div {
   display: flex;
   justify-content: space-around;
   width: 100%;
-  height: 140px;
+  height: 10vw;
 }
 .seccion-gananciasybienes .container-paso-cuatro div h5 {
-  font-size: 90px;
+  font-size: 6.5vw;
   font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
-  width: 150px;
-  height: 200px;
-  padding-left: 25px;
+  width: 7vw;
+  height: 10vw;
+  padding-left: 2vw;
   position: relative;
   bottom: 16px;
 }
@@ -1421,38 +1431,40 @@ body {
   justify-content: center;
   text-align: center;
   font-family: "Poppins", sans-serif;
-  width: 800px;
-  padding-right: 120px;
-  margin-top: 20px;
-  padding-top: 20px;
+  width: 60vw;
+  padding-right: 3.6vw;
+  margin-top: 1.9vw;
+  font-size: 1.2vw;
 }
 .seccion-gananciasybienes .container-paso-cinco {
-  width: 900px;
-  height: 200px;
+  width: 74vw;
+  height: 15vw;
   border: 2px solid #f7f7f7;
   color: #f7f7f7;
+  margin-top: 4vw;
   background-image: linear-gradient(to top, #09203f 0%, #537895 100%);
-  margin-top: 60px;
 }
 .seccion-gananciasybienes .container-paso-cinco h4 {
   width: 100%;
   display: flex;
   justify-content: center;
   align-items: center;
-  margin-top: 15px;
+  margin-top: 1.5vw;
+  font-size: 2vw;
+  padding-left: 5vw;
 }
 .seccion-gananciasybienes .container-paso-cinco div {
   display: flex;
   justify-content: space-around;
   width: 100%;
-  height: 140px;
+  height: 10vw;
 }
 .seccion-gananciasybienes .container-paso-cinco div h5 {
-  font-size: 90px;
+  font-size: 6.5vw;
   font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
-  width: 150px;
-  height: 200px;
-  padding-left: 25px;
+  width: 7vw;
+  height: 10vw;
+  padding-left: 2vw;
   position: relative;
   bottom: 16px;
 }
@@ -1461,38 +1473,40 @@ body {
   justify-content: center;
   text-align: center;
   font-family: "Poppins", sans-serif;
-  width: 800px;
-  padding-right: 120px;
-  margin-top: 20px;
-  padding-top: 20px;
+  width: 60vw;
+  padding-right: 3.6vw;
+  margin-top: 1.9vw;
+  font-size: 1.2vw;
 }
 .seccion-gananciasybienes .container-paso-seis {
-  width: 900px;
-  height: 200px;
+  width: 74vw;
+  height: 15vw;
   border: 2px solid #f7f7f7;
   color: #f7f7f7;
+  margin-top: 4vw;
   background-image: linear-gradient(to top, #09203f 0%, #537895 100%);
-  margin-top: 60px;
 }
 .seccion-gananciasybienes .container-paso-seis h4 {
   width: 100%;
   display: flex;
   justify-content: center;
   align-items: center;
-  margin-top: 15px;
+  margin-top: 1.5vw;
+  font-size: 2vw;
+  padding-left: 5vw;
 }
 .seccion-gananciasybienes .container-paso-seis div {
   display: flex;
   justify-content: space-around;
   width: 100%;
-  height: 140px;
+  height: 10vw;
 }
 .seccion-gananciasybienes .container-paso-seis div h5 {
-  font-size: 90px;
+  font-size: 6.5vw;
   font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
-  width: 150px;
-  height: 200px;
-  padding-left: 25px;
+  width: 7vw;
+  height: 10vw;
+  padding-left: 2vw;
   position: relative;
   bottom: 16px;
 }
@@ -1501,9 +1515,10 @@ body {
   justify-content: center;
   text-align: center;
   font-family: "Poppins", sans-serif;
-  width: 800px;
-  padding-right: 120px;
-  margin-top: 20px;
+  width: 60vw;
+  padding-right: 3.6vw;
+  margin-top: 1vw;
+  font-size: 1.2vw;
 }
 .seccion-gananciasybienes .container-paso-uno:hover, .seccion-gananciasybienes .container-paso-dos:hover, .seccion-gananciasybienes .container-paso-tres:hover, .seccion-gananciasybienes .container-paso-cuatro:hover, .seccion-gananciasybienes .container-paso-cinco:hover, .seccion-gananciasybienes .container-paso-seis:hover {
   transform: scale(1.06);
@@ -1522,7 +1537,7 @@ body {
   align-items: center;
 }
 .container-monotributo-imagen img {
-  height: 520px;
+  height: 40vw;
   width: 100%;
   object-fit: cover;
 }
@@ -1534,7 +1549,7 @@ body {
   top: 30%;
   left: 5%;
   font-family: "Poppins", sans-serif;
-  font-size: 45px;
+  font-size: 3.5vw;
   color: rgb(255, 255, 255);
   text-shadow: 12px 2px 16px rgba(222, 215, 216, 0.52);
   background: linear-gradient(to bottom right, #050505, #3f3f3f);
@@ -1547,13 +1562,13 @@ body {
   font-family: "Poppins", sans-serif;
   display: flex;
   justify-content: center;
-  margin-top: 70px;
+  margin-top: 7vw;
   flex-direction: column;
   align-items: center;
 }
 .container-titulo-monotributo h2 {
-  font-size: 35px;
-  padding-bottom: 25px;
+  font-size: 2.8vw;
+  padding-bottom: 2vw;
 }
 
 .container-titulo-monotributo-dos {
@@ -1561,167 +1576,1794 @@ body {
   font-family: "Poppins", sans-serif;
   display: flex;
   justify-content: center;
-  margin-top: 40px;
+  margin-top: 4vw;
   flex-direction: column;
   align-items: center;
 }
 .container-titulo-monotributo-dos h3 {
-  font-size: 16px;
+  font-size: 1.3vw;
   text-align: center;
   border-bottom: 2px solid #ffffff;
-  padding-bottom: 10px;
+  padding-bottom: 2vw;
 }
 
 .seccion-monotributo-uno {
   display: flex;
   justify-content: space-between;
   width: 100%;
-  height: 300px;
-  margin-top: 150px;
+  height: 30vw;
+  margin-top: 12vw;
 }
 .seccion-monotributo-uno .container-icon-uno {
   display: flex;
   align-items: center;
   flex-direction: column;
-  width: 600px;
+  width: 40vw;
 }
 .seccion-monotributo-uno .container-icon-uno img {
-  width: 60px;
-  height: 60px;
+  width: 5vw;
+  height: 5vw;
 }
 .seccion-monotributo-uno .container-icon-uno h3 {
   color: #ffffff;
-  font-size: 17px;
-  margin-top: 22px;
+  font-size: 1.2vw;
+  margin-top: 1.5vw;
 }
 .seccion-monotributo-uno .container-icon-uno p {
   color: #ffffff;
-  font-size: 11px;
+  font-size: 0.8vw;
   text-align: center;
-  margin-top: 6px;
-  width: 350px;
+  margin-top: 0.5vw;
+  width: 25vw;
 }
 .seccion-monotributo-uno .container-icon-dos {
   display: flex;
   align-items: center;
   flex-direction: column;
-  width: 600px;
+  width: 40vw;
 }
 .seccion-monotributo-uno .container-icon-dos img {
-  width: 60px;
-  height: 60px;
+  width: 5vw;
+  height: 5vw;
 }
 .seccion-monotributo-uno .container-icon-dos h3 {
   color: #ffffff;
-  font-size: 17px;
-  margin-top: 22px;
+  font-size: 1.2vw;
+  margin-top: 1.5vw;
 }
 .seccion-monotributo-uno .container-icon-dos p {
   color: #ffffff;
-  font-size: 11px;
+  font-size: 0.8vw;
   text-align: center;
-  margin-top: 6px;
-  width: 350px;
+  margin-top: 0.5vw;
+  width: 25vw;
 }
 .seccion-monotributo-uno .container-icon-tres {
   display: flex;
   align-items: center;
   flex-direction: column;
-  width: 600px;
-  height: 400px;
+  width: 40vw;
   position: relative;
-  bottom: 8px;
+  bottom: 2vw;
 }
 .seccion-monotributo-uno .container-icon-tres img {
-  width: 90px;
-  height: 90px;
+  width: 8vw;
+  height: 8vw;
 }
 .seccion-monotributo-uno .container-icon-tres h3 {
   color: #ffffff;
-  font-size: 17px;
+  font-size: 1.2vw;
 }
 .seccion-monotributo-uno .container-icon-tres p {
   color: #ffffff;
-  font-size: 11px;
+  font-size: 0.8vw;
   text-align: center;
   margin-top: 6px;
-  width: 380px;
+  width: 25vw;
 }
 
 .seccion-monotributo-dos {
   display: flex;
   justify-content: space-between;
   width: 100%;
-  height: 300px;
+  height: 30vw;
 }
 .seccion-monotributo-dos .container-icon-cuatro {
   display: flex;
   align-items: center;
   flex-direction: column;
-  width: 600px;
-  position: relative;
-  bottom: 7px;
+  width: 40vw;
 }
 .seccion-monotributo-dos .container-icon-cuatro img {
-  width: 70px;
-  height: 70px;
+  width: 6vw;
+  height: 6vw;
 }
 .seccion-monotributo-dos .container-icon-cuatro h3 {
   color: #ffffff;
-  font-size: 17px;
-  margin-top: 22px;
+  font-size: 1.2vw;
+  margin-top: 1.5vw;
 }
 .seccion-monotributo-dos .container-icon-cuatro p {
   color: #ffffff;
-  font-size: 11px;
+  font-size: 0.8vw;
   text-align: center;
-  margin-top: 6px;
-  width: 350px;
+  margin-top: 0.5vw;
+  width: 26vw;
 }
 .seccion-monotributo-dos .container-icon-cinco {
   display: flex;
   align-items: center;
   flex-direction: column;
-  width: 600px;
+  width: 40vw;
 }
 .seccion-monotributo-dos .container-icon-cinco img {
-  width: 60px;
-  height: 60px;
+  width: 6w;
+  height: 6vw;
 }
 .seccion-monotributo-dos .container-icon-cinco h3 {
   color: #ffffff;
-  font-size: 17px;
-  margin-top: 22px;
+  font-size: 1.2vw;
+  margin-top: 1.5vw;
 }
 .seccion-monotributo-dos .container-icon-cinco p {
   color: #ffffff;
-  font-size: 11px;
+  font-size: 0.8vw;
   text-align: center;
-  margin-top: 6px;
-  width: 350px;
+  margin-top: 0.5vw;
+  width: 26vw;
 }
 
 .container-icon-seis {
   display: flex;
   align-items: center;
   flex-direction: column;
-  width: 600px;
+  width: 40vw;
+  padding-top: 0.7vw;
 }
 .container-icon-seis img {
-  width: 60px;
-  height: 60px;
+  width: 5vw;
+  height: 5vw;
 }
 .container-icon-seis h3 {
   color: #ffffff;
-  font-size: 17px;
-  margin-top: 22px;
+  font-size: 1.2vw;
+  margin-top: 1.5vw;
 }
 .container-icon-seis p {
   color: #ffffff;
-  font-size: 11px;
+  font-size: 0.8vw;
   text-align: center;
-  margin-top: 6px;
-  width: 350px;
+  margin-top: 0.5vw;
+  width: 25vw;
+}
+
+@media only screen and (max-width: 480px) and (min-width: 320px) {
+  .container-header {
+    height: 80vw;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+  }
+  .container-header .logo {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .container-header .logo .img-logo {
+    margin-left: 0px;
+    width: 20vw;
+  }
+  .container-header .container-inicio {
+    width: 90vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+
+  .video-index {
+    width: 100%;
+    height: 56vw;
+  }
+
+  .container-video {
+    width: 100%;
+    position: absolute;
+    top: 28%;
+  }
+  .container-video h1 {
+    font-size: 1.2vw;
+    width: 31vw;
+    height: 4vh;
+  }
+
+  .container-encabezado {
+    width: 100%;
+    margin-top: 5vw;
+  }
+  .container-encabezado h2 {
+    width: 29vw;
+    height: 6vh;
+    font-size: 1.9vw;
+    padding: 3.3vw;
+    padding-left: 23px;
+  }
+
+  .container-main {
+    margin-top: 20vw;
+    height: 167vw;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    padding-top: 34vw;
+  }
+  .container-main a {
+    width: 17vh;
+  }
+  .container-main a .container-grupo-empresarial {
+    width: 32vw;
+    height: 32vw;
+    margin-bottom: 3vh;
+  }
+  .container-main a .container-grupo-empresarial img {
+    width: 13vw;
+    height: 12vw;
+  }
+  .container-main a .container-grupo-empresarial h2 {
+    padding-right: 2.2vw;
+    margin-top: -0.5vw;
+    padding-top: 2vw;
+    font-size: 2.8vw;
+  }
+  .container-main a {
+    width: 17vh;
+  }
+  .container-main a .container-grupo-administrativo {
+    width: 32vw;
+    height: 32vw;
+    margin-bottom: 3vh;
+  }
+  .container-main a .container-grupo-administrativo img {
+    width: 16vw;
+    height: 13vw;
+    padding-right: 1vw;
+  }
+  .container-main a .container-grupo-administrativo h2 {
+    padding-right: 1.2vw;
+    font-size: 2.3vw;
+    padding-bottom: 1.4vw;
+  }
+  .container-main a {
+    width: 17vh;
+  }
+  .container-main a .container-gananciasybienes {
+    width: 32vw;
+    height: 32vw;
+    margin-bottom: 3vh;
+  }
+  .container-main a .container-gananciasybienes img {
+    padding-top: 2.6vw;
+    width: 14vw;
+    height: 15vw;
+  }
+  .container-main a .container-gananciasybienes h2 {
+    padding-left: 7vw;
+    padding-right: 6.8vw;
+    font-size: 2.6vw;
+    padding-bottom: 1.4vw;
+    width: 40vw;
+  }
+  .container-main a {
+    width: 17vh;
+  }
+  .container-main a .container-monotributo {
+    width: 32vw;
+    height: 32vw;
+    margin-bottom: 3vh;
+  }
+  .container-main a .container-monotributo img {
+    width: 13vw;
+    height: 15vw;
+    padding-top: 4vw;
+  }
+  .container-main a .container-monotributo h2 {
+    font-size: 2.5vw;
+    padding-bottom: 6vw;
+  }
+
+  .container-formacion {
+    width: 66%;
+    margin-left: 18vw;
+  }
+  .container-formacion h3 {
+    font-size: 2vw;
+  }
+
+  .seccion-encontrarnos {
+    width: 100%;
+    height: 160vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  .seccion-encontrarnos .card-uno {
+    margin-left: 5vw;
+    width: 38vw;
+    height: 52vw;
+    margin-bottom: 10vw;
+  }
+  .seccion-encontrarnos .card-uno .detalle {
+    width: 100%;
+  }
+  .seccion-encontrarnos .card-uno .detalle h4 {
+    font-size: 2.8vw;
+  }
+  .seccion-encontrarnos .card-uno .detalle p {
+    font-size: 1.8vw;
+  }
+  .seccion-encontrarnos .card-dos {
+    margin-left: 5vw;
+    width: 38vw;
+    height: 52vw;
+  }
+  .seccion-encontrarnos .card-dos .detalle {
+    width: 100%;
+  }
+  .seccion-encontrarnos .card-dos .detalle h4 {
+    font-size: 2.8vw;
+  }
+  .seccion-encontrarnos .card-dos .detalle p {
+    font-size: 1.8vw;
+  }
+
+  .container-nav-footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 120vw;
+  }
+  .container-nav-footer a img {
+    margin-top: 6vw;
+    width: 22vw;
+    height: 22vw;
+  }
+  .container-nav-footer .lista-uno {
+    width: 40vw;
+    margin-top: 5vw;
+    margin-left: 1vw;
+  }
+  .container-nav-footer .lista-uno a li {
+    height: 0vw;
+    font-size: 2.2vw;
+    width: 29vw;
+  }
+  .container-nav-footer .lista-dos {
+    width: 40vw;
+    margin-top: 5vw;
+    margin-left: 1vw;
+  }
+  .container-nav-footer .lista-dos a li {
+    font-size: 1.9vw;
+    width: 31vw;
+  }
+  .container-nav-footer div {
+    margin-top: 6.8vw;
+    width: 42vw;
+  }
+  .container-nav-footer div p {
+    font-size: 2vw;
+    margin-left: 0vw;
+    margin-top: 0.5vw;
+    width: 47vw;
+  }
+
+  .container-nav-footer-dos {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+  }
+  .container-nav-footer-dos h2 {
+    font-size: 3vw;
+  }
+  .container-nav-footer-dos ul {
+    width: 20vw;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  .container-nav-footer-dos ul a li svg {
+    width: 6vw;
+    height: 4vw;
+  }
+
+  .container-titulo-servicios-impositivos {
+    width: 100%;
+    height: 32vh;
+    padding-bottom: 14vw;
+  }
+  .container-titulo-servicios-impositivos h1, .container-titulo-servicios-impositivos h2 {
+    margin-top: 18vh;
+    font-size: 4vw;
+  }
+
+  .section-servicios-impositivos {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 292vw;
+  }
+  .section-servicios-impositivos .container-asesoramiento {
+    width: 52vw;
+    height: 61vw;
+    margin-bottom: 7vw;
+  }
+  .section-servicios-impositivos .container-asesoramiento h2 {
+    font-size: 2.5vw;
+    padding-right: 4vw;
+  }
+  .section-servicios-impositivos .container-asesoramiento p {
+    font-size: 2vw;
+    width: 40vw;
+    padding-left: 2vw;
+    padding-right: 0.8vw;
+    margin-top: 6vw;
+  }
+  .section-servicios-impositivos .container-regularizacion {
+    width: 52vw;
+    height: 61vw;
+    margin-bottom: 7vw;
+  }
+  .section-servicios-impositivos .container-regularizacion h2 {
+    font-size: 2.8vw;
+    padding-right: 1.8vh;
+  }
+  .section-servicios-impositivos .container-regularizacion p {
+    margin-top: 4vw;
+    font-size: 1.9vw;
+    width: 40vw;
+    padding-left: 2vw;
+  }
+
+  .section-servicios-impositivos-dos {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 133vh;
+    margin-top: 3vw;
+  }
+  .section-servicios-impositivos-dos .container-inspecciones {
+    width: 52vw;
+    height: 61vw;
+    margin-bottom: 7vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .section-servicios-impositivos-dos .container-inspecciones h2 {
+    font-size: 3vw;
+    padding-right: 6.8vh;
+    margin-top: 5vw;
+  }
+  .section-servicios-impositivos-dos .container-inspecciones p {
+    display: flex;
+    align-items: center;
+    font-size: 2.3vw;
+    width: 49vw;
+    margin-left: 0vw;
+    margin-top: 0px;
+    padding-right: 7vw;
+  }
+  .section-servicios-impositivos-dos .container-emprendedores {
+    width: 52vw;
+    height: 61vw;
+    margin-bottom: 7vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .section-servicios-impositivos-dos .container-emprendedores h2 {
+    font-size: 2.8vw;
+    padding-right: 4.8vh;
+    margin-top: 3vw;
+  }
+  .section-servicios-impositivos-dos .container-emprendedores p {
+    margin-top: 0vw;
+    font-size: 1.9vw;
+    width: 53vw;
+    padding-right: 7vw;
+  }
+
+  .container-titulo-servicios-contables {
+    width: 100%;
+    height: 50vh;
+    padding-bottom: 9vw;
+  }
+  .container-titulo-servicios-contables h1, .container-titulo-servicios-contables h2 {
+    margin-top: 16vh;
+    font-size: 4vh;
+  }
+
+  .container-contabilidad-integral {
+    display: flex;
+    flex-direction: column;
+    width: 90vw;
+    height: 126vw;
+    margin-left: 3vh;
+  }
+  .container-contabilidad-integral img {
+    width: 89vw;
+    height: 51vw;
+  }
+  .container-contabilidad-integral h2 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    font-size: 7vw;
+    margin-left: 2vw;
+    padding-bottom: 9vw;
+  }
+  .container-contabilidad-integral h2 p {
+    font-size: 3.2vw;
+    padding-right: 2vw;
+    text-align: center;
+    height: 37vw;
+    width: 86vw;
+  }
+
+  .container-organizacion-empresarial {
+    display: flex;
+    flex-direction: column;
+    width: 90vw;
+    height: 126vw;
+    margin-left: 3vh;
+  }
+  .container-organizacion-empresarial img {
+    width: 89vw;
+    height: 51vw;
+  }
+  .container-organizacion-empresarial h2 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    font-size: 6vw;
+    margin-left: 2vw;
+    padding-bottom: 9vw;
+  }
+  .container-organizacion-empresarial h2 p {
+    font-size: 3.8vw;
+    padding-right: 2vw;
+    text-align: center;
+    height: 37vw;
+    width: 86vw;
+  }
+
+  .seccion-formulario {
+    padding-left: 10vw;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 260vh;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20vw;
+  }
+  .seccion-formulario .seccion-contactanos {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-right: 2.8vw;
+  }
+  .seccion-formulario .seccion-contactanos ul {
+    border: 2px solid #fff;
+    padding: 6vw 10vw 8vw 12vw;
+    border-radius: 10vw;
+  }
+  .seccion-formulario .seccion-contactanos ul .container-consulta {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .seccion-formulario .seccion-contactanos ul .container-consulta h2 {
+    font-size: 2.7vw;
+    width: 62vw;
+  }
+  .seccion-formulario .seccion-contactanos ul .container-contactar {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 0px;
+  }
+  .seccion-formulario .seccion-contactanos ul li .container-telefono {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 0px;
+  }
+  .seccion-formulario .seccion-contactanos ul li .container-telefono svg {
+    width: 5vw;
+    height: 5vw;
+  }
+  .seccion-formulario .seccion-contactanos ul li .container-telefono h2 {
+    font-size: 2.8vw;
+    width: 28vw;
+    margin-left: 2vw;
+  }
+  .seccion-formulario .seccion-contactanos ul li .container-telefono-dos {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 0px;
+  }
+  .seccion-formulario .seccion-contactanos ul li .container-telefono-dos svg {
+    width: 5vw;
+    height: 5vw;
+  }
+  .seccion-formulario .seccion-contactanos ul li .container-telefono-dos h2 {
+    font-size: 2.8vw;
+    width: 28vw;
+    margin-left: 2vw;
+  }
+  .seccion-formulario .seccion-contactanos ul .container-email-dos {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 0px;
+  }
+  .seccion-formulario .seccion-contactanos ul .container-email-dos h2 {
+    margin-left: 1vw;
+  }
+  .seccion-formulario .seccion-contactanos ul .container-redes-dos {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 0px;
+    padding-right: 3vw;
+  }
+  .seccion-formulario .seccion-contactanos ul .container-redes-dos a {
+    margin-left: 3vw;
+  }
+  .seccion-formulario .seccion-contactanos ul .container-redes-dos a svg {
+    width: 5vw;
+    height: 5vw;
+  }
+  .seccion-formulario .seccion-contactanos ul .container-google {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 0px;
+  }
+  .seccion-formulario .container-formulario {
+    width: 56vw;
+    height: 140vw;
+    margin-left: 4vw;
+  }
+  .seccion-formulario .container-formulario div .nombre {
+    width: 56vw;
+  }
+  .seccion-formulario .container-formulario div .apellido {
+    width: 56vw;
+  }
+  .seccion-formulario .container-formulario div .email {
+    width: 56vw;
+  }
+
+  .container-asesorar img {
+    height: 46vw;
+  }
+
+  .grupo-asesorar h1 {
+    font-size: 3vw;
+  }
+
+  .seccion-empresa .container-empresa {
+    display: flex;
+    flex-direction: column;
+    height: 73vw;
+    margin-top: 11vw;
+    margin-bottom: 11.5vw;
+  }
+  .seccion-empresa .container-empresa p {
+    font-size: 1.5vw;
+    width: 67.4vw;
+    text-align: center;
+    margin-bottom: 10vw;
+  }
+
+  .container-detalle {
+    width: 100%;
+    position: relative;
+    bottom: 20vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-left: 0px;
+  }
+  .container-detalle li p {
+    font-size: 1.4vw;
+    width: 60vw;
+  }
+
+  .section-asesoramiento-administrativo {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 180vw;
+  }
+
+  .seccion-monotributo-uno {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 70vw;
+  }
+
+  .seccion-monotributo-dos {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 90vw;
+  }
+}
+@media only screen and (max-width: 768px) and (min-width: 481px) {
+  .container-header {
+    width: 100%;
+    height: 60vw;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+  }
+  .container-header .logo {
+    display: flex;
+    justify-content: center;
+  }
+  .container-header .logo .img-logo {
+    margin-left: 0px;
+    width: 21vw;
+    height: 20vh;
+    margin-left: 5vw;
+    margin-top: 10px;
+  }
+  .container-header .container-inicio {
+    width: 45vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-right: 0px;
+  }
+  .container-header .container-inicio li {
+    margin-bottom: 8px;
+  }
+
+  .video-index {
+    width: 100%;
+    height: 56vw;
+  }
+
+  .container-video {
+    width: 100%;
+    position: absolute;
+    top: 46%;
+  }
+  .container-video h1 {
+    font-size: 1.5vw;
+    width: 31vw;
+    height: 8vh;
+  }
+
+  .container-encabezado {
+    width: 100%;
+    height: 30vw;
+  }
+  .container-encabezado h2 {
+    width: 41vw;
+    height: 9.3vh;
+    font-size: 2vw;
+    padding: 3.6vw 0vw 6vw 11vw;
+  }
+
+  .container-main {
+    height: 50vh;
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    grid-column-gap: 15px;
+    grid-row-gap: 31px;
+    padding-left: 9vh;
+    padding-bottom: 76vw;
+  }
+  .container-main a {
+    width: 17vh;
+  }
+  .container-main a .container-grupo-empresarial {
+    width: 29vw;
+    height: 29vw;
+  }
+  .container-main a .container-grupo-empresarial img {
+    width: 12vw;
+    height: 10vw;
+  }
+  .container-main a .container-grupo-empresarial h2 {
+    padding-right: 1.2vw;
+    margin-top: 1.5vw;
+    font-size: 2.5vw;
+  }
+  .container-main a {
+    width: 17vh;
+  }
+  .container-main a .container-grupo-administrativo {
+    width: 29vw;
+    height: 29vw;
+  }
+  .container-main a .container-grupo-administrativo img {
+    width: 14vw;
+    height: 13vw;
+  }
+  .container-main a .container-grupo-administrativo h2 {
+    padding-right: 1.2vw;
+    font-size: 2.3vw;
+    padding-bottom: 1.4vw;
+  }
+  .container-main a {
+    width: 17vh;
+  }
+  .container-main a .container-gananciasybienes {
+    width: 29vw;
+    height: 29vw;
+  }
+  .container-main a .container-gananciasybienes img {
+    padding-top: 1vw;
+    width: 14vw;
+    height: 13vw;
+  }
+  .container-main a .container-gananciasybienes h2 {
+    padding-left: 7vw;
+    padding-right: 6.8vw;
+    font-size: 2vw;
+    padding-bottom: 1.4vw;
+  }
+  .container-main a {
+    width: 17vh;
+  }
+  .container-main a .container-monotributo {
+    width: 29vw;
+    height: 29vw;
+  }
+  .container-main a .container-monotributo img {
+    width: 12vw;
+    height: 10vw;
+  }
+  .container-main a .container-monotributo h2 {
+    padding-top: 0.6vw;
+    font-size: 2.5vw;
+  }
+
+  .container-formacion {
+    width: 78%;
+    margin-left: 10vw;
+  }
+  .container-formacion h3 {
+    font-size: 2vw;
+  }
+
+  .seccion-encontrarnos {
+    width: 100%;
+    height: 90vw;
+  }
+  .seccion-encontrarnos .card-uno {
+    width: 24vw;
+    height: 34vw;
+  }
+  .seccion-encontrarnos .card-uno .detalle {
+    width: 100%;
+  }
+  .seccion-encontrarnos .card-uno .detalle h4 {
+    font-size: 1.8vw;
+  }
+  .seccion-encontrarnos .card-uno .detalle p {
+    font-size: 1.2vw;
+  }
+  .seccion-encontrarnos .card-dos {
+    width: 24vw;
+    height: 34vw;
+  }
+  .seccion-encontrarnos .card-dos .detalle {
+    width: 100%;
+  }
+  .seccion-encontrarnos .card-dos .detalle h4 {
+    font-size: 1.8vw;
+  }
+  .seccion-encontrarnos .card-dos .detalle p {
+    font-size: 1.2vw;
+  }
+
+  .container-nav-footer {
+    width: 100%;
+    height: 26vw;
+  }
+  .container-nav-footer a img {
+    margin-top: 6vw;
+    width: 15vw;
+    height: 15vw;
+  }
+  .container-nav-footer .lista-uno {
+    margin-top: 5vw;
+    margin-left: 1vw;
+  }
+  .container-nav-footer .lista-uno a li {
+    font-size: 1.2vw;
+    width: 13vw;
+  }
+  .container-nav-footer .lista-dos {
+    margin-top: 6vw;
+    margin-left: 1.3vw;
+    width: 43.9vw;
+    padding-left: 6vw;
+  }
+  .container-nav-footer .lista-dos a li {
+    font-size: 1.2vw;
+  }
+  .container-nav-footer div {
+    margin-top: 6.8vw;
+  }
+  .container-nav-footer div p {
+    font-size: 1.3vw;
+    margin-left: 1vw;
+    margin-top: 0.5vw;
+  }
+
+  .container-nav-footer-dos {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+  }
+  .container-nav-footer-dos h2 {
+    font-size: 3vw;
+  }
+  .container-nav-footer-dos ul {
+    width: 20vw;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  .container-nav-footer-dos ul a li svg {
+    width: 5vw;
+    height: 3vw;
+  }
+
+  .container-titulo-servicios-impositivos {
+    width: 100%;
+    height: 32vh;
+    padding-bottom: 14vw;
+  }
+  .container-titulo-servicios-impositivos h1, .container-titulo-servicios-impositivos h2 {
+    margin-top: 26vh;
+    font-size: 4vw;
+  }
+
+  .section-servicios-impositivos {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 200vw;
+  }
+  .section-servicios-impositivos .container-asesoramiento {
+    width: 47vw;
+    height: 50vw;
+    margin-bottom: 7vw;
+  }
+  .section-servicios-impositivos .container-asesoramiento h2 {
+    font-size: 2vw;
+    padding-right: 3vw;
+  }
+  .section-servicios-impositivos .container-asesoramiento p {
+    font-size: 1.8vw;
+    width: 40vw;
+    padding-left: 2vw;
+    padding-right: 0.8vw;
+  }
+  .section-servicios-impositivos .container-regularizacion {
+    width: 47vw;
+    height: 50vw;
+    margin-bottom: 7vw;
+  }
+  .section-servicios-impositivos .container-regularizacion h2 {
+    font-size: 2.5vw;
+    padding-right: 2vw;
+  }
+  .section-servicios-impositivos .container-regularizacion p {
+    margin-top: 4vw;
+    font-size: 1.7vw;
+    width: 38vw;
+    padding-left: 4vw;
+  }
+
+  .section-servicios-impositivos-dos {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 133vh;
+    margin-top: 3vw;
+  }
+  .section-servicios-impositivos-dos .container-inspecciones {
+    width: 47vw;
+    height: 50vw;
+    margin-bottom: 7vw;
+  }
+  .section-servicios-impositivos-dos .container-inspecciones h2 {
+    font-size: 2vw;
+    padding-left: 2vw;
+  }
+  .section-servicios-impositivos-dos .container-inspecciones p {
+    font-size: 1.9vw;
+    width: 35vw;
+    margin-top: 3vw;
+    padding-right: 1vw;
+  }
+  .section-servicios-impositivos-dos .container-emprendedores {
+    width: 47vw;
+    height: 50vw;
+    margin-bottom: 7vw;
+  }
+  .section-servicios-impositivos-dos .container-emprendedores h2 {
+    font-size: 2.4vw;
+    padding-right: 3vw;
+  }
+  .section-servicios-impositivos-dos .container-emprendedores p {
+    margin-top: 2vw;
+    font-size: 1.6vw;
+    width: 41vw;
+    padding-right: 2vh;
+    padding-left: 1.2vh;
+  }
+
+  .container-titulo-servicios-contables {
+    width: 100%;
+    height: 50vh;
+    padding-bottom: 9vw;
+  }
+  .container-titulo-servicios-contables h1, .container-titulo-servicios-contables h2 {
+    margin-top: 26vh;
+    font-size: 4vh;
+  }
+
+  .container-contabilidad-integral {
+    display: flex;
+    flex-direction: column;
+    width: 62vh;
+    height: 79vh;
+    margin-left: 15vw;
+  }
+  .container-contabilidad-integral img {
+    width: 61vh;
+    height: 33vh;
+  }
+  .container-contabilidad-integral h2 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    font-size: 4vh;
+    margin-left: 2vw;
+    padding-bottom: 14vh;
+  }
+  .container-contabilidad-integral h2 p {
+    font-size: 1.9vh;
+    padding-right: 2vw;
+    text-align: center;
+    height: 29vw;
+    width: 52vh;
+  }
+
+  .container-organizacion-empresarial {
+    display: flex;
+    flex-direction: column;
+    width: 62vh;
+    height: 79vh;
+    margin-left: 15vw;
+  }
+  .container-organizacion-empresarial img {
+    width: 61vh;
+    height: 33vh;
+  }
+  .container-organizacion-empresarial h2 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    font-size: 4vh;
+    margin-left: 2vw;
+    padding-bottom: 14vh;
+  }
+  .container-organizacion-empresarial h2 p {
+    font-size: 2.3vh;
+    padding-right: 2vw;
+    text-align: center;
+    height: 29vw;
+    width: 52vh;
+  }
+
+  .seccion-formulario {
+    padding-left: 10vw;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 260vh;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20vw;
+  }
+  .seccion-formulario .seccion-contactanos {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-left: 2vw;
+  }
+  .seccion-formulario .seccion-contactanos ul {
+    border: 2px solid #fff;
+    padding: 6vw 10vw 8vw 12vw;
+    border-radius: 10vw;
+  }
+  .seccion-formulario .seccion-contactanos ul .container-consulta {
+    width: 56vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .seccion-formulario .seccion-contactanos ul .container-consulta h2 {
+    font-size: 2vw;
+    width: 47vw;
+  }
+  .seccion-formulario .seccion-contactanos ul .container-contactar {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 0px;
+  }
+  .seccion-formulario .seccion-contactanos ul li .container-telefono {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 0px;
+  }
+  .seccion-formulario .seccion-contactanos ul li .container-telefono svg {
+    width: 3.5vw;
+    height: 4vw;
+  }
+  .seccion-formulario .seccion-contactanos ul li .container-telefono h2 {
+    font-size: 2vw;
+    width: 20vw;
+    margin-left: 1vw;
+  }
+  .seccion-formulario .seccion-contactanos ul li .container-telefono-dos {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 0px;
+  }
+  .seccion-formulario .seccion-contactanos ul li .container-telefono-dos svg {
+    width: 3.5vw;
+    height: 4vw;
+  }
+  .seccion-formulario .seccion-contactanos ul li .container-telefono-dos h2 {
+    font-size: 2vw;
+    width: 20vw;
+    margin-left: 1vw;
+  }
+  .seccion-formulario .seccion-contactanos ul .container-email-dos {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 0px;
+  }
+  .seccion-formulario .seccion-contactanos ul .container-email-dos h2 {
+    margin-left: 1vw;
+  }
+  .seccion-formulario .seccion-contactanos ul .container-redes-dos {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 0px;
+    padding-right: 3vw;
+  }
+  .seccion-formulario .seccion-contactanos ul .container-redes-dos a {
+    margin-left: 3vw;
+  }
+  .seccion-formulario .seccion-contactanos ul .container-redes-dos a svg {
+    width: 3vw;
+    height: 3vw;
+  }
+  .seccion-formulario .seccion-contactanos ul .container-google {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 0px;
+  }
+  .seccion-formulario .container-formulario {
+    width: 56vw;
+    height: 140vw;
+    margin-left: 4vw;
+  }
+  .seccion-formulario .container-formulario div .nombre {
+    width: 56vw;
+  }
+  .seccion-formulario .container-formulario div .apellido {
+    width: 56vw;
+  }
+  .seccion-formulario .container-formulario div .email {
+    width: 56vw;
+  }
+
+  .container-asesorar img {
+    height: 46vw;
+  }
+
+  .grupo-asesorar h1 {
+    font-size: 3vw;
+  }
+
+  .seccion-empresa .container-empresa {
+    display: flex;
+    flex-direction: column;
+    height: 73vw;
+    margin-top: 11vw;
+  }
+  .seccion-empresa .container-empresa p {
+    font-size: 1.5vw;
+    width: 82vw;
+    text-align: center;
+  }
+
+  .container-detalle {
+    width: 100%;
+    position: relative;
+    bottom: 21vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-left: 0px;
+  }
+  .container-detalle li p {
+    font-size: 1.4vw;
+    width: 60vw;
+  }
+}
+@media only screen and (max-width: 960px) and (min-width: 769px) {
+  .container-header .logo .img-logo {
+    width: 10vw;
+  }
+  .container-header .container-inicio {
+    width: 80vh;
+    margin-right: 10px;
+  }
+  .container-header .container-inicio li {
+    font-size: 2.2vh;
+  }
+
+  .video-index {
+    width: 100%;
+    height: 57vw;
+  }
+
+  .container-video {
+    width: 100%;
+  }
+  .container-video h1 {
+    font-size: 2vw;
+    width: 32vw;
+    height: 12vh;
+  }
+
+  .container-encabezado {
+    width: 100%;
+  }
+  .container-encabezado h2 {
+    width: 30vw;
+    height: 10vh;
+    font-size: 1.8vw;
+  }
+
+  .container-main {
+    width: 100%;
+  }
+  .container-main .container-grupo-empresarial {
+    width: 22vw;
+    height: 22vw;
+  }
+  .container-main .container-grupo-empresarial img {
+    width: 8vw;
+    height: 7vw;
+  }
+  .container-main .container-grupo-empresarial h2 {
+    padding-right: 1vw;
+    margin-top: 1.5vw;
+    font-size: 1.8vw;
+  }
+  .container-main .container-grupo-administrativo {
+    width: 22vw;
+    height: 22vw;
+  }
+  .container-main .container-grupo-administrativo img {
+    width: 9vw;
+    height: 9vw;
+    padding-top: 1vw;
+  }
+  .container-main .container-grupo-administrativo h2 {
+    padding-bottom: 3vh;
+    padding-right: 0.5vw;
+    font-size: 1.8vw;
+  }
+  .container-main .container-gananciasybienes {
+    width: 22vw;
+    height: 22vw;
+  }
+  .container-main .container-gananciasybienes img {
+    width: 9vw;
+    height: 8.6vw;
+  }
+  .container-main .container-gananciasybienes h2 {
+    font-size: 1.7vw;
+  }
+  .container-main .container-monotributo {
+    width: 22vw;
+    height: 22vw;
+  }
+  .container-main .container-monotributo img {
+    width: 9vw;
+    height: 8.6vw;
+  }
+  .container-main .container-monotributo h2 {
+    font-size: 1.9vw;
+  }
+
+  .container-formacion {
+    width: 86%;
+    margin-left: 7vw;
+  }
+  .container-formacion h3 {
+    font-size: 2vw;
+  }
+
+  .seccion-encontrarnos {
+    width: 100%;
+  }
+  .seccion-encontrarnos .card-uno {
+    width: 24vw;
+    height: 34vw;
+  }
+  .seccion-encontrarnos .card-uno .detalle {
+    width: 100%;
+  }
+  .seccion-encontrarnos .card-uno .detalle h4 {
+    font-size: 1.8vw;
+  }
+  .seccion-encontrarnos .card-uno .detalle p {
+    font-size: 1.2vw;
+  }
+  .seccion-encontrarnos .card-dos {
+    width: 24vw;
+    height: 34vw;
+  }
+  .seccion-encontrarnos .card-dos .detalle {
+    width: 100%;
+  }
+  .seccion-encontrarnos .card-dos .detalle h4 {
+    font-size: 1.8vw;
+  }
+  .seccion-encontrarnos .card-dos .detalle p {
+    font-size: 1.2vw;
+  }
+
+  .container-nav-footer {
+    width: 100%;
+    height: 26vw;
+  }
+  .container-nav-footer a img {
+    margin-top: 6vw;
+    width: 15vw;
+    height: 15vw;
+  }
+  .container-nav-footer .lista-uno {
+    margin-top: 5vw;
+    margin-left: 1vw;
+  }
+  .container-nav-footer .lista-uno a li {
+    font-size: 1.4vw;
+    width: 15vw;
+  }
+  .container-nav-footer .lista-dos {
+    margin-top: 6vw;
+    margin-left: 2.3vw;
+    width: 31.9vw;
+  }
+  .container-nav-footer .lista-dos a li {
+    font-size: 1.4vw;
+  }
+  .container-nav-footer div {
+    margin-top: 6.8vw;
+  }
+  .container-nav-footer div p {
+    font-size: 1.4vw;
+    margin-left: 3vw;
+  }
+
+  .container-titulo-servicios-impositivos {
+    width: 100%;
+  }
+  .container-titulo-servicios-impositivos h1, .container-titulo-servicios-impositivos h2 {
+    font-size: 5vw;
+  }
+
+  .section-servicios-impositivos {
+    width: 100%;
+  }
+  .section-servicios-impositivos .container-asesoramiento h2 {
+    font-size: 2vw;
+  }
+  .section-servicios-impositivos .container-asesoramiento p {
+    font-size: 1.4vw;
+    width: 32vw;
+    padding-left: 0vw;
+    padding-right: 0.8vw;
+  }
+  .section-servicios-impositivos .container-regularizacion h2 {
+    font-size: 2vw;
+  }
+  .section-servicios-impositivos .container-regularizacion p {
+    font-size: 1.5vw;
+    width: 31vw;
+    padding-left: 0px;
+    margin-top: 2vw;
+  }
+
+  .section-servicios-impositivos-dos {
+    width: 100%;
+  }
+  .section-servicios-impositivos-dos .container-inspecciones h2 {
+    font-size: 2vw;
+    padding-left: 0px;
+    padding-right: 3vw;
+  }
+  .section-servicios-impositivos-dos .container-inspecciones p {
+    font-size: 1.5vw;
+    width: 27vw;
+    margin-left: 0vw;
+    margin-top: 0px;
+  }
+  .section-servicios-impositivos-dos .container-emprendedores h2 {
+    font-size: 2vw;
+  }
+  .section-servicios-impositivos-dos .container-emprendedores p {
+    font-size: 1.3vw;
+    width: 31vw;
+    padding-right: 1vw;
+    margin-top: 0px;
+    padding-top: 0.5vw;
+  }
+
+  .seccion-formulario .seccion-contactanos ul .container-consulta h2 {
+    font-size: 1.5vw;
+  }
+  .seccion-formulario .seccion-contactanos ul .container-contactar h2 {
+    font-size: 3.8vw;
+    margin-left: 2.4vw;
+  }
+  .seccion-formulario .seccion-contactanos ul li .container-telefono {
+    width: 24vw;
+    margin-left: 6.5vw;
+  }
+  .seccion-formulario .seccion-contactanos ul li .container-telefono svg {
+    width: 3vw;
+    height: 2vw;
+  }
+  .seccion-formulario .seccion-contactanos ul li .container-telefono h2 {
+    width: 20vw;
+    font-size: 1.6vw;
+  }
+  .seccion-formulario .seccion-contactanos ul .container-telefono-dos {
+    width: 24vw;
+    margin-left: 6.5vw;
+  }
+  .seccion-formulario .seccion-contactanos ul .container-telefono-dos svg {
+    width: 3vw;
+    height: 2vw;
+  }
+  .seccion-formulario .seccion-contactanos ul .container-telefono-dos h2 {
+    width: 20vw;
+    font-size: 1.6vw;
+  }
+  .seccion-formulario .seccion-contactanos ul .container-email-dos {
+    width: 23vw;
+    margin-left: 5vw;
+  }
+  .seccion-formulario .seccion-contactanos ul .container-email-dos svg {
+    width: 2vw;
+    height: 2vw;
+  }
+  .seccion-formulario .seccion-contactanos ul .container-email-dos h2 {
+    font-size: 1.4vw;
+  }
+  .seccion-formulario .seccion-contactanos ul .container-redes-dos {
+    width: 11vw;
+    margin-left: 11.5vw;
+  }
+  .seccion-formulario .seccion-contactanos ul .container-google {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 8vw;
+    margin-left: 13vw;
+  }
+
+  .container-asesorar img {
+    height: 42vw;
+  }
+
+  .grupo-asesorar h1 {
+    font-size: 3vw;
+  }
+
+  .seccion-empresa .container-empresa p {
+    padding-left: 4vw;
+  }
+  .seccion-empresa .container-detalle {
+    position: relative;
+    bottom: 19vw;
+  }
+
+  .container-imagen-asesor img {
+    height: 42vw;
+  }
+}
+@media only screen and (max-width: 1200px) and (min-width: 961px) {
+  .container-header .container-inicio {
+    width: 60%;
+    margin-right: 10px;
+  }
+
+  .video-index {
+    width: 100%;
+    height: 56vw;
+  }
+
+  .container-encabezado {
+    width: 100%;
+  }
+  .container-encabezado h2 {
+    width: 29vw;
+    height: 9vw;
+    font-size: 2vw;
+  }
+
+  .container-main {
+    width: 100%;
+  }
+  .container-main .container-grupo-empresarial {
+    width: 22vw;
+    height: 22vw;
+  }
+  .container-main .container-grupo-empresarial img {
+    width: 8vw;
+    height: 7vw;
+  }
+  .container-main .container-grupo-empresarial h2 {
+    padding-right: 1vw;
+    margin-top: 1.5vw;
+    font-size: 1.8vw;
+  }
+  .container-main .container-grupo-administrativo {
+    width: 22vw;
+    height: 22vw;
+  }
+  .container-main .container-grupo-administrativo img {
+    width: 9vw;
+    height: 8vw;
+  }
+  .container-main .container-grupo-administrativo h2 {
+    padding-right: 0.5vw;
+    font-size: 1.8vw;
+  }
+  .container-main .container-gananciasybienes {
+    width: 22vw;
+    height: 22vw;
+  }
+  .container-main .container-gananciasybienes img {
+    width: 9vw;
+    height: 8.6vw;
+  }
+  .container-main .container-gananciasybienes h2 {
+    font-size: 1.7vw;
+  }
+  .container-main .container-monotributo {
+    width: 22vw;
+    height: 22vw;
+  }
+  .container-main .container-monotributo img {
+    width: 9vw;
+    height: 8.6vw;
+  }
+  .container-main .container-monotributo h2 {
+    font-size: 1.9vw;
+  }
+
+  .container-nav-footer {
+    width: 100%;
+    height: 26vw;
+  }
+  .container-nav-footer a img {
+    margin-top: 6vw;
+    width: 15vw;
+    height: 15vw;
+  }
+  .container-nav-footer .lista-uno {
+    margin-left: 1vw;
+  }
+  .container-nav-footer .lista-uno a li {
+    font-size: 1.4vw;
+  }
+  .container-nav-footer .lista-dos {
+    margin-left: 1.5vw;
+  }
+  .container-nav-footer .lista-dos a li {
+    font-size: 1.4vw;
+  }
+  .container-nav-footer div p {
+    font-size: 1.3vw;
+    margin-left: 4vw;
+  }
+
+  .container-titulo-servicios-impositivos {
+    height: 35vh;
+    width: 100%;
+  }
+  .container-titulo-servicios-impositivos h1, .container-titulo-servicios-impositivos h2 {
+    font-size: 5vw;
+  }
+  .container-titulo-servicios-impositivos .img {
+    width: 20vh;
+    height: 20vh;
+  }
+
+  .section-servicios-impositivos {
+    width: 100%;
+  }
+  .section-servicios-impositivos .container-asesoramiento h2 {
+    font-size: 2vw;
+  }
+  .section-servicios-impositivos .container-asesoramiento p {
+    font-size: 1.5vw;
+    width: 31vw;
+    padding-left: 0.5vw;
+  }
+  .section-servicios-impositivos .container-regularizacion h2 {
+    font-size: 2vw;
+  }
+  .section-servicios-impositivos .container-regularizacion p {
+    font-size: 1.4vw;
+    width: 31vw;
+    padding-left: 1.6vw;
+  }
+
+  .section-servicios-impositivos-dos {
+    width: 100%;
+  }
+  .section-servicios-impositivos-dos .container-inspecciones h2 {
+    font-size: 2vw;
+    padding-left: 0px;
+  }
+  .section-servicios-impositivos-dos .container-inspecciones p {
+    font-size: 1.5vw;
+    width: 29vw;
+    padding-right: 1vw;
+    margin-top: 0px;
+  }
+  .section-servicios-impositivos-dos .container-emprendedores h2 {
+    font-size: 2vw;
+  }
+  .section-servicios-impositivos-dos .container-emprendedores p {
+    font-size: 1.3vw;
+    width: 30vw;
+    padding-left: 0.6vw;
+    margin-top: 0px;
+  }
+
+  .container-titulo-servicios-contables {
+    height: 35vh;
+    width: 100%;
+  }
+  .container-titulo-servicios-contables h1, .container-titulo-servicios-contables h2 {
+    font-size: 5vw;
+  }
+
+  .seccion-formulario .seccion-contactanos ul .container-consulta h2 {
+    font-size: 1.5vw;
+  }
+  .seccion-formulario .seccion-contactanos ul .container-contactar h2 {
+    font-size: 3.8vw;
+    margin-left: 2vw;
+  }
+  .seccion-formulario .seccion-contactanos ul li .container-telefono {
+    width: 24vw;
+    margin-left: 5.5vw;
+  }
+  .seccion-formulario .seccion-contactanos ul li .container-telefono svg {
+    width: 3vw;
+    height: 2vw;
+  }
+  .seccion-formulario .seccion-contactanos ul li .container-telefono h2 {
+    width: 20vw;
+    font-size: 1.8vw;
+  }
+  .seccion-formulario .seccion-contactanos ul li .container-telefono-dos {
+    width: 24vw;
+    margin-left: 5.5vw;
+  }
+  .seccion-formulario .seccion-contactanos ul li .container-telefono-dos svg {
+    width: 3vw;
+    height: 2vw;
+  }
+  .seccion-formulario .seccion-contactanos ul li .container-telefono-dos h2 {
+    width: 20vw;
+    font-size: 1.8vw;
+  }
+  .seccion-formulario .seccion-contactanos ul .container-email-dos {
+    width: 30vw;
+    margin-left: 1vw;
+  }
+  .seccion-formulario .seccion-contactanos ul .container-email-dos h2 {
+    font-size: 1.8vw;
+  }
+  .seccion-formulario .seccion-contactanos ul .container-redes-dos {
+    width: 11vw;
+    margin-left: 11.5vw;
+  }
+  .seccion-formulario .seccion-contactanos ul .container-google {
+    margin-left: 12.3vw;
+  }
+
+  .seccion-empresa .container-empresa p {
+    padding-top: 2vw;
+  }
 }
 
 /*# sourceMappingURL=style.css.map */

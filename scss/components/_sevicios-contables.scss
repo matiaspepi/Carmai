@@ -11,7 +11,7 @@ h1 {
                 left: 5%;
                 top: 55%;
                 font-family: 'Poppins', sans-serif;
-                font-size: 80px;
+                font-size: 7vw;
                 color: rgb(255, 255, 255);
                 text-shadow: 12px 2px 16px rgba(222,215,216,0.30);
                 background: rgb(255,255,255);
@@ -28,7 +28,7 @@ h2 {
                 top:70%;
                 left: 15%;
                 font-family: 'Poppins', sans-serif;
-                font-size: 80px;
+                font-size: 7vw;
                 color: rgb(255, 255, 255);
                 text-shadow: 12px 2px 16px rgba(222,215,216,0.30);
                 background: rgb(255,255,255);
@@ -38,8 +38,8 @@ h2 {
                 margin-top: 50px;
 }
 .imagen-servicios-contables {
-    width: 400px;
-    height: 400px;
+    width: 34vw;
+    height: 34vw;
     border-radius: 100%;
     position: relative;
     left: 65%;
@@ -55,16 +55,16 @@ h2 {
         background-image: linear-gradient(to top, #09203f 0%, #537895 100%);
         overflow: hidden;
         font-family: 'Poppins', sans-serif;
-        width: 1200px;
-        height: 300px;
+        width: 85vw;
+        height: 22vw;
         -webkit-border-radius: 20px;
         -moz-border-radius: 20px;
         border-radius: 20px;
         margin-left: 70px;
         margin-top: 90px;
                 img {
-                    width: 550px;
-                    height: 100%;
+                    width: 33vw;
+                    height: 25vw;
                     -webkit-border-top-right-radius: 10px;
                     -webkit-border-bottom-right-radius: 10px;
                     -moz-border-radius-topright: 10px;
@@ -73,13 +73,14 @@ h2 {
                     border-bottom-right-radius: 10px;
                 }
                 h2 {
+                    font-size: 2.2vw;
                     margin-left: 28px;
-                    margin-top: 10px;
+                    margin-top: 1.5vw;
                     color: #fff;
                         p{
-                            font-size: 17px;
+                            font-size: 1.2vw;
                             margin-top: 30px;
-                            padding-right: 60px;  
+                            padding-right: 2vw;  
                         }
                 }
     }
@@ -93,8 +94,8 @@ h2 {
         background-image: linear-gradient(to top, #09203f 0%, #537895 100%);
         overflow: hidden;
         font-family: 'Poppins', sans-serif;
-        width: 1200px;
-        height: 300px;
+        width: 85vw;
+        height: 22vw;
         -webkit-border-radius: 20px;
         -moz-border-radius: 20px;
         border-radius: 20px;
@@ -102,8 +103,8 @@ h2 {
         margin-top: 90px;
         margin-bottom: 200px;
             img {
-                width: 450px;
-                height: 100%;
+                width: 33vw;
+                height: 25vw;
                 -webkit-border-top-right-radius: 10px;
                 -webkit-border-bottom-right-radius: 10px;
                 -moz-border-radius-topright: 10px;
@@ -112,13 +113,14 @@ h2 {
                 border-bottom-right-radius: 10px;
             }
             h2 {
-                margin-top: 10px;
+                font-size: 2.2vw;
+                margin-top: 1.5vw;
                 color: #fff;
                     p{
-                        font-size: 20px;
+                        font-size: 1.5vw;
                         margin-top: 30px;
-                        width: 715px;
-                        padding-right: 80px;
+                        width: 48vw;
+                        padding-right: 6vw;
                     } 
             }
         }     
