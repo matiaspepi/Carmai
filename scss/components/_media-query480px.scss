@@ -21,6 +21,10 @@
         justify-content: center;
         align-items: center;
         flex-direction: column;
+        padding-left: 11vw;
+            li {
+                margin-top: 3vw;
+            }
        }
 }
 .video-index {
@@ -39,7 +43,6 @@
 }
 .container-encabezado {
     width: 100%;
-    margin-top: 5vw;
        h2 {
         width: 29vw;
         height: 6vh;
@@ -49,12 +52,14 @@
     }
 }
 .container-main {
-    margin-top: 20vw;
-    height: 167vw;
+    height: 114vw;
     width: 100%;
-    display: flex;
-    flex-direction: column;
-    padding-top: 34vw;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    grid-column-gap: 15px;
+    grid-row-gap: 31px;
+    padding-left: 6vh;
     a {
     width: 17vh;
        .container-grupo-empresarial {
@@ -138,10 +143,11 @@
 }
 .seccion-encontrarnos {
     width: 100%;
-    height: 160vw;
+    height: 130vw;
     display: flex;
     flex-direction: column;
     justify-content: center;
+    margin-bottom: 20vw;
        .card-uno {
         margin-left: 5vw;
         width: 38vw;
@@ -259,7 +265,8 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    height: 292vw;
+    height: 172vw;
+    padding-top: 10vw;
     .container-asesoramiento {
         width: 52vw;
         height: 61vw;
@@ -298,8 +305,8 @@
            flex-direction: column;
            justify-content: center;
            align-items: center;
-           height: 133vh;
-           margin-top: 3vw;
+           height: 75vh;
+           margin-top: 1vw;
               .container-inspecciones {
                 width: 52vw;
                 height: 61vw;
@@ -346,7 +353,7 @@
 }
 .container-titulo-servicios-contables {
     width: 100%;
-    height: 50vh;
+    height: 37vh;
     padding-bottom: 9vw;
         h1,h2 {
             margin-top: 16vh;
@@ -540,7 +547,7 @@
          }
 }
 //fin contacto
-// asesoramiento particulas
+// asesoramiento particular
 .container-asesorar {
     img {
         height: 46vw;
@@ -590,26 +597,20 @@
         flex-direction: column;
         justify-content: center;
         align-items: center;
-        height: 180vw;
+        height: 135vw;
+        margin-bottom: 20vw;
 
     }
     // fin asesoramiento administrativo 
     // monotributo 
 
     .seccion-monotributo-uno {
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
         width: 100%;
-        height: 70vw;
+        height: 20vw;
+        margin-bottom: 10vw;
 }
 .seccion-monotributo-dos {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
     width: 100%;
-    height: 90vw;
+    height: 70vw;
 }
 }

@@ -167,7 +167,7 @@ body {
         .container-grupo-empresarial {
             border-radius: 150px;
             background: rgb(84,84,84);
-            background: linear-gradient(173deg, rgba(84,84,84,1) 0%, rgba(255,255,255,1) 100%);
+            background: linear-gradient(173deg, rgba(84,84,84,.2) 0%, rgba(255,255,255,1) 100%);
             color: rgb(54, 53, 53);
             position: relative;
             display: flex;
@@ -177,7 +177,7 @@ body {
             border: 2px solid #fffdfd;
             height: 240px;
             width: 240px;
-
+            overflow: hidden;
                 img {
                     width: 100px;
                     height: 80px;
@@ -197,19 +197,19 @@ body {
                     margin-left: 13px;
                 }
         }
-        .container-grupo-empresarial:hover {
-                color: #fff;
-                transform: scale(1.09);
-                transition:  all 1s;
-                box-shadow: 3px 4px 24px -2px rgba(255,255,255,0.25);
-                -webkit-box-shadow: 3px 4px 24px -2px rgba(255,255,255,0.25);
-                -moz-box-shadow: 3px 4px 24px -2px rgba(255,255,255,0.25);
-                background: linear-gradient(to bottom, #323232 0%, #3F3F3F 40%, #1C1C1C 150%), linear-gradient(to top, rgba(255,255,255,0.40) 0%, rgba(0,0,0,0.25) 200%);
-                background-blend-mode: multiply;
-                   img {
-                    
-                    filter: invert(100%) sepia(100%) saturate(0%) hue-rotate(288deg) brightness(102%) contrast(102%);
-                   }
+        .container-grupo-empresarial::before {
+            position: absolute;
+            content: "";
+            width: 70px;
+            height: 100%;
+            background-color: rgb(255, 255, 255,.5);
+            top: 0;
+            left: -150px;
+            transform: skewX(-30deg);
+            transition: all .5s;
+        }
+        .container-grupo-empresarial:hover::before {
+                 left: 280px;
         }
         .container-grupo-administrativo {
             border-radius: 150px;
@@ -223,6 +223,7 @@ body {
             border: 2px solid #fffdfd;
             height: 240px;
             width: 240px;
+            overflow: hidden;
                 img {
                     width: 100px;
                     height: 90px;
@@ -243,19 +244,19 @@ body {
                     font-size: 19px;
                 }
         }
-        .container-grupo-administrativo:hover {
-            color: #fff;
-            transform: scale(1.09);
-            transition:  all 1s;
-            box-shadow: 3px 4px 24px -2px rgba(255,255,255,0.25);
-            -webkit-box-shadow: 3px 4px 24px -2px rgba(255,255,255,0.25);
-            -moz-box-shadow: 3px 4px 24px -2px rgba(255,255,255,0.25);
-            background: linear-gradient(to bottom, #323232 0%, #3F3F3F 40%, #1C1C1C 150%), linear-gradient(to top, rgba(255,255,255,0.40) 0%, rgba(0,0,0,0.25) 200%);
-            background-blend-mode: multiply;
-               img {
-                
-                filter: invert(100%) sepia(100%) saturate(0%) hue-rotate(288deg) brightness(102%) contrast(102%);
-               }
+        .container-grupo-administrativo::before {
+            position: absolute;
+            content: "";
+            width: 70px;
+            height: 100%;
+            background-color: rgb(255, 255, 255,.5);
+            top: 0;
+            left: -150px;
+            transform: skewX(-30deg);
+            transition: all .5s;
+        }
+        .container-grupo-administrativo:hover::before {
+            left: 280px;
         }
         .container-gananciasybienes{
             border-radius: 150px;
@@ -269,6 +270,7 @@ body {
             border: 2px solid #fffdfd;
             height: 240px;
             width: 240px;
+            overflow: hidden;
                 img {
                     width: 108px;
                     height: 98px;
@@ -287,19 +289,19 @@ body {
                     width: 200px;
                 }
             }
-            .container-gananciasybienes:hover {
-                color: #fff;
-                transform: scale(1.09);
-                transition:  all 1s;
-                box-shadow: 3px 4px 24px -2px rgba(255,255,255,0.25);
-                -webkit-box-shadow: 3px 4px 24px -2px rgba(255,255,255,0.25);
-                -moz-box-shadow: 3px 4px 24px -2px rgba(255,255,255,0.25);
-                background: linear-gradient(to bottom, #323232 0%, #3F3F3F 40%, #1C1C1C 150%), linear-gradient(to top, rgba(255,255,255,0.40) 0%, rgba(0,0,0,0.25) 200%);
-                background-blend-mode: multiply;
-                   img {
-                    
-                    filter: invert(100%) sepia(100%) saturate(0%) hue-rotate(288deg) brightness(102%) contrast(102%);
-                   }
+            .container-gananciasybienes::before {
+                position: absolute;
+                content: "";
+                width: 100px;
+                height: 100%;
+                background-color: rgb(255, 255, 255,.5);
+                top: 0;
+                left: -150px;
+                transform: skewX(-30deg);
+                transition: all .5s;
+            }
+            .container-gananciasybienes:hover::before {
+                left: 280px;
             }
         .container-monotributo {
             border-radius: 150px;
@@ -313,6 +315,7 @@ body {
             border: 2px solid #fffdfd;
             height: 240px;
             width: 240px;
+            overflow: hidden;
            
                 img {
                     width: 100px;
@@ -332,19 +335,19 @@ body {
                     width: 80px;
                 }
             }
-            .container-monotributo:hover {
-                color: #fff;
-                transform: scale(1.09);
-                transition:  all 1s;
-                box-shadow: 3px 4px 24px -2px rgba(255,255,255,0.25);
-                -webkit-box-shadow: 3px 4px 24px -2px rgba(255,255,255,0.25);
-                -moz-box-shadow: 3px 4px 24px -2px rgba(255,255,255,0.25);
-                background: linear-gradient(to bottom, #323232 0%, #3F3F3F 40%, #1C1C1C 150%), linear-gradient(to top, rgba(255,255,255,0.40) 0%, rgba(0,0,0,0.25) 200%);
-                background-blend-mode: multiply;
-                   img {
-                    
-                    filter: invert(100%) sepia(100%) saturate(0%) hue-rotate(288deg) brightness(102%) contrast(102%);
-                   }
+            .container-monotributo::before {
+                position: absolute;
+                content: "";
+                width: 100px;
+                height: 100%;
+                background-color: rgb(255, 255, 255,.5);
+                top: 0;
+                left: -150px;
+                transform: skewX(-30deg);
+                transition: all .5s;
+            }
+            .container-monotributo:hover::before {
+                left: 280px;
             }    
              
 } 
